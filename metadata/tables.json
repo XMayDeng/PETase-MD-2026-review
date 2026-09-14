@@ -1,0 +1,54 @@
+{
+  "Table_01": {
+    "output": "02_postprocessing/results/tables/Table_1_enzyme_panel.tex",
+    "reference_sha256": "82120ae019bfdac2abdbfa9914c10e08b317da479abf353cc076fda562736260",
+    "inputs": {
+      "02_postprocessing/inputs/table_assembly/Table_01.tex.in": "b1c5e45cf43beda5f8b16028cba430b091567eea52f0c9fca5f9e7f625d7ee84",
+      "02_postprocessing/inputs/table_assembly/Table_01_approved_cells.csv": "cd80e1e9671982fdbf48e3e0b04ae32e03b2b3137c65200c0ffbdb40ee41bed4"
+    },
+    "template": "02_postprocessing/inputs/table_assembly/Table_01.tex.in",
+    "scope": "approved_curated_cells_to_exact_TeX"
+  },
+  "Table_S01": {
+    "output": "02_postprocessing/results/tables/Supplementary_Table_S1_residue_correspondence.tex",
+    "reference_sha256": "ac82ec2b4c198283b9ffc4e1b0504aff64cbd368014d760aee2ef8435d9e4485",
+    "inputs": {
+      "02_postprocessing/inputs/table_assembly/Table_S01.tex.in": "a7d1bad88555060903ce8c89a17841b2fc158462291638efb558d0c87eae4339",
+      "02_postprocessing/inputs/table_assembly/Table_S01_approved_cells.csv": "db336e024fe793aaf72e473c20632c315c51c57ce092ab7a5ddb87d63cfb6af3"
+    },
+    "template": "02_postprocessing/inputs/table_assembly/Table_S01.tex.in",
+    "scope": "approved_curated_cells_to_exact_TeX"
+  },
+  "Table_S03": {
+    "output": "02_postprocessing/results/tables/Supplementary_Table_S3_structural_concordance.tex",
+    "reference_sha256": "685c20d4c28786db4cac1144ca3e6c2000f6d6ebc5cef8fc450eff4ca882904b",
+    "inputs": {
+      "02_postprocessing/inputs/table_assembly/Table_S03.tex.in": "b998a81b494958f0d5c4eef28f2ea5729384bcbea572a1aad1b46ed27a15e876",
+      "02_postprocessing/results/aggregate_statistics/protein_model_equivalence_summary.csv": "4349f642987191861774407f420cc0ff7b73828fef4eb92b509de13a5af01600",
+      "02_postprocessing/results/aggregate_statistics/named_key_residue_comparison.csv": "d42e27abc5601fc9a54435b51f3a9011528affd709ba7514dd33900a92a1e4c6"
+    },
+    "template": "02_postprocessing/inputs/table_assembly/Table_S03.tex.in",
+    "scope": "registered_measurements_to_exact_TeX"
+  },
+  "Table_S04": {
+    "output": "02_postprocessing/results/tables/Supplementary_Table_S4_local_starting_coordinate_sensitivity.tex",
+    "reference_sha256": "4cf5ba85188a4dd94499ef78702a5cdeb1b0fc5178f980af979baffa06a47ca8",
+    "inputs": {
+      "02_postprocessing/inputs/table_assembly/Table_S04.tex.in": "05c38314676f48e3bfa8495bda5bef80ad67bb8b9147fd9bec870d74221f2f3a",
+      "02_postprocessing/results/aggregate_statistics/target_subset_summary.csv": "761b94605daa990f57800403d6993880cbf74497a64ce1b310bad420c30eefb7",
+      "02_postprocessing/results/aggregate_statistics/interaction_state_coupling_summary.csv": "ec5837cfb45cdf239a49ebf4dccc53a2ddd5a9d17545f2581030de359d641579",
+      "02_postprocessing/results/aggregate_statistics/static_reference_reconciliation.csv": "3c72220eecf98947bc7da4ac45f4afcadfe10b956f6665210ca1c74aaa59fe17"
+    },
+    "template": "02_postprocessing/inputs/table_assembly/Table_S04.tex.in",
+    "analysis": "STR-SENS-01",
+    "scope": "trajectory_summary_statistics_to_exact_TeX"
+  },
+  "Table_S02": {
+    "output": "02_postprocessing/results/tables/Supplementary_Table_S2_residue_contact_shifts.tex",
+    "reference_sha256": "5ff64420337d731e07b7db47e17008fd4637c17f9cda4c67c88bd5f09469c66c",
+    "inputs": {
+      "02_postprocessing/results/aggregate_statistics/manuscript_candidate_residues.csv": "01d753098732516550f2f0112529545ecfd735258deb7ef013540779fa0b53ab"
+    },
+    "scope": "registered_29_candidates_to_exact_TeX"
+  }
+}

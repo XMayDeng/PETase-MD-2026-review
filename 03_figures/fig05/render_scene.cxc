@@ -1,0 +1,55 @@
+# Focused HiC--FoCut5a structural correspondence for revised Figure 6.
+close
+open @PACKAGE@/01_simulation/inputs/production_structures/00121.pdb
+open @PACKAGE@/01_simulation/inputs/production_structures/00075.pdb
+align #2/A:122,177,190@CA toAtoms #1/A:105,160,173@CA move structures
+set bgColor white
+lighting soft
+graphics silhouettes true
+hide #1-2 atoms
+show #1-2 cartoons
+color #1 #3D7EBB cartoons
+color #2 #D07832 cartoons
+transparency #1-2 68 target c
+cartoon #1/A:165 suppressBackboneDisplay false
+cartoon #2/A:182 suppressBackboneDisplay false
+show #1/A:28,29,70,164-166 atoms
+show #2/A:44,45,87,181-183 atoms
+style #1/A:28,29,70,164-166 stick
+style #2/A:44,45,87,181-183 stick
+size #1/A:28,29,70,164-166 stickRadius 0.30
+size #2/A:44,45,87,181-183 stickRadius 0.30
+color #1/A:28,29,70,164-166 #1F5B91 atoms
+color #2/A:44,45,87,181-183 #A95318 atoms
+transparency #1/A:28,29,70,164-166 0 target a
+transparency #2/A:44,45,87,181-183 0 target a
+style #1/A:28,29,70,164-166@CA sphere
+style #2/A:44,45,87,181-183@CA sphere
+size #1/A:28,29,70,164-166@CA atomRadius 0.48
+size #2/A:44,45,87,181-183@CA atomRadius 0.48
+size #1/A:165@CA atomRadius 0.76
+size #2/A:182@CA atomRadius 0.76
+hide #1/A:28,29,70,164-166@H* atoms
+hide #2/A:44,45,87,181-183@H* atoms
+view #1/A:28,29,70,164-166 #2/A:44,45,87,181-183 pad 0.05
+turn y 18
+turn x -10
+zoom 1.00
+save @WORK@/Figure_06_HiC_FoCut5a_overlay.png width 3400 height 3000 supersample 2 transparentBackground false
+hide #1-2 cartoons
+hide #1-2 atoms
+lighting flat
+show #1/A:28@CA atoms
+style #1/A:28@CA sphere
+size #1/A:28@CA atomRadius 0.78
+color #1/A:28@CA #FF0000 atoms
+show #1/A:70@CA atoms
+style #1/A:70@CA sphere
+size #1/A:70@CA atomRadius 0.78
+color #1/A:70@CA #00B000 atoms
+show #1/A:166@CA atoms
+style #1/A:166@CA sphere
+size #1/A:166@CA atomRadius 0.78
+color #1/A:166@CA #0050FF atoms
+save @WORK@/Figure_06_HiC_FoCut5a_anchor_map.png width 1700 height 1500 supersample 1 transparentBackground false
+exit

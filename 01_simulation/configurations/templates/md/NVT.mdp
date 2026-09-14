@@ -1,0 +1,56 @@
+title                   = Protein-ligand complex NVT equilibration
+
+define                  = -DPOSRES            ; enable position restraints (protein + PET)
+
+; Run parameters
+integrator              = md                  ; leap-frog integrator
+nsteps                  = 550000              ; total steps (550000*0.002 ps = 1100 ps)
+dt                      = 0.002               ; time step (ps)
+
+; Output control
+nstenergy               = 500                 ; energy output every 1 ps (500*dt)
+nstlog                  = 500                 ; log output every 1 ps
+nstxout-compressed      = 500                 ; compressed coords (xtc) every 1 ps
+
+; Bond parameters
+continuation            = no                  ; first dynamics run
+constraint_algorithm    = lincs               ; constraint algorithm
+constraints             = h-bonds             ; constrain bonds to H
+lincs_iter              = 1                   ; LINCS iterations
+lincs_order             = 4                   ; LINCS expansion order
+
+; Neighbor searching and vdW
+cutoff-scheme           = Verlet              ; Verlet neighbor list scheme
+ns_type                 = grid                ; grid search (legacy; ignored with Verlet)
+nstlist                 = 20                  ; neighbor list update frequency (steps)
+rlist                   = 1.2                 ; neighbor list cutoff (nm)
+vdwtype                 = cutoff              ; LJ cutoff
+vdw-modifier            = force-switch         ; smooth LJ to zero between rvdw-switch and rvdw
+rvdw-switch             = 1.0                 ; LJ switching start (nm)
+rvdw                    = 1.2                 ; LJ cutoff (nm)
+
+; Electrostatics
+coulombtype             = PME                 ; long-range electrostatics (PME)
+rcoulomb                = 1.2                 ; real-space electrostatic cutoff (nm)
+pme_order               = 4                   ; PME interpolation order
+fourierspacing          = 0.16                ; PME grid spacing (nm)
+
+; Temperature coupling
+tcoupl                  = V-rescale           ; stochastic velocity-rescaling thermostat
+tc-grps                 = Protein_LIG Water_and_ions ; separate coupling groups
+tau_t                   = 0.1   0.1           ; coupling time constants (ps)
+ref_t                   = 300   300           ; reference temperatures (K)
+
+; Pressure coupling
+pcoupl                  = no                  ; no pressure coupling in NVT
+
+; Periodic boundary conditions
+pbc                     = xyz                 ; 3-D PBC
+
+; Dispersion correction (not used for C36 additive FF)
+DispCorr                = no                  ; no long-range LJ correction
+
+; Velocity generation
+gen_vel                 = yes                 ; generate initial velocities
+gen_temp                = 300                 ; initial temperature (K)
+gen_seed                = -1                  ; random seed

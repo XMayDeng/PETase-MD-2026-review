@@ -1,0 +1,21 @@
+; Chain-relax stage energy minimisation (R1 Phase C, spec §4.1)
+; Full steepest descent prior to POSRES NVT/NPT.
+
+title                   = Chain-relax EM
+integrator              = steep               ; steepest descent
+emtol                   = 1000.0              ; stop when max force < 1000 kJ/mol/nm
+emstep                  = 0.01                ; initial step size (nm)
+nsteps                  = 50000               ; max minimisation steps
+
+nstlist                 = 1
+cutoff-scheme           = Verlet
+ns_type                 = grid
+rlist                   = 1.2
+coulombtype             = PME
+rcoulomb                = 1.2
+vdwtype                 = cutoff
+vdw-modifier            = force-switch
+rvdw-switch             = 1.0
+rvdw                    = 1.2
+pbc                     = xyz
+DispCorr                = no

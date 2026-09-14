@@ -1,0 +1,60 @@
+; Chain-relax NVT equilibration (R1 Phase C, spec §4.1)
+; 200 ps with POSRES on protein backbone (K=1000) + L4 anchor (K=500).
+; Extension residues are free; dissipates Kabsch-induced interface clash.
+
+title                   = Chain-relax NVT (POSRES protein + L4 anchor)
+
+define                  = -DPOSRES            ; enable position restraints (protein + L4 anchor)
+
+; Run parameters
+integrator              = md                  ; leap-frog integrator
+nsteps                  = 100000              ; 100000 * 0.002 ps = 200 ps
+dt                      = 0.002               ; time step (ps)
+
+; Output control
+nstenergy               = 500                 ; energy output every 1 ps
+nstlog                  = 500                 ; log output every 1 ps
+nstxout-compressed      = 500                 ; compressed coords (xtc) every 1 ps
+
+; Bond parameters
+continuation            = no                  ; first dynamics run after EM
+constraint_algorithm    = lincs
+constraints             = h-bonds
+lincs_iter              = 1
+lincs_order             = 4
+
+; Neighbor searching and vdW
+cutoff-scheme           = Verlet
+ns_type                 = grid
+nstlist                 = 20
+rlist                   = 1.2
+vdwtype                 = cutoff
+vdw-modifier            = force-switch
+rvdw-switch             = 1.0
+rvdw                    = 1.2
+
+; Electrostatics
+coulombtype             = PME
+rcoulomb                = 1.2
+pme_order               = 4
+fourierspacing          = 0.16
+
+; Temperature coupling
+tcoupl                  = V-rescale
+tc-grps                 = Protein_LIG Water_and_ions
+tau_t                   = 0.1   0.1
+ref_t                   = 300   300
+
+; Pressure coupling
+pcoupl                  = no
+
+; Periodic boundary conditions
+pbc                     = xyz
+
+; Dispersion correction
+DispCorr                = no
+
+; Velocity generation (POSRES NVT seeds the chain-relax microstate)
+gen_vel                 = yes
+gen_temp                = 300
+gen_seed                = -1                  ; replaced per case at materialize time

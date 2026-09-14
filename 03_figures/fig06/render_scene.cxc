@@ -1,0 +1,111 @@
+# Re-render the three registered Figure 7 H-bond frames without ChimeraX's
+# automatic distance text. The distance pseudobond remains visible; the final
+# value is placed once, in the composite plotting script.
+
+close
+open @PACKAGE@/02_postprocessing/results/structural_snapshots/coordinates/CUT1_T64_L20_75.49ns_hbond.pdb
+set bgColor white
+lighting soft
+graphics silhouettes true
+hide
+show #1/A cartoons
+color #1/A #D9DEE5 cartoons
+show #1/B atoms
+style #1/B stick
+size #1/B stickRadius 0.055
+color #1/B #AEB6C0 atoms
+transparency #1/B 82 target a
+style #1/B:15 stick
+size #1/B:15 stickRadius 0.18
+color #1/B:15 #C58A24 atoms
+transparency #1/B:15 0 target a
+show #1/A:64 atoms
+style #1/A:64 stick
+color #1/A:64 #2F6F9F atoms
+show #1/A:64@OG1 atoms
+show #1/A:64@HG1 atoms
+show #1/B:15@O4 atoms
+style #1/A:64@OG1 ball
+style #1/A:64@HG1 ball
+style #1/B:15@O4 ball
+distance #1/A:64@OG1 #1/B:15@O4 color #20242E decimalPlaces 2
+~label pseudobonds
+select #1/A:64
+select add #1/B:15
+view sel pad 0.42
+~select
+turn y 32
+turn x -9
+save @WORK@/Figure_07_T64_no_distance_label.png width 2400 height 1800 supersample 2 transparentBackground false
+
+close
+open @PACKAGE@/02_postprocessing/results/structural_snapshots/coordinates/CUT1_S67_L20_56.19ns_hbond.pdb
+set bgColor white
+lighting soft
+graphics silhouettes true
+hide
+show #1/A cartoons
+color #1/A #D9DEE5 cartoons
+show #1/B atoms
+style #1/B stick
+size #1/B stickRadius 0.055
+color #1/B #AEB6C0 atoms
+transparency #1/B 82 target a
+style #1/B:16 stick
+size #1/B:16 stickRadius 0.18
+color #1/B:16 #C58A24 atoms
+transparency #1/B:16 0 target a
+show #1/A:67 atoms
+style #1/A:67 stick
+color #1/A:67 #2F6F9F atoms
+show #1/A:67@OG atoms
+show #1/A:67@HG1 atoms
+show #1/B:16@O2 atoms
+style #1/A:67@OG ball
+style #1/A:67@HG1 ball
+style #1/B:16@O2 ball
+distance #1/A:67@OG #1/B:16@O2 color #20242E decimalPlaces 2
+~label pseudobonds
+select #1/A:67
+select add #1/B:16
+view sel pad 0.42
+~select
+turn y 16
+turn x 8
+save @WORK@/Figure_07_S67_no_distance_label.png width 2400 height 1800 supersample 2 transparentBackground false
+
+close
+open @PACKAGE@/02_postprocessing/results/structural_snapshots/coordinates/HiC_T166_L20_52.44ns_hbond.pdb
+set bgColor white
+lighting soft
+graphics silhouettes true
+hide
+show #1/A cartoons
+color #1/A #D9DEE5 cartoons
+show #1/B atoms
+style #1/B stick
+size #1/B stickRadius 0.055
+color #1/B #AEB6C0 atoms
+transparency #1/B 82 target a
+style #1/B:12 stick
+size #1/B:12 stickRadius 0.18
+color #1/B:12 #C58A24 atoms
+transparency #1/B:12 0 target a
+show #1/A:166 atoms
+style #1/A:166 stick
+color #1/A:166 #2F6F9F atoms
+show #1/A:166@OG1 atoms
+show #1/A:166@HG1 atoms
+show #1/B:12@O4 atoms
+style #1/A:166@OG1 ball
+style #1/A:166@HG1 ball
+style #1/B:12@O4 ball
+distance #1/A:166@OG1 #1/B:12@O4 color #20242E decimalPlaces 2
+~label pseudobonds
+select #1/A:166
+select add #1/B:12
+view sel pad 0.42
+~select
+turn x -15
+save @WORK@/Figure_07_T166_no_distance_label.png width 2400 height 1800 supersample 2 transparentBackground false
+exit

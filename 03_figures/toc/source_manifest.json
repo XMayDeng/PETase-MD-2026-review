@@ -1,0 +1,36 @@
+{
+  "artifact": "TOC graphic",
+  "role": "conceptual schematic, not a quantitative MD plot",
+  "source_directory": "analysis/toc_graphic",
+  "original_sources": {
+    "make_toc_graphic_schematic.py": "f2093a2bee25131be7671faaae953fb1001db0be54a8e429eb33602f43053758",
+    "make_toc_graphic_schematic_v1_refined.py": "052597a6b7f13052c3beef81ca57496f7e5d51f17cab5a1cfa5fcda3e78dfbfc",
+    "TOC_graphic_schematic.png": "4179109884433c03e4564313b60ebdd86fc4003cc874aa5403a492be23617c31"
+  },
+  "inputs": {
+    "make_toc_graphic_schematic.py": "b87c74c569d3d4a38420421369988dc75d2b8974a5d1a4167391bd731c4d5831",
+    "make_toc_graphic_schematic_v1_refined.py": "e7ba5a7e7725b5d57a9e5f9b0cc99c889493f1c2ac8d2dd2944a0ea52a896e99",
+    "TOC_graphic_schematic.png": "4179109884433c03e4564313b60ebdd86fc4003cc874aa5403a492be23617c31"
+  },
+  "reference_sha256": "c3e27941d5202c598bba2e26e3363a5d69461eb292e17c65df1394fa107bff26",
+  "reference_pixels": [
+    975,
+    525
+  ],
+  "environment": {
+    "python": "3.12.3",
+    "packages": {
+      "matplotlib": "3.10.8",
+      "numpy": "2.4.3",
+      "Pillow": "12.1.1"
+    },
+    "fonts": {
+      "DejaVuSans.ttf": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22",
+      "DejaVuSans-Bold.ttf": "b184b89e3c1075f22f6b71575b6fc20d4972b3cfd3b23322ca6fd596dcaef167",
+      "DejaVuSans-Oblique.ttf": "ccdf74b350f11fd3dd5774de50e5e6346a1a5da1f5b7d5fb83590665e97a5213",
+      "DejaVuSans-BoldOblique.ttf": "6edf0283160186af451cbee71e7b845f2e4cabf264bb992ce668c83c25465e6f"
+    }
+  },
+  "source_adaptations": "Direct execution of copied drawing modules disabled; use make_figure.py. Drawing functions unchanged.",
+  "font_policy": "DejaVu Sans, matching the accepted artwork and its exact baseline-pixel check"
+}

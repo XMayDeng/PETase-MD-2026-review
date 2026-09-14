@@ -1,0 +1,269 @@
+schema_version: 1
+description: 'Curated active-site registry for AutoProPET docking workflows. Entries
+  here are production inputs; groove_config.json remains a candidate source only.
+
+  '
+triad_spatial_qc_thresholds_angstrom:
+  ser_his_max: 6.0
+  his_acid_max: 6.0
+  ser_acid_max: 12.0
+status_definitions:
+  trusted: Manually accepted for production docking after spatial QC and benchmark
+    review.
+  candidate_needs_review: Spatially plausible but still requires structural or sequence
+    confirmation before high-confidence production use.
+  invalid: Rejected active-site annotation; do not use unless explicitly running an
+    exploratory diagnostic.
+proteins:
+  '00137':
+    status: trusted
+    catalytic_triad:
+      ser: 131
+      acid: 177
+      acid_resname: ASP
+      his: 209
+    ser_atom: OG
+    triad_spatial_qc:
+      verdict: pass
+      ser_his_min_angstrom: 2.942
+      his_acid_min_angstrom: 2.54
+      ser_acid_min_angstrom: 6.927
+    evidence:
+    - type: structure_qc
+      detail: 'Catalytic triad Ser131 / Asp177 / His209 is spatially clustered in
+        assets/proteins/00137/source/00137.pdb. Verdict pass: Ser131:OG-His209:NE2
+        = 2.942 A, His209:ND1-Asp177:OD2 = 2.540 A, Ser131:OG-Asp177:OD2 = 6.927 A.
+
+        '
+    - type: source_sequence_mapping
+      detail: 'PlasticDB Pro00137 is an exact sequence match to RCSB 7NEI chain sequence.
+        PlasticDB Pro00227 is also an exact same-sequence duplicate and should not
+        be run as an independent protein in the same comparison set.
+
+        '
+    - type: literature_canonical
+      detail: 'PHL7 / 7NEI is a metagenomic polyester hydrolase with reported PET
+        hydrolysis activity; the production MD input uses the standardized single-chain
+        PlasticDB Pro00137 structure for consistency with the v1.1 binding-attribution
+        workflow.
+
+        '
+    notes: 'The raw 7NEI crystal asymmetric unit contains two same-sequence chains.
+      Formal AutoProPET production uses the single-chain Pro00137 asset to keep docking,
+      MD, and postprocess metrics comparable with prior single-chain protein experiments.
+
+      '
+  '00121':
+    status: trusted
+    catalytic_triad:
+      ser: 105
+      acid: 160
+      acid_resname: ASP
+      his: 173
+    ser_atom: OG
+    triad_spatial_qc:
+      verdict: pass
+      ser_his_min_angstrom: 2.852
+      his_acid_min_angstrom: 2.882
+      ser_acid_min_angstrom: 7.27
+    evidence:
+    - type: structure_qc
+      detail: 'Catalytic triad Ser105 / Asp160 / His173 is spatially clustered in
+        assets/proteins/00121/source/00121.pdb. Verdict pass: Ser105:OG-His173:NE2
+        = 2.852 A, His173:ND1-Asp160:OD2 = 2.882 A, Ser105:OG-Asp160:OD2 = 7.270 A.
+
+        '
+    - type: source_sequence_mapping
+      detail: 'PlasticDB Pro00121 is an exact sequence match to RCSB 4OYY chain A
+        sequence based on the local crystal_audit.csv T1_direct record.
+
+        '
+    - type: literature_canonical
+      detail: '4OYY is the Humicola insolens cutinase crystal reference. Pro00121
+        is treated as a standard single-chain PlasticDB production input, with 4OYY
+        retained as structural provenance.
+
+        '
+    notes: 'The raw 4OYY crystal asymmetric unit contains multiple same-sequence chains.
+      Formal AutoProPET production uses the single-chain Pro00121 asset to keep docking,
+      MD, and postprocess metrics comparable with prior single-chain protein experiments.
+
+      '
+  '00062':
+    status: candidate_needs_review
+    catalytic_triad:
+      ser: 165
+      acid: 210
+      acid_resname: ASP
+      his: 242
+    ser_atom: OG
+    triad_spatial_qc:
+      verdict: pass
+      ser_his_min_angstrom: 2.874
+      his_acid_min_angstrom: 2.699
+      ser_acid_min_angstrom: 6.913
+    rejected_sites:
+    - status: invalid
+      catalytic_triad:
+        ser: 148
+        acid: 193
+        acid_resname: ASP
+        his: 242
+      triad_spatial_qc:
+        verdict: fail
+        ser_his_min_angstrom: 36.223
+        his_acid_min_angstrom: 17.964
+        ser_acid_min_angstrom: 39.109
+      reason: Old groove_config annotation is not spatially clustered in the current
+        protein structure.
+    evidence:
+    - type: structure_qc
+      detail: Corrected candidate triad is spatially clustered in assets/proteins/00062/source/00062.pdb.
+    - type: vina_benchmark
+      detail: Pro00062 corrected-site PET_L4 Vina pose 1 passed geometry QC with Ser165-carbonyl
+        C distance 3.478 A.
+    notes: 'This corrected site is suitable for controlled benchmark runs, but should
+      be manually confirmed by structural or sequence alignment before being promoted
+      to trusted.
+
+      '
+  '00075':
+    status: candidate_needs_review
+    catalytic_triad:
+      ser: 122
+      acid: 177
+      acid_resname: ASP
+      his: 190
+    ser_atom: OG
+    triad_spatial_qc:
+      verdict: pass
+      ser_his_min_angstrom: 2.806
+      his_acid_min_angstrom: 2.787
+      ser_acid_min_angstrom: 7.231
+    rejected_sites:
+    - status: invalid
+      catalytic_triad:
+        ser: 122
+        acid: 167
+        acid_resname: ASP
+        his: 190
+      triad_spatial_qc:
+        verdict: fail
+        ser_his_min_angstrom: 2.806
+        his_acid_min_angstrom: 24.743
+        ser_acid_min_angstrom: 25.082
+      reason: Old groove_config annotation is not spatially clustered in the current
+        protein structure.
+    evidence:
+    - type: structure_qc
+      detail: Corrected candidate triad is spatially clustered in assets/proteins/00075/source/00075.pdb.
+    notes: 'This corrected site is suitable for controlled benchmark runs, but should
+      be manually confirmed by structural or sequence alignment before being promoted
+      to trusted.
+
+      '
+  '00057':
+    status: trusted
+    catalytic_triad:
+      ser: 131
+      acid: 177
+      acid_resname: ASP
+      his: 209
+    ser_atom: OG
+    triad_spatial_qc:
+      verdict: pass
+      ser_his_min_angstrom: 2.84
+      his_acid_min_angstrom: 2.73
+      ser_acid_min_angstrom: 6.83
+    oxyanion_hole:
+      expected_backbone_n_donors:
+      - resid: 61
+        resname: TYR
+        atom: N
+        maps_to_positive_control: 5XH3 TYR58:N
+      - resid: 132
+        resname: MET
+        atom: N
+        maps_to_positive_control: 5XH3 MET132:N
+      evidence:
+      - type: positive_control_sequence_mapping
+        detail: 'Pro00057 (= TfCut2, Thermobifida fusca cutinase, 2011) Tyr61 and
+          Met132 are the canonical oxyanion-hole backbone N donors, mapping to 5XH3
+          PETase Tyr58:N and Met132:N. Spatial check: Tyr61:N at 4.62 A, Met132:N
+          at 2.96 A from Ser131:OG.
+
+          '
+    evidence:
+    - type: structure_qc
+      detail: 'Catalytic triad Ser131 / Asp177 / His209 spatially clustered in assets/proteins/00057/source/00057.pdb.
+        Verdict pass: Ser131:OG-His209:NE2 = 2.84 A, His209:ND1-Asp177:OD2 = 2.73
+        A, Ser131:OG-Asp177:OD2 = 6.83 A.
+
+        '
+    - type: literature_canonical
+      detail: 'TfCut2 catalytic triad is the canonical reference for thermophilic
+        PET cutinases (Mueller et al. 2005, Then et al. 2015). Sister cutinase to
+        Pro00058/00059 (T. cellulosilytica), with identical residue numbering for
+        the catalytic triad.
+
+        '
+    notes: 'Pro00057 (= TfCut2) is the reference thermophilic PET cutinase from PlasticDB
+      and a natural built-in independent positive control for AutoProPET v1 binding-attribution
+      validation. Status set to trusted because triad spatial QC passes and oxyanion
+      donor mapping is identical to Pro00059 (sister cutinase) which is already trusted.
+
+      '
+  00083:
+    status: trusted
+    catalytic_triad:
+      ser: 160
+      acid: 206
+      acid_resname: ASP
+      his: 237
+    ser_atom: OG
+    triad_spatial_qc:
+      verdict: pass
+      ser_his_min_angstrom: 2.89
+      his_acid_min_angstrom: 2.69
+      ser_acid_min_angstrom: 6.97
+    oxyanion_hole:
+      expected_backbone_n_donors:
+      - resid: 87
+        resname: TYR
+        atom: N
+        maps_to_positive_control: 5XH3 TYR58:N
+      - resid: 161
+        resname: MET
+        atom: N
+        maps_to_positive_control: 5XH3 MET132:N
+      evidence:
+      - type: positive_control_sequence_mapping
+        detail: 'Pro00083 (IsPETase wild-type) Tyr87 and Met161 are the canonical
+          oxyanion-hole backbone N donors, mapping directly to 5XH3 PETase Tyr58:N
+          and Met132:N. Pro00083 is the wild-type parent sequence of 5XH3 (R103G/S131A
+          inactive mutant); the residue-number offset (~29 residues) reflects different
+          N-terminal numbering conventions. Spatial check: Tyr87:N at 4.62 A from
+          Ser160:OG, Met161:N at 2.98 A from Ser160:OG.
+
+          '
+    evidence:
+    - type: structure_qc
+      detail: 'Catalytic triad Ser160 / Asp206 / His237 spatially clustered in assets/proteins/00083/source/00083.pdb.
+        Verdict pass: Ser160:OG-His237:NE2 = 2.89 A, His237:ND1-Asp206:OD2 = 2.69
+        A, Ser160:OG-Asp206:OD2 = 6.97 A.
+
+        '
+    - type: literature_canonical
+      detail: 'IsPETase catalytic triad confirmed by Joo et al. 2018 (Nat. Commun.
+        9:382, DOI 10.1038/s41467-018-02881-1) and Han et al. 2017 (Nat. Commun. 8:2106,
+        DOI 10.1038/s41467-017-02255-z). Ser160 = catalytic nucleophile; Tyr87 + Met161
+        = oxyanion-hole backbone-N donors per 5XH3 HEMT co-crystal.
+
+        '
+    notes: 'Pro00083 is the canonical PETase reference (Ideonella sakaiensis, 2016,
+      PlasticDB ID 00083) and the natural built-in independent positive control for
+      AutoProPET v1 binding-attribution validation. Status set to trusted because
+      triad spatial QC passes and oxyanion donor mapping is directly supported by
+      literature (5XH3 HEMT co-crystal).
+
+      '

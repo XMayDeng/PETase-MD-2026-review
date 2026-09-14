@@ -1,0 +1,36 @@
+hic_residue,hic_label,hic_region,analysis_role,target_protein_id,target_protein,production_ce_candidate_residue,production_ce_candidate_label,experimental_ce_candidate_residue,experimental_ce_candidate_label,consensus_simulation_residue,consensus_label,production_ce_rms_angstrom,production_ce_ca_distance_angstrom,triad_frame_ca_distance_angstrom,mapping_class
+28,S28,S28 N-terminal cleft patch,requested_focus,Pro00075,FoCut5a,44.0,S44,44.0,S44,44.0,S44,1.2101391553878784,0.2374117321706224,0.13966140093759427,high_confidence
+29,T29,T29 N-terminal cleft patch,requested_focus,Pro00075,FoCut5a,45.0,T45,45.0,T45,45.0,T45,1.2101391553878784,0.32122417070426273,0.1228790308861864,high_confidence
+70,F70,F70 cleft-lip helix,requested_focus,Pro00075,FoCut5a,87.0,A87,87.0,A87,87.0,A87,1.2101391553878784,0.5521061309741431,0.5936950793704994,high_confidence
+164,T164,T164 catalytic-His-side rim,requested_focus,Pro00075,FoCut5a,181.0,T181,181.0,T181,181.0,T181,1.2101391553878784,0.3300608033721435,0.43198844733996505,high_confidence
+165,G165,G165 catalytic-His-side rim,requested_focus,Pro00075,FoCut5a,182.0,G182,182.0,G182,182.0,G182,1.2101391553878784,0.2525467650302792,0.2937102749762767,high_confidence
+166,T166,T166 catalytic-His-side rim,requested_focus,Pro00075,FoCut5a,183.0,S183,183.0,S183,183.0,S183,1.2101391553878784,0.42726467984071403,0.5214124729903813,high_confidence
+168,I168,I168 blocked IsPETase-S214 equivalence from MAP-01,contextual_negative_control,Pro00075,FoCut5a,185.0,I185,185.0,I185,185.0,I185,1.2101391553878784,0.6166953378833425,0.19923532818523398,high_confidence
+28,S28,S28 N-terminal cleft patch,requested_focus,Pro00083,IsPETase,87.0,Y87,87.0,Y87,87.0,Y87,4.645806789398193,3.158315211032858,2.068389096848238,region_supported
+29,T29,T29 N-terminal cleft patch,requested_focus,Pro00083,IsPETase,88.0,T88,88.0,T88,88.0,T88,4.645806789398193,3.5951066759054324,3.08651110988725,region_supported
+70,F70,F70 cleft-lip helix,requested_focus,Pro00083,IsPETase,117.0,L117,,,,,4.645806789398193,8.588206662416727,9.266377505053896,ambiguous_or_unstable
+164,T164,T164 catalytic-His-side rim,requested_focus,Pro00083,IsPETase,210.0,P210,210.0,P210,210.0,P210,4.645806789398193,4.41642628207404,2.7553202114732795,region_supported
+165,G165,G165 catalytic-His-side rim,requested_focus,Pro00083,IsPETase,211.0,V211,211.0,V211,211.0,V211,4.645806789398193,7.730298899326398,8.347082390635773,topology_only
+166,T166,T166 catalytic-His-side rim,requested_focus,Pro00083,IsPETase,212.0,N212,212.0,N212,212.0,N212,4.645806789398193,9.099096116622563,10.93742317501255,topology_only
+168,I168,I168 blocked IsPETase-S214 equivalence from MAP-01,contextual_negative_control,Pro00083,IsPETase,214.0,S214,231.0,E231,,,4.645806789398193,10.680837309079058,12.762625577670415,ambiguous_or_unstable
+28,S28,S28 N-terminal cleft patch,requested_focus,Pro00057,TfCut1,61.0,Y61,60.0,G60,,,4.742258071899414,2.2647524634501237,2.3974722389841796,ambiguous_or_unstable
+29,T29,T29 N-terminal cleft patch,requested_focus,Pro00057,TfCut1,62.0,T62,61.0,Y61,,,4.742258071899414,2.445464096810262,3.3018098925776282,ambiguous_or_unstable
+70,F70,F70 cleft-lip helix,requested_focus,Pro00057,TfCut1,91.0,L91,,,,,4.742258071899414,9.550228668775212,8.716540368032058,ambiguous_or_unstable
+164,T164,T164 catalytic-His-side rim,requested_focus,Pro00057,TfCut1,181.0,P181,181.0,P181,181.0,P181,4.742258071899414,5.329570701763201,2.7946210409637113,region_supported
+165,G165,G165 catalytic-His-side rim,requested_focus,Pro00057,TfCut1,182.0,V182,182.0,V182,182.0,V182,4.742258071899414,7.928595895739889,8.460754535417948,topology_only
+166,T166,T166 catalytic-His-side rim,requested_focus,Pro00057,TfCut1,183.0,L183,183.0,L183,183.0,L183,4.742258071899414,8.326981069361139,10.823509369075616,topology_only
+168,I168,I168 blocked IsPETase-S214 equivalence from MAP-01,contextual_negative_control,Pro00057,TfCut1,185.0,H185,185.0,H185,185.0,H185,4.742258071899414,10.245432485012692,13.151758684648758,topology_only
+28,S28,S28 N-terminal cleft patch,requested_focus,Pro00062,LCC,94.0,G94,94.0,G94,94.0,G94,4.502584457397461,2.672250285077126,2.672519671167608,region_supported
+29,T29,T29 N-terminal cleft patch,requested_focus,Pro00062,LCC,95.0,Y95,95.0,Y95,95.0,Y95,4.502584457397461,5.2478828633432935,5.522536073181136,topology_only
+70,F70,F70 cleft-lip helix,requested_focus,Pro00062,LCC,,,,,,,4.502584457397461,,,no_stable_counterpart
+164,T164,T164 catalytic-His-side rim,requested_focus,Pro00062,LCC,214.0,P214,214.0,P214,214.0,P214,4.502584457397461,4.990749178454864,2.693565071163639,region_supported
+165,G165,G165 catalytic-His-side rim,requested_focus,Pro00062,LCC,215.0,V215,215.0,V215,215.0,V215,4.502584457397461,7.199347006148501,8.314957399749396,topology_only
+166,T166,T166 catalytic-His-side rim,requested_focus,Pro00062,LCC,216.0,S216,216.0,S216,216.0,S216,4.502584457397461,7.990484563510326,10.749202839314837,topology_only
+168,I168,I168 blocked IsPETase-S214 equivalence from MAP-01,contextual_negative_control,Pro00062,LCC,236.0,E236,236.0,E236,236.0,E236,4.502584457397461,16.168217467907514,18.303062783257182,topology_only
+28,S28,S28 N-terminal cleft patch,requested_focus,Pro00137,PHL7,63.0,F63,63.0,F63,63.0,F63,4.704510688781738,2.5760595901550776,1.9436207613881253,region_supported
+29,T29,T29 N-terminal cleft patch,requested_focus,Pro00137,PHL7,64.0,T64,64.0,T64,64.0,T64,4.704510688781738,3.358879062049607,2.7223076805397564,region_supported
+70,F70,F70 cleft-lip helix,requested_focus,Pro00137,PHL7,,,,,,,4.704510688781738,,,no_stable_counterpart
+164,T164,T164 catalytic-His-side rim,requested_focus,Pro00137,PHL7,181.0,P181,181.0,P181,181.0,P181,4.704510688781738,4.697421559889004,2.579053886676461,region_supported
+165,G165,G165 catalytic-His-side rim,requested_focus,Pro00137,PHL7,182.0,V182,182.0,V182,182.0,V182,4.704510688781738,7.877344660506881,8.111571902644727,topology_only
+166,T166,T166 catalytic-His-side rim,requested_focus,Pro00137,PHL7,183.0,S183,183.0,S183,183.0,S183,4.704510688781738,8.913776367438143,10.564346641010472,topology_only
+168,I168,I168 blocked IsPETase-S214 equivalence from MAP-01,contextual_negative_control,Pro00137,PHL7,203.0,E203,203.0,E203,203.0,E203,4.704510688781738,16.791307192058188,18.278627787636164,topology_only

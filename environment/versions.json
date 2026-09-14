@@ -1,0 +1,16 @@
+{
+  "python": "3.12.3",
+  "packages": {
+    "matplotlib": "3.10.8",
+    "numpy": "2.4.3",
+    "pandas": "2.3.3",
+    "Pillow": "12.1.1",
+    "scipy": "1.17.1"
+  },
+  "fonts": {
+    "DejaVuSans.ttf": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22",
+    "DejaVuSans-Bold.ttf": "b184b89e3c1075f22f6b71575b6fc20d4972b3cfd3b23322ca6fd596dcaef167",
+    "DejaVuSans-Oblique.ttf": "ccdf74b350f11fd3dd5774de50e5e6346a1a5da1f5b7d5fb83590665e97a5213",
+    "DejaVuSans-BoldOblique.ttf": "6edf0283160186af451cbee71e7b845f2e4cabf264bb992ce668c83c25465e6f"
+  }
+}

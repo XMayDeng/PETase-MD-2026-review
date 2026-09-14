@@ -1,0 +1,1027 @@
+protein_id,protein_short,residue,residue_label,landmark_class,pet_kind,direction,replica_id,case,contact_fraction,contact_count,total_frames,strict_bool,stability_pass_bool
+Pro00057,CUT1,61,Y61,Catalytic/oxyanion,PET_L10,bidirectional,2,Pro00057_PET_L10_bidirectional_r02,0.96225472,7699,8001,True,True
+Pro00057,CUT1,61,Y61,Catalytic/oxyanion,PET_L10,bidirectional,3,Pro00057_PET_L10_bidirectional_r03,1.0,8001,8001,True,True
+Pro00057,CUT1,61,Y61,Catalytic/oxyanion,PET_L10,head-side,2,Pro00057_PET_L10_head_side_r02,0.95750531,7661,8001,True,True
+Pro00057,CUT1,61,Y61,Catalytic/oxyanion,PET_L10,head-side,3,Pro00057_PET_L10_head_side_r03,0.99887514,7992,8001,True,True
+Pro00057,CUT1,61,Y61,Catalytic/oxyanion,PET_L10,tail-side,2,Pro00057_PET_L10_tail_side_r02,0.99887514,7992,8001,True,True
+Pro00057,CUT1,61,Y61,Catalytic/oxyanion,PET_L10,tail-side,3,Pro00057_PET_L10_tail_side_r03,0.99975003,7999,8001,True,True
+Pro00057,CUT1,61,Y61,Catalytic/oxyanion,PET_L20,bidirectional,1,Pro00057_PET_L20_bidirectional_r01,0.99825022,7987,8001,True,True
+Pro00057,CUT1,61,Y61,Catalytic/oxyanion,PET_L20,bidirectional,2,Pro00057_PET_L20_bidirectional_r02,0.99975003,7999,8001,True,True
+Pro00057,CUT1,61,Y61,Catalytic/oxyanion,PET_L20,head-side,1,Pro00057_PET_L20_head_side_r01,1.0,8001,8001,True,True
+Pro00057,CUT1,61,Y61,Catalytic/oxyanion,PET_L20,head-side,2,Pro00057_PET_L20_head_side_r02,0.99862517,7990,8001,True,True
+Pro00057,CUT1,61,Y61,Catalytic/oxyanion,PET_L20,head-side,3,Pro00057_PET_L20_head_side_r03,0.95750531,7661,8001,True,True
+Pro00057,CUT1,61,Y61,Catalytic/oxyanion,PET_L20,tail-side,2,Pro00057_PET_L20_tail_side_r02,0.99962505,7998,8001,True,True
+Pro00057,CUT1,62,T62,Catalytic/oxyanion,PET_L10,bidirectional,2,Pro00057_PET_L10_bidirectional_r02,0.33145857,2652,8001,True,True
+Pro00057,CUT1,62,T62,Catalytic/oxyanion,PET_L10,bidirectional,3,Pro00057_PET_L10_bidirectional_r03,0.9143857,7316,8001,True,True
+Pro00057,CUT1,62,T62,Catalytic/oxyanion,PET_L10,head-side,2,Pro00057_PET_L10_head_side_r02,0.90863642,7270,8001,True,True
+Pro00057,CUT1,62,T62,Catalytic/oxyanion,PET_L10,head-side,3,Pro00057_PET_L10_head_side_r03,0.22309711,1785,8001,True,True
+Pro00057,CUT1,62,T62,Catalytic/oxyanion,PET_L10,tail-side,2,Pro00057_PET_L10_tail_side_r02,0.06349206,508,8001,True,True
+Pro00057,CUT1,62,T62,Catalytic/oxyanion,PET_L10,tail-side,3,Pro00057_PET_L10_tail_side_r03,0.21697288,1736,8001,True,True
+Pro00057,CUT1,62,T62,Catalytic/oxyanion,PET_L20,bidirectional,1,Pro00057_PET_L20_bidirectional_r01,0.99612548,7970,8001,True,True
+Pro00057,CUT1,62,T62,Catalytic/oxyanion,PET_L20,bidirectional,2,Pro00057_PET_L20_bidirectional_r02,0.93863267,7510,8001,True,True
+Pro00057,CUT1,62,T62,Catalytic/oxyanion,PET_L20,head-side,1,Pro00057_PET_L20_head_side_r01,1.0,8001,8001,True,True
+Pro00057,CUT1,62,T62,Catalytic/oxyanion,PET_L20,head-side,2,Pro00057_PET_L20_head_side_r02,0.76340457,6108,8001,True,True
+Pro00057,CUT1,62,T62,Catalytic/oxyanion,PET_L20,head-side,3,Pro00057_PET_L20_head_side_r03,0.8263967,6612,8001,True,True
+Pro00057,CUT1,62,T62,Catalytic/oxyanion,PET_L20,tail-side,2,Pro00057_PET_L20_tail_side_r02,0.92350956,7389,8001,True,True
+Pro00057,CUT1,64,T64,Other/candidate,PET_L10,bidirectional,2,Pro00057_PET_L10_bidirectional_r02,0.12410949,993,8001,True,True
+Pro00057,CUT1,64,T64,Other/candidate,PET_L10,bidirectional,3,Pro00057_PET_L10_bidirectional_r03,0.08761405,701,8001,True,True
+Pro00057,CUT1,64,T64,Other/candidate,PET_L10,head-side,2,Pro00057_PET_L10_head_side_r02,0.18585177,1487,8001,True,True
+Pro00057,CUT1,64,T64,Other/candidate,PET_L10,head-side,3,Pro00057_PET_L10_head_side_r03,0.0736158,589,8001,True,True
+Pro00057,CUT1,64,T64,Other/candidate,PET_L10,tail-side,2,Pro00057_PET_L10_tail_side_r02,0.00499938,40,8001,True,True
+Pro00057,CUT1,64,T64,Other/candidate,PET_L10,tail-side,3,Pro00057_PET_L10_tail_side_r03,0.11586052,927,8001,True,True
+Pro00057,CUT1,64,T64,Other/candidate,PET_L20,bidirectional,1,Pro00057_PET_L20_bidirectional_r01,0.73240845,5860,8001,True,True
+Pro00057,CUT1,64,T64,Other/candidate,PET_L20,bidirectional,2,Pro00057_PET_L20_bidirectional_r02,0.17847769,1428,8001,True,True
+Pro00057,CUT1,64,T64,Other/candidate,PET_L20,head-side,1,Pro00057_PET_L20_head_side_r01,0.99712536,7978,8001,True,True
+Pro00057,CUT1,64,T64,Other/candidate,PET_L20,head-side,2,Pro00057_PET_L20_head_side_r02,0.33783277,2703,8001,True,True
+Pro00057,CUT1,64,T64,Other/candidate,PET_L20,head-side,3,Pro00057_PET_L20_head_side_r03,0.00149981,12,8001,True,True
+Pro00057,CUT1,64,T64,Other/candidate,PET_L20,tail-side,2,Pro00057_PET_L20_tail_side_r02,0.26659168,2133,8001,True,True
+Pro00057,CUT1,67,S67,Other/candidate,PET_L10,bidirectional,2,Pro00057_PET_L10_bidirectional_r02,0.12060992,965,8001,True,True
+Pro00057,CUT1,67,S67,Other/candidate,PET_L10,bidirectional,3,Pro00057_PET_L10_bidirectional_r03,0.09861267,789,8001,True,True
+Pro00057,CUT1,67,S67,Other/candidate,PET_L10,head-side,2,Pro00057_PET_L10_head_side_r02,0.00924884,74,8001,True,True
+Pro00057,CUT1,67,S67,Other/candidate,PET_L10,head-side,3,Pro00057_PET_L10_head_side_r03,0.0,0,8001,True,True
+Pro00057,CUT1,67,S67,Other/candidate,PET_L10,tail-side,2,Pro00057_PET_L10_tail_side_r02,0.0176228,141,8001,True,True
+Pro00057,CUT1,67,S67,Other/candidate,PET_L10,tail-side,3,Pro00057_PET_L10_tail_side_r03,0.09011374,721,8001,True,True
+Pro00057,CUT1,67,S67,Other/candidate,PET_L20,bidirectional,1,Pro00057_PET_L20_bidirectional_r01,0.91688539,7336,8001,True,True
+Pro00057,CUT1,67,S67,Other/candidate,PET_L20,bidirectional,2,Pro00057_PET_L20_bidirectional_r02,0.61579803,4927,8001,True,True
+Pro00057,CUT1,67,S67,Other/candidate,PET_L20,head-side,1,Pro00057_PET_L20_head_side_r01,0.95788026,7664,8001,True,True
+Pro00057,CUT1,67,S67,Other/candidate,PET_L20,head-side,2,Pro00057_PET_L20_head_side_r02,0.36295463,2904,8001,True,True
+Pro00057,CUT1,67,S67,Other/candidate,PET_L20,head-side,3,Pro00057_PET_L20_head_side_r03,0.03549556,284,8001,True,True
+Pro00057,CUT1,67,S67,Other/candidate,PET_L20,tail-side,2,Pro00057_PET_L20_tail_side_r02,0.28358955,2269,8001,True,True
+Pro00057,CUT1,91,L91,Catalytic/oxyanion,PET_L10,bidirectional,2,Pro00057_PET_L10_bidirectional_r02,0.35970504,2878,8001,True,True
+Pro00057,CUT1,91,L91,Catalytic/oxyanion,PET_L10,bidirectional,3,Pro00057_PET_L10_bidirectional_r03,0.49056368,3925,8001,True,True
+Pro00057,CUT1,91,L91,Catalytic/oxyanion,PET_L10,head-side,2,Pro00057_PET_L10_head_side_r02,0.83889514,6712,8001,True,True
+Pro00057,CUT1,91,L91,Catalytic/oxyanion,PET_L10,head-side,3,Pro00057_PET_L10_head_side_r03,0.90188726,7216,8001,True,True
+Pro00057,CUT1,91,L91,Catalytic/oxyanion,PET_L10,tail-side,2,Pro00057_PET_L10_tail_side_r02,0.91151106,7293,8001,True,True
+Pro00057,CUT1,91,L91,Catalytic/oxyanion,PET_L10,tail-side,3,Pro00057_PET_L10_tail_side_r03,0.96512936,7722,8001,True,True
+Pro00057,CUT1,91,L91,Catalytic/oxyanion,PET_L20,bidirectional,1,Pro00057_PET_L20_bidirectional_r01,0.0,0,8001,True,True
+Pro00057,CUT1,91,L91,Catalytic/oxyanion,PET_L20,bidirectional,2,Pro00057_PET_L20_bidirectional_r02,0.73403325,5873,8001,True,True
+Pro00057,CUT1,91,L91,Catalytic/oxyanion,PET_L20,head-side,1,Pro00057_PET_L20_head_side_r01,0.58330209,4667,8001,True,True
+Pro00057,CUT1,91,L91,Catalytic/oxyanion,PET_L20,head-side,2,Pro00057_PET_L20_head_side_r02,0.74203225,5937,8001,True,True
+Pro00057,CUT1,91,L91,Catalytic/oxyanion,PET_L20,head-side,3,Pro00057_PET_L20_head_side_r03,0.61754781,4941,8001,True,True
+Pro00057,CUT1,91,L91,Catalytic/oxyanion,PET_L20,tail-side,2,Pro00057_PET_L20_tail_side_r02,0.88438945,7076,8001,True,True
+Pro00057,CUT1,93,Q93,Other/candidate,PET_L10,bidirectional,2,Pro00057_PET_L10_bidirectional_r02,0.52255968,4181,8001,True,True
+Pro00057,CUT1,93,Q93,Other/candidate,PET_L10,bidirectional,3,Pro00057_PET_L10_bidirectional_r03,0.3975753,3181,8001,True,True
+Pro00057,CUT1,93,Q93,Other/candidate,PET_L10,head-side,2,Pro00057_PET_L10_head_side_r02,0.67304087,5385,8001,True,True
+Pro00057,CUT1,93,Q93,Other/candidate,PET_L10,head-side,3,Pro00057_PET_L10_head_side_r03,0.89101362,7129,8001,True,True
+Pro00057,CUT1,93,Q93,Other/candidate,PET_L10,tail-side,2,Pro00057_PET_L10_tail_side_r02,0.96300462,7705,8001,True,True
+Pro00057,CUT1,93,Q93,Other/candidate,PET_L10,tail-side,3,Pro00057_PET_L10_tail_side_r03,0.99675041,7975,8001,True,True
+Pro00057,CUT1,93,Q93,Other/candidate,PET_L20,bidirectional,1,Pro00057_PET_L20_bidirectional_r01,0.0,0,8001,True,True
+Pro00057,CUT1,93,Q93,Other/candidate,PET_L20,bidirectional,2,Pro00057_PET_L20_bidirectional_r02,0.90463692,7238,8001,True,True
+Pro00057,CUT1,93,Q93,Other/candidate,PET_L20,head-side,1,Pro00057_PET_L20_head_side_r01,0.03562055,285,8001,True,True
+Pro00057,CUT1,93,Q93,Other/candidate,PET_L20,head-side,2,Pro00057_PET_L20_head_side_r02,0.5928009,4743,8001,True,True
+Pro00057,CUT1,93,Q93,Other/candidate,PET_L20,head-side,3,Pro00057_PET_L20_head_side_r03,0.4335708,3469,8001,True,True
+Pro00057,CUT1,93,Q93,Other/candidate,PET_L20,tail-side,2,Pro00057_PET_L20_tail_side_r02,0.87189101,6976,8001,True,True
+Pro00057,CUT1,132,M132,Catalytic/oxyanion,PET_L10,bidirectional,2,Pro00057_PET_L10_bidirectional_r02,0.66741657,5340,8001,True,True
+Pro00057,CUT1,132,M132,Catalytic/oxyanion,PET_L10,bidirectional,3,Pro00057_PET_L10_bidirectional_r03,0.91026122,7283,8001,True,True
+Pro00057,CUT1,132,M132,Catalytic/oxyanion,PET_L10,head-side,2,Pro00057_PET_L10_head_side_r02,0.74615673,5970,8001,True,True
+Pro00057,CUT1,132,M132,Catalytic/oxyanion,PET_L10,head-side,3,Pro00057_PET_L10_head_side_r03,0.98737658,7900,8001,True,True
+Pro00057,CUT1,132,M132,Catalytic/oxyanion,PET_L10,tail-side,2,Pro00057_PET_L10_tail_side_r02,0.9856268,7886,8001,True,True
+Pro00057,CUT1,132,M132,Catalytic/oxyanion,PET_L10,tail-side,3,Pro00057_PET_L10_tail_side_r03,0.98925134,7915,8001,True,True
+Pro00057,CUT1,132,M132,Catalytic/oxyanion,PET_L20,bidirectional,1,Pro00057_PET_L20_bidirectional_r01,0.05486814,439,8001,True,True
+Pro00057,CUT1,132,M132,Catalytic/oxyanion,PET_L20,bidirectional,2,Pro00057_PET_L20_bidirectional_r02,0.95925509,7675,8001,True,True
+Pro00057,CUT1,132,M132,Catalytic/oxyanion,PET_L20,head-side,1,Pro00057_PET_L20_head_side_r01,0.95163105,7614,8001,True,True
+Pro00057,CUT1,132,M132,Catalytic/oxyanion,PET_L20,head-side,2,Pro00057_PET_L20_head_side_r02,0.84051994,6725,8001,True,True
+Pro00057,CUT1,132,M132,Catalytic/oxyanion,PET_L20,head-side,3,Pro00057_PET_L20_head_side_r03,0.7624047,6100,8001,True,True
+Pro00057,CUT1,132,M132,Catalytic/oxyanion,PET_L20,tail-side,2,Pro00057_PET_L20_tail_side_r02,0.96200475,7697,8001,True,True
+Pro00057,CUT1,156,W156,W-loop/flexible or rigid pair,PET_L10,bidirectional,2,Pro00057_PET_L10_bidirectional_r02,0.65241845,5220,8001,True,True
+Pro00057,CUT1,156,W156,W-loop/flexible or rigid pair,PET_L10,bidirectional,3,Pro00057_PET_L10_bidirectional_r03,0.80027497,6403,8001,True,True
+Pro00057,CUT1,156,W156,W-loop/flexible or rigid pair,PET_L10,head-side,2,Pro00057_PET_L10_head_side_r02,0.82952131,6637,8001,True,True
+Pro00057,CUT1,156,W156,W-loop/flexible or rigid pair,PET_L10,head-side,3,Pro00057_PET_L10_head_side_r03,0.9976253,7982,8001,True,True
+Pro00057,CUT1,156,W156,W-loop/flexible or rigid pair,PET_L10,tail-side,2,Pro00057_PET_L10_tail_side_r02,0.99725034,7979,8001,True,True
+Pro00057,CUT1,156,W156,W-loop/flexible or rigid pair,PET_L10,tail-side,3,Pro00057_PET_L10_tail_side_r03,0.99737533,7980,8001,True,True
+Pro00057,CUT1,156,W156,W-loop/flexible or rigid pair,PET_L20,bidirectional,1,Pro00057_PET_L20_bidirectional_r01,0.0,0,8001,True,True
+Pro00057,CUT1,156,W156,W-loop/flexible or rigid pair,PET_L20,bidirectional,2,Pro00057_PET_L20_bidirectional_r02,0.97150356,7773,8001,True,True
+Pro00057,CUT1,156,W156,W-loop/flexible or rigid pair,PET_L20,head-side,1,Pro00057_PET_L20_head_side_r01,0.832021,6657,8001,True,True
+Pro00057,CUT1,156,W156,W-loop/flexible or rigid pair,PET_L20,head-side,2,Pro00057_PET_L20_head_side_r02,0.83327084,6667,8001,True,True
+Pro00057,CUT1,156,W156,W-loop/flexible or rigid pair,PET_L20,head-side,3,Pro00057_PET_L20_head_side_r03,0.85976753,6879,8001,True,True
+Pro00057,CUT1,156,W156,W-loop/flexible or rigid pair,PET_L20,tail-side,2,Pro00057_PET_L20_tail_side_r02,0.99150106,7933,8001,True,True
+Pro00057,CUT1,158,L158,W-loop/flexible or rigid pair,PET_L10,bidirectional,2,Pro00057_PET_L10_bidirectional_r02,0.40794901,3264,8001,True,True
+Pro00057,CUT1,158,L158,W-loop/flexible or rigid pair,PET_L10,bidirectional,3,Pro00057_PET_L10_bidirectional_r03,0.02862142,229,8001,True,True
+Pro00057,CUT1,158,L158,W-loop/flexible or rigid pair,PET_L10,head-side,2,Pro00057_PET_L10_head_side_r02,0.36170479,2894,8001,True,True
+Pro00057,CUT1,158,L158,W-loop/flexible or rigid pair,PET_L10,head-side,3,Pro00057_PET_L10_head_side_r03,0.76090489,6088,8001,True,True
+Pro00057,CUT1,158,L158,W-loop/flexible or rigid pair,PET_L10,tail-side,2,Pro00057_PET_L10_tail_side_r02,0.21047369,1684,8001,True,True
+Pro00057,CUT1,158,L158,W-loop/flexible or rigid pair,PET_L10,tail-side,3,Pro00057_PET_L10_tail_side_r03,0.11623547,930,8001,True,True
+Pro00057,CUT1,158,L158,W-loop/flexible or rigid pair,PET_L20,bidirectional,1,Pro00057_PET_L20_bidirectional_r01,0.0,0,8001,True,True
+Pro00057,CUT1,158,L158,W-loop/flexible or rigid pair,PET_L20,bidirectional,2,Pro00057_PET_L20_bidirectional_r02,0.61554806,4925,8001,True,True
+Pro00057,CUT1,158,L158,W-loop/flexible or rigid pair,PET_L20,head-side,1,Pro00057_PET_L20_head_side_r01,0.0,0,8001,True,True
+Pro00057,CUT1,158,L158,W-loop/flexible or rigid pair,PET_L20,head-side,2,Pro00057_PET_L20_head_side_r02,0.13710786,1097,8001,True,True
+Pro00057,CUT1,158,L158,W-loop/flexible or rigid pair,PET_L20,head-side,3,Pro00057_PET_L20_head_side_r03,0.18435196,1475,8001,True,True
+Pro00057,CUT1,158,L158,W-loop/flexible or rigid pair,PET_L20,tail-side,2,Pro00057_PET_L20_tail_side_r02,0.1432321,1146,8001,True,True
+Pro00057,CUT1,178,T178,Cleft/rim patch,PET_L10,bidirectional,2,Pro00057_PET_L10_bidirectional_r02,0.86889139,6952,8001,True,True
+Pro00057,CUT1,178,T178,Cleft/rim patch,PET_L10,bidirectional,3,Pro00057_PET_L10_bidirectional_r03,0.94450694,7557,8001,True,True
+Pro00057,CUT1,178,T178,Cleft/rim patch,PET_L10,head-side,2,Pro00057_PET_L10_head_side_r02,1.0,8001,8001,True,True
+Pro00057,CUT1,178,T178,Cleft/rim patch,PET_L10,head-side,3,Pro00057_PET_L10_head_side_r03,0.48906387,3913,8001,True,True
+Pro00057,CUT1,178,T178,Cleft/rim patch,PET_L10,tail-side,2,Pro00057_PET_L10_tail_side_r02,0.92788401,7424,8001,True,True
+Pro00057,CUT1,178,T178,Cleft/rim patch,PET_L10,tail-side,3,Pro00057_PET_L10_tail_side_r03,0.9343832,7476,8001,True,True
+Pro00057,CUT1,178,T178,Cleft/rim patch,PET_L20,bidirectional,1,Pro00057_PET_L20_bidirectional_r01,0.13648294,1092,8001,True,True
+Pro00057,CUT1,178,T178,Cleft/rim patch,PET_L20,bidirectional,2,Pro00057_PET_L20_bidirectional_r02,0.83077115,6647,8001,True,True
+Pro00057,CUT1,178,T178,Cleft/rim patch,PET_L20,head-side,1,Pro00057_PET_L20_head_side_r01,0.89288839,7144,8001,True,True
+Pro00057,CUT1,178,T178,Cleft/rim patch,PET_L20,head-side,2,Pro00057_PET_L20_head_side_r02,0.73965754,5918,8001,True,True
+Pro00057,CUT1,178,T178,Cleft/rim patch,PET_L20,head-side,3,Pro00057_PET_L20_head_side_r03,0.91113611,7290,8001,True,True
+Pro00057,CUT1,178,T178,Cleft/rim patch,PET_L20,tail-side,2,Pro00057_PET_L20_tail_side_r02,0.82589676,6608,8001,True,True
+Pro00057,CUT1,179,I179,Cleft/rim patch,PET_L10,bidirectional,2,Pro00057_PET_L10_bidirectional_r02,0.84964379,6798,8001,True,True
+Pro00057,CUT1,179,I179,Cleft/rim patch,PET_L10,bidirectional,3,Pro00057_PET_L10_bidirectional_r03,0.99800025,7985,8001,True,True
+Pro00057,CUT1,179,I179,Cleft/rim patch,PET_L10,head-side,2,Pro00057_PET_L10_head_side_r02,1.0,8001,8001,True,True
+Pro00057,CUT1,179,I179,Cleft/rim patch,PET_L10,head-side,3,Pro00057_PET_L10_head_side_r03,0.95775528,7663,8001,True,True
+Pro00057,CUT1,179,I179,Cleft/rim patch,PET_L10,tail-side,2,Pro00057_PET_L10_tail_side_r02,0.99425072,7955,8001,True,True
+Pro00057,CUT1,179,I179,Cleft/rim patch,PET_L10,tail-side,3,Pro00057_PET_L10_tail_side_r03,0.99612548,7970,8001,True,True
+Pro00057,CUT1,179,I179,Cleft/rim patch,PET_L20,bidirectional,1,Pro00057_PET_L20_bidirectional_r01,0.53505812,4281,8001,True,True
+Pro00057,CUT1,179,I179,Cleft/rim patch,PET_L20,bidirectional,2,Pro00057_PET_L20_bidirectional_r02,0.98575178,7887,8001,True,True
+Pro00057,CUT1,179,I179,Cleft/rim patch,PET_L20,head-side,1,Pro00057_PET_L20_head_side_r01,0.99950006,7997,8001,True,True
+Pro00057,CUT1,179,I179,Cleft/rim patch,PET_L20,head-side,2,Pro00057_PET_L20_head_side_r02,0.96412948,7714,8001,True,True
+Pro00057,CUT1,179,I179,Cleft/rim patch,PET_L20,head-side,3,Pro00057_PET_L20_head_side_r03,0.93938258,7516,8001,True,True
+Pro00057,CUT1,179,I179,Cleft/rim patch,PET_L20,tail-side,2,Pro00057_PET_L20_tail_side_r02,0.9863767,7892,8001,True,True
+Pro00057,CUT1,180,A180,Cleft/rim patch,PET_L10,bidirectional,2,Pro00057_PET_L10_bidirectional_r02,0.01099863,88,8001,True,True
+Pro00057,CUT1,180,A180,Cleft/rim patch,PET_L10,bidirectional,3,Pro00057_PET_L10_bidirectional_r03,0.0,0,8001,True,True
+Pro00057,CUT1,180,A180,Cleft/rim patch,PET_L10,head-side,2,Pro00057_PET_L10_head_side_r02,0.00012498,1,8001,True,True
+Pro00057,CUT1,180,A180,Cleft/rim patch,PET_L10,head-side,3,Pro00057_PET_L10_head_side_r03,0.0,0,8001,True,True
+Pro00057,CUT1,180,A180,Cleft/rim patch,PET_L10,tail-side,2,Pro00057_PET_L10_tail_side_r02,0.00012498,1,8001,True,True
+Pro00057,CUT1,180,A180,Cleft/rim patch,PET_L10,tail-side,3,Pro00057_PET_L10_tail_side_r03,0.0,0,8001,True,True
+Pro00057,CUT1,180,A180,Cleft/rim patch,PET_L20,bidirectional,1,Pro00057_PET_L20_bidirectional_r01,0.0,0,8001,True,True
+Pro00057,CUT1,180,A180,Cleft/rim patch,PET_L20,bidirectional,2,Pro00057_PET_L20_bidirectional_r02,0.0,0,8001,True,True
+Pro00057,CUT1,180,A180,Cleft/rim patch,PET_L20,head-side,1,Pro00057_PET_L20_head_side_r01,0.0,0,8001,True,True
+Pro00057,CUT1,180,A180,Cleft/rim patch,PET_L20,head-side,2,Pro00057_PET_L20_head_side_r02,0.00824897,66,8001,True,True
+Pro00057,CUT1,180,A180,Cleft/rim patch,PET_L20,head-side,3,Pro00057_PET_L20_head_side_r03,0.00037495,3,8001,True,True
+Pro00057,CUT1,180,A180,Cleft/rim patch,PET_L20,tail-side,2,Pro00057_PET_L20_tail_side_r02,0.0,0,8001,True,True
+Pro00057,CUT1,210,F210,Cleft/rim patch,PET_L10,bidirectional,2,Pro00057_PET_L10_bidirectional_r02,0.24821897,1986,8001,True,True
+Pro00057,CUT1,210,F210,Cleft/rim patch,PET_L10,bidirectional,3,Pro00057_PET_L10_bidirectional_r03,0.99087614,7928,8001,True,True
+Pro00057,CUT1,210,F210,Cleft/rim patch,PET_L10,head-side,2,Pro00057_PET_L10_head_side_r02,0.9976253,7982,8001,True,True
+Pro00057,CUT1,210,F210,Cleft/rim patch,PET_L10,head-side,3,Pro00057_PET_L10_head_side_r03,0.03499563,280,8001,True,True
+Pro00057,CUT1,210,F210,Cleft/rim patch,PET_L10,tail-side,2,Pro00057_PET_L10_tail_side_r02,0.05536808,443,8001,True,True
+Pro00057,CUT1,210,F210,Cleft/rim patch,PET_L10,tail-side,3,Pro00057_PET_L10_tail_side_r03,0.1792276,1434,8001,True,True
+Pro00057,CUT1,210,F210,Cleft/rim patch,PET_L20,bidirectional,1,Pro00057_PET_L20_bidirectional_r01,1.0,8001,8001,True,True
+Pro00057,CUT1,210,F210,Cleft/rim patch,PET_L20,bidirectional,2,Pro00057_PET_L20_bidirectional_r02,0.96300462,7705,8001,True,True
+Pro00057,CUT1,210,F210,Cleft/rim patch,PET_L20,head-side,1,Pro00057_PET_L20_head_side_r01,0.99875016,7991,8001,True,True
+Pro00057,CUT1,210,F210,Cleft/rim patch,PET_L20,head-side,2,Pro00057_PET_L20_head_side_r02,0.90851144,7269,8001,True,True
+Pro00057,CUT1,210,F210,Cleft/rim patch,PET_L20,head-side,3,Pro00057_PET_L20_head_side_r03,0.82202225,6577,8001,True,True
+Pro00057,CUT1,210,F210,Cleft/rim patch,PET_L20,tail-side,2,Pro00057_PET_L20_tail_side_r02,0.71303587,5705,8001,True,True
+Pro00057,CUT1,213,N213,Cleft/rim patch,PET_L10,bidirectional,2,Pro00057_PET_L10_bidirectional_r02,0.03874516,310,8001,True,True
+Pro00057,CUT1,213,N213,Cleft/rim patch,PET_L10,bidirectional,3,Pro00057_PET_L10_bidirectional_r03,0.34058243,2725,8001,True,True
+Pro00057,CUT1,213,N213,Cleft/rim patch,PET_L10,head-side,2,Pro00057_PET_L10_head_side_r02,0.05336833,427,8001,True,True
+Pro00057,CUT1,213,N213,Cleft/rim patch,PET_L10,head-side,3,Pro00057_PET_L10_head_side_r03,0.0,0,8001,True,True
+Pro00057,CUT1,213,N213,Cleft/rim patch,PET_L10,tail-side,2,Pro00057_PET_L10_tail_side_r02,0.02287214,183,8001,True,True
+Pro00057,CUT1,213,N213,Cleft/rim patch,PET_L10,tail-side,3,Pro00057_PET_L10_tail_side_r03,0.01249844,100,8001,True,True
+Pro00057,CUT1,213,N213,Cleft/rim patch,PET_L20,bidirectional,1,Pro00057_PET_L20_bidirectional_r01,0.97237845,7780,8001,True,True
+Pro00057,CUT1,213,N213,Cleft/rim patch,PET_L20,bidirectional,2,Pro00057_PET_L20_bidirectional_r02,0.07636545,611,8001,True,True
+Pro00057,CUT1,213,N213,Cleft/rim patch,PET_L20,head-side,1,Pro00057_PET_L20_head_side_r01,0.96625422,7731,8001,True,True
+Pro00057,CUT1,213,N213,Cleft/rim patch,PET_L20,head-side,2,Pro00057_PET_L20_head_side_r02,0.56680415,4535,8001,True,True
+Pro00057,CUT1,213,N213,Cleft/rim patch,PET_L20,head-side,3,Pro00057_PET_L20_head_side_r03,0.10311211,825,8001,True,True
+Pro00057,CUT1,213,N213,Cleft/rim patch,PET_L20,tail-side,2,Pro00057_PET_L20_tail_side_r02,0.36457943,2917,8001,True,True
+Pro00062,LCC,60,T60,Other/candidate,PET_L10,bidirectional,1,Pro00062_PET_L10_bidirectional_r01,0.0,0,8001,False,False
+Pro00062,LCC,60,T60,Other/candidate,PET_L10,bidirectional,3,Pro00062_PET_L10_bidirectional_r03,0.00887389,71,8001,False,False
+Pro00062,LCC,60,T60,Other/candidate,PET_L10,head-side,2,Pro00062_PET_L10_head_side_r02,0.0,0,8001,False,False
+Pro00062,LCC,60,T60,Other/candidate,PET_L20,bidirectional,1,Pro00062_PET_L20_bidirectional_r01,0.0,0,8001,False,False
+Pro00062,LCC,60,T60,Other/candidate,PET_L20,bidirectional,2,Pro00062_PET_L20_bidirectional_r02,0.19747532,1580,8001,False,False
+Pro00062,LCC,60,T60,Other/candidate,PET_L20,head-side,1,Pro00062_PET_L20_head_side_r01,0.0,0,8001,False,False
+Pro00062,LCC,60,T60,Other/candidate,PET_L20,head-side,2,Pro00062_PET_L20_head_side_r02,0.0,0,8001,False,False
+Pro00062,LCC,60,T60,Other/candidate,PET_L20,head-side,3,Pro00062_PET_L20_head_side_r03,0.0,0,8001,False,False
+Pro00062,LCC,60,T60,Other/candidate,PET_L20,tail-side,1,Pro00062_PET_L20_tail_side_r01,0.88063992,7046,8001,False,False
+Pro00062,LCC,60,T60,Other/candidate,PET_L20,tail-side,2,Pro00062_PET_L20_tail_side_r02,0.0,0,8001,False,False
+Pro00062,LCC,60,T60,Other/candidate,PET_L20,tail-side,3,Pro00062_PET_L20_tail_side_r03,0.09823772,786,8001,False,False
+Pro00062,LCC,66,L66,Other/candidate,PET_L10,bidirectional,1,Pro00062_PET_L10_bidirectional_r01,0.0,0,8001,False,False
+Pro00062,LCC,66,L66,Other/candidate,PET_L10,bidirectional,3,Pro00062_PET_L10_bidirectional_r03,0.61304837,4905,8001,False,False
+Pro00062,LCC,66,L66,Other/candidate,PET_L10,head-side,2,Pro00062_PET_L10_head_side_r02,0.0,0,8001,False,False
+Pro00062,LCC,66,L66,Other/candidate,PET_L20,bidirectional,1,Pro00062_PET_L20_bidirectional_r01,0.00999875,80,8001,False,False
+Pro00062,LCC,66,L66,Other/candidate,PET_L20,bidirectional,2,Pro00062_PET_L20_bidirectional_r02,0.19785027,1583,8001,False,False
+Pro00062,LCC,66,L66,Other/candidate,PET_L20,head-side,1,Pro00062_PET_L20_head_side_r01,0.0,0,8001,False,False
+Pro00062,LCC,66,L66,Other/candidate,PET_L20,head-side,2,Pro00062_PET_L20_head_side_r02,0.0,0,8001,False,False
+Pro00062,LCC,66,L66,Other/candidate,PET_L20,head-side,3,Pro00062_PET_L20_head_side_r03,0.0872391,698,8001,False,False
+Pro00062,LCC,66,L66,Other/candidate,PET_L20,tail-side,1,Pro00062_PET_L20_tail_side_r01,0.00724909,58,8001,False,False
+Pro00062,LCC,66,L66,Other/candidate,PET_L20,tail-side,2,Pro00062_PET_L20_tail_side_r02,0.01662292,133,8001,False,False
+Pro00062,LCC,66,L66,Other/candidate,PET_L20,tail-side,3,Pro00062_PET_L20_tail_side_r03,0.0,0,8001,False,False
+Pro00062,LCC,67,S67,Other/candidate,PET_L10,bidirectional,1,Pro00062_PET_L10_bidirectional_r01,0.0,0,8001,False,False
+Pro00062,LCC,67,S67,Other/candidate,PET_L10,bidirectional,3,Pro00062_PET_L10_bidirectional_r03,0.62779653,5023,8001,False,False
+Pro00062,LCC,67,S67,Other/candidate,PET_L10,head-side,2,Pro00062_PET_L10_head_side_r02,0.0,0,8001,False,False
+Pro00062,LCC,67,S67,Other/candidate,PET_L20,bidirectional,1,Pro00062_PET_L20_bidirectional_r01,0.0,0,8001,False,False
+Pro00062,LCC,67,S67,Other/candidate,PET_L20,bidirectional,2,Pro00062_PET_L20_bidirectional_r02,0.03462067,277,8001,False,False
+Pro00062,LCC,67,S67,Other/candidate,PET_L20,head-side,1,Pro00062_PET_L20_head_side_r01,0.0,0,8001,False,False
+Pro00062,LCC,67,S67,Other/candidate,PET_L20,head-side,2,Pro00062_PET_L20_head_side_r02,0.0,0,8001,False,False
+Pro00062,LCC,67,S67,Other/candidate,PET_L20,head-side,3,Pro00062_PET_L20_head_side_r03,0.01687289,135,8001,False,False
+Pro00062,LCC,67,S67,Other/candidate,PET_L20,tail-side,1,Pro00062_PET_L20_tail_side_r01,0.0,0,8001,False,False
+Pro00062,LCC,67,S67,Other/candidate,PET_L20,tail-side,2,Pro00062_PET_L20_tail_side_r02,0.0,0,8001,False,False
+Pro00062,LCC,67,S67,Other/candidate,PET_L20,tail-side,3,Pro00062_PET_L20_tail_side_r03,0.0,0,8001,False,False
+Pro00062,LCC,95,Y95,Catalytic/oxyanion,PET_L10,bidirectional,1,Pro00062_PET_L10_bidirectional_r01,0.79402575,6353,8001,False,False
+Pro00062,LCC,95,Y95,Catalytic/oxyanion,PET_L10,bidirectional,3,Pro00062_PET_L10_bidirectional_r03,0.04374453,350,8001,False,False
+Pro00062,LCC,95,Y95,Catalytic/oxyanion,PET_L10,head-side,2,Pro00062_PET_L10_head_side_r02,0.99550056,7965,8001,False,False
+Pro00062,LCC,95,Y95,Catalytic/oxyanion,PET_L20,bidirectional,1,Pro00062_PET_L20_bidirectional_r01,0.50918635,4074,8001,False,False
+Pro00062,LCC,95,Y95,Catalytic/oxyanion,PET_L20,bidirectional,2,Pro00062_PET_L20_bidirectional_r02,0.00212473,17,8001,False,False
+Pro00062,LCC,95,Y95,Catalytic/oxyanion,PET_L20,head-side,1,Pro00062_PET_L20_head_side_r01,0.23672041,1894,8001,False,False
+Pro00062,LCC,95,Y95,Catalytic/oxyanion,PET_L20,head-side,2,Pro00062_PET_L20_head_side_r02,0.99987502,8000,8001,False,False
+Pro00062,LCC,95,Y95,Catalytic/oxyanion,PET_L20,head-side,3,Pro00062_PET_L20_head_side_r03,0.99525059,7963,8001,False,False
+Pro00062,LCC,95,Y95,Catalytic/oxyanion,PET_L20,tail-side,1,Pro00062_PET_L20_tail_side_r01,0.01187352,95,8001,False,False
+Pro00062,LCC,95,Y95,Catalytic/oxyanion,PET_L20,tail-side,2,Pro00062_PET_L20_tail_side_r02,0.720035,5761,8001,False,False
+Pro00062,LCC,95,Y95,Catalytic/oxyanion,PET_L20,tail-side,3,Pro00062_PET_L20_tail_side_r03,0.35608049,2849,8001,False,False
+Pro00062,LCC,100,S100,Other/candidate,PET_L10,bidirectional,1,Pro00062_PET_L10_bidirectional_r01,0.00499938,40,8001,False,False
+Pro00062,LCC,100,S100,Other/candidate,PET_L10,bidirectional,3,Pro00062_PET_L10_bidirectional_r03,0.00074991,6,8001,False,False
+Pro00062,LCC,100,S100,Other/candidate,PET_L10,head-side,2,Pro00062_PET_L10_head_side_r02,0.06099238,488,8001,False,False
+Pro00062,LCC,100,S100,Other/candidate,PET_L20,bidirectional,1,Pro00062_PET_L20_bidirectional_r01,0.0,0,8001,False,False
+Pro00062,LCC,100,S100,Other/candidate,PET_L20,bidirectional,2,Pro00062_PET_L20_bidirectional_r02,0.05011874,401,8001,False,False
+Pro00062,LCC,100,S100,Other/candidate,PET_L20,head-side,1,Pro00062_PET_L20_head_side_r01,0.1296088,1037,8001,False,False
+Pro00062,LCC,100,S100,Other/candidate,PET_L20,head-side,2,Pro00062_PET_L20_head_side_r02,0.0,0,8001,False,False
+Pro00062,LCC,100,S100,Other/candidate,PET_L20,head-side,3,Pro00062_PET_L20_head_side_r03,0.0,0,8001,False,False
+Pro00062,LCC,100,S100,Other/candidate,PET_L20,tail-side,1,Pro00062_PET_L20_tail_side_r01,0.95850519,7669,8001,False,False
+Pro00062,LCC,100,S100,Other/candidate,PET_L20,tail-side,2,Pro00062_PET_L20_tail_side_r02,0.12948381,1036,8001,False,False
+Pro00062,LCC,100,S100,Other/candidate,PET_L20,tail-side,3,Pro00062_PET_L20_tail_side_r03,0.25321835,2026,8001,False,False
+Pro00062,LCC,124,R124,Catalytic/oxyanion,PET_L10,bidirectional,1,Pro00062_PET_L10_bidirectional_r01,0.26996625,2160,8001,False,False
+Pro00062,LCC,124,R124,Catalytic/oxyanion,PET_L10,bidirectional,3,Pro00062_PET_L10_bidirectional_r03,0.03087114,247,8001,False,False
+Pro00062,LCC,124,R124,Catalytic/oxyanion,PET_L10,head-side,2,Pro00062_PET_L10_head_side_r02,0.67179103,5375,8001,False,False
+Pro00062,LCC,124,R124,Catalytic/oxyanion,PET_L20,bidirectional,1,Pro00062_PET_L20_bidirectional_r01,0.53705787,4297,8001,False,False
+Pro00062,LCC,124,R124,Catalytic/oxyanion,PET_L20,bidirectional,2,Pro00062_PET_L20_bidirectional_r02,0.17897763,1432,8001,False,False
+Pro00062,LCC,124,R124,Catalytic/oxyanion,PET_L20,head-side,1,Pro00062_PET_L20_head_side_r01,0.12998375,1040,8001,False,False
+Pro00062,LCC,124,R124,Catalytic/oxyanion,PET_L20,head-side,2,Pro00062_PET_L20_head_side_r02,0.41557305,3325,8001,False,False
+Pro00062,LCC,124,R124,Catalytic/oxyanion,PET_L20,head-side,3,Pro00062_PET_L20_head_side_r03,0.01024872,82,8001,False,False
+Pro00062,LCC,124,R124,Catalytic/oxyanion,PET_L20,tail-side,1,Pro00062_PET_L20_tail_side_r01,0.04374453,350,8001,False,False
+Pro00062,LCC,124,R124,Catalytic/oxyanion,PET_L20,tail-side,2,Pro00062_PET_L20_tail_side_r02,0.16447944,1316,8001,False,False
+Pro00062,LCC,124,R124,Catalytic/oxyanion,PET_L20,tail-side,3,Pro00062_PET_L20_tail_side_r03,0.14123235,1130,8001,False,False
+Pro00062,LCC,125,F125,Catalytic/oxyanion,PET_L10,bidirectional,1,Pro00062_PET_L10_bidirectional_r01,0.66979128,5359,8001,False,False
+Pro00062,LCC,125,F125,Catalytic/oxyanion,PET_L10,bidirectional,3,Pro00062_PET_L10_bidirectional_r03,0.00749906,60,8001,False,False
+Pro00062,LCC,125,F125,Catalytic/oxyanion,PET_L10,head-side,2,Pro00062_PET_L10_head_side_r02,0.19572553,1566,8001,False,False
+Pro00062,LCC,125,F125,Catalytic/oxyanion,PET_L20,bidirectional,1,Pro00062_PET_L20_bidirectional_r01,0.75553056,6045,8001,False,False
+Pro00062,LCC,125,F125,Catalytic/oxyanion,PET_L20,bidirectional,2,Pro00062_PET_L20_bidirectional_r02,0.02949631,236,8001,False,False
+Pro00062,LCC,125,F125,Catalytic/oxyanion,PET_L20,head-side,1,Pro00062_PET_L20_head_side_r01,0.23747032,1900,8001,False,False
+Pro00062,LCC,125,F125,Catalytic/oxyanion,PET_L20,head-side,2,Pro00062_PET_L20_head_side_r02,0.9863767,7892,8001,False,False
+Pro00062,LCC,125,F125,Catalytic/oxyanion,PET_L20,head-side,3,Pro00062_PET_L20_head_side_r03,0.95888014,7672,8001,False,False
+Pro00062,LCC,125,F125,Catalytic/oxyanion,PET_L20,tail-side,1,Pro00062_PET_L20_tail_side_r01,0.00024997,2,8001,False,False
+Pro00062,LCC,125,F125,Catalytic/oxyanion,PET_L20,tail-side,2,Pro00062_PET_L20_tail_side_r02,0.52230971,4179,8001,False,False
+Pro00062,LCC,125,F125,Catalytic/oxyanion,PET_L20,tail-side,3,Pro00062_PET_L20_tail_side_r03,0.27534058,2203,8001,False,False
+Pro00062,LCC,127,Y127,Other/candidate,PET_L10,bidirectional,1,Pro00062_PET_L10_bidirectional_r01,0.66979128,5359,8001,False,False
+Pro00062,LCC,127,Y127,Other/candidate,PET_L10,bidirectional,3,Pro00062_PET_L10_bidirectional_r03,0.0,0,8001,False,False
+Pro00062,LCC,127,Y127,Other/candidate,PET_L10,head-side,2,Pro00062_PET_L10_head_side_r02,0.59067617,4726,8001,False,False
+Pro00062,LCC,127,Y127,Other/candidate,PET_L20,bidirectional,1,Pro00062_PET_L20_bidirectional_r01,0.70503687,5641,8001,False,False
+Pro00062,LCC,127,Y127,Other/candidate,PET_L20,bidirectional,2,Pro00062_PET_L20_bidirectional_r02,0.00212473,17,8001,False,False
+Pro00062,LCC,127,Y127,Other/candidate,PET_L20,head-side,1,Pro00062_PET_L20_head_side_r01,0.20622422,1650,8001,False,False
+Pro00062,LCC,127,Y127,Other/candidate,PET_L20,head-side,2,Pro00062_PET_L20_head_side_r02,1.0,8001,8001,False,False
+Pro00062,LCC,127,Y127,Other/candidate,PET_L20,head-side,3,Pro00062_PET_L20_head_side_r03,0.99937508,7996,8001,False,False
+Pro00062,LCC,127,Y127,Other/candidate,PET_L20,tail-side,1,Pro00062_PET_L20_tail_side_r01,0.0,0,8001,False,False
+Pro00062,LCC,127,Y127,Other/candidate,PET_L20,tail-side,2,Pro00062_PET_L20_tail_side_r02,0.65179353,5215,8001,False,False
+Pro00062,LCC,127,Y127,Other/candidate,PET_L20,tail-side,3,Pro00062_PET_L20_tail_side_r03,0.26621672,2130,8001,False,False
+Pro00062,LCC,166,M166,Catalytic/oxyanion,PET_L10,bidirectional,1,Pro00062_PET_L10_bidirectional_r01,0.39645044,3172,8001,False,False
+Pro00062,LCC,166,M166,Catalytic/oxyanion,PET_L10,bidirectional,3,Pro00062_PET_L10_bidirectional_r03,0.0,0,8001,False,False
+Pro00062,LCC,166,M166,Catalytic/oxyanion,PET_L10,head-side,2,Pro00062_PET_L10_head_side_r02,0.89888764,7192,8001,False,False
+Pro00062,LCC,166,M166,Catalytic/oxyanion,PET_L20,bidirectional,1,Pro00062_PET_L20_bidirectional_r01,0.43857018,3509,8001,False,False
+Pro00062,LCC,166,M166,Catalytic/oxyanion,PET_L20,bidirectional,2,Pro00062_PET_L20_bidirectional_r02,0.0,0,8001,False,False
+Pro00062,LCC,166,M166,Catalytic/oxyanion,PET_L20,head-side,1,Pro00062_PET_L20_head_side_r01,0.11936008,955,8001,False,False
+Pro00062,LCC,166,M166,Catalytic/oxyanion,PET_L20,head-side,2,Pro00062_PET_L20_head_side_r02,0.93138358,7452,8001,False,False
+Pro00062,LCC,166,M166,Catalytic/oxyanion,PET_L20,head-side,3,Pro00062_PET_L20_head_side_r03,0.95550556,7645,8001,False,False
+Pro00062,LCC,166,M166,Catalytic/oxyanion,PET_L20,tail-side,1,Pro00062_PET_L20_tail_side_r01,0.0,0,8001,False,False
+Pro00062,LCC,166,M166,Catalytic/oxyanion,PET_L20,tail-side,2,Pro00062_PET_L20_tail_side_r02,0.53205849,4257,8001,False,False
+Pro00062,LCC,166,M166,Catalytic/oxyanion,PET_L20,tail-side,3,Pro00062_PET_L20_tail_side_r03,0.13810774,1105,8001,False,False
+Pro00062,LCC,190,W190,W-loop/flexible or rigid pair,PET_L10,bidirectional,1,Pro00062_PET_L10_bidirectional_r01,0.49981252,3999,8001,False,False
+Pro00062,LCC,190,W190,W-loop/flexible or rigid pair,PET_L10,bidirectional,3,Pro00062_PET_L10_bidirectional_r03,0.0,0,8001,False,False
+Pro00062,LCC,190,W190,W-loop/flexible or rigid pair,PET_L10,head-side,2,Pro00062_PET_L10_head_side_r02,0.73128359,5851,8001,False,False
+Pro00062,LCC,190,W190,W-loop/flexible or rigid pair,PET_L20,bidirectional,1,Pro00062_PET_L20_bidirectional_r01,0.51418573,4114,8001,False,False
+Pro00062,LCC,190,W190,W-loop/flexible or rigid pair,PET_L20,bidirectional,2,Pro00062_PET_L20_bidirectional_r02,0.0,0,8001,False,False
+Pro00062,LCC,190,W190,W-loop/flexible or rigid pair,PET_L20,head-side,1,Pro00062_PET_L20_head_side_r01,0.12823397,1026,8001,False,False
+Pro00062,LCC,190,W190,W-loop/flexible or rigid pair,PET_L20,head-side,2,Pro00062_PET_L20_head_side_r02,0.94500687,7561,8001,False,False
+Pro00062,LCC,190,W190,W-loop/flexible or rigid pair,PET_L20,head-side,3,Pro00062_PET_L20_head_side_r03,0.95550556,7645,8001,False,False
+Pro00062,LCC,190,W190,W-loop/flexible or rigid pair,PET_L20,tail-side,1,Pro00062_PET_L20_tail_side_r01,0.0,0,8001,False,False
+Pro00062,LCC,190,W190,W-loop/flexible or rigid pair,PET_L20,tail-side,2,Pro00062_PET_L20_tail_side_r02,0.66954131,5357,8001,False,False
+Pro00062,LCC,190,W190,W-loop/flexible or rigid pair,PET_L20,tail-side,3,Pro00062_PET_L20_tail_side_r03,0.135983,1088,8001,False,False
+Pro00062,LCC,192,T192,W-loop/flexible or rigid pair,PET_L10,bidirectional,1,Pro00062_PET_L10_bidirectional_r01,0.23234596,1859,8001,False,False
+Pro00062,LCC,192,T192,W-loop/flexible or rigid pair,PET_L10,bidirectional,3,Pro00062_PET_L10_bidirectional_r03,0.0,0,8001,False,False
+Pro00062,LCC,192,T192,W-loop/flexible or rigid pair,PET_L10,head-side,2,Pro00062_PET_L10_head_side_r02,0.00737408,59,8001,False,False
+Pro00062,LCC,192,T192,W-loop/flexible or rigid pair,PET_L20,bidirectional,1,Pro00062_PET_L20_bidirectional_r01,0.12223472,978,8001,False,False
+Pro00062,LCC,192,T192,W-loop/flexible or rigid pair,PET_L20,bidirectional,2,Pro00062_PET_L20_bidirectional_r02,0.0,0,8001,False,False
+Pro00062,LCC,192,T192,W-loop/flexible or rigid pair,PET_L20,head-side,1,Pro00062_PET_L20_head_side_r01,0.04674416,374,8001,False,False
+Pro00062,LCC,192,T192,W-loop/flexible or rigid pair,PET_L20,head-side,2,Pro00062_PET_L20_head_side_r02,0.74703162,5977,8001,False,False
+Pro00062,LCC,192,T192,W-loop/flexible or rigid pair,PET_L20,head-side,3,Pro00062_PET_L20_head_side_r03,0.46369204,3710,8001,False,False
+Pro00062,LCC,192,T192,W-loop/flexible or rigid pair,PET_L20,tail-side,1,Pro00062_PET_L20_tail_side_r01,0.0,0,8001,False,False
+Pro00062,LCC,192,T192,W-loop/flexible or rigid pair,PET_L20,tail-side,2,Pro00062_PET_L20_tail_side_r02,0.2119735,1696,8001,False,False
+Pro00062,LCC,192,T192,W-loop/flexible or rigid pair,PET_L20,tail-side,3,Pro00062_PET_L20_tail_side_r03,0.05049369,404,8001,False,False
+Pro00062,LCC,211,T211,Cleft/rim patch,PET_L10,bidirectional,1,Pro00062_PET_L10_bidirectional_r01,0.27859018,2229,8001,False,False
+Pro00062,LCC,211,T211,Cleft/rim patch,PET_L10,bidirectional,3,Pro00062_PET_L10_bidirectional_r03,0.04499438,360,8001,False,False
+Pro00062,LCC,211,T211,Cleft/rim patch,PET_L10,head-side,2,Pro00062_PET_L10_head_side_r02,0.72903387,5833,8001,False,False
+Pro00062,LCC,211,T211,Cleft/rim patch,PET_L20,bidirectional,1,Pro00062_PET_L20_bidirectional_r01,0.33270841,2662,8001,False,False
+Pro00062,LCC,211,T211,Cleft/rim patch,PET_L20,bidirectional,2,Pro00062_PET_L20_bidirectional_r02,0.00049994,4,8001,False,False
+Pro00062,LCC,211,T211,Cleft/rim patch,PET_L20,head-side,1,Pro00062_PET_L20_head_side_r01,0.11536058,923,8001,False,False
+Pro00062,LCC,211,T211,Cleft/rim patch,PET_L20,head-side,2,Pro00062_PET_L20_head_side_r02,0.29771279,2382,8001,False,False
+Pro00062,LCC,211,T211,Cleft/rim patch,PET_L20,head-side,3,Pro00062_PET_L20_head_side_r03,0.59355081,4749,8001,False,False
+Pro00062,LCC,211,T211,Cleft/rim patch,PET_L20,tail-side,1,Pro00062_PET_L20_tail_side_r01,0.00912386,73,8001,False,False
+Pro00062,LCC,211,T211,Cleft/rim patch,PET_L20,tail-side,2,Pro00062_PET_L20_tail_side_r02,0.37745282,3020,8001,False,False
+Pro00062,LCC,211,T211,Cleft/rim patch,PET_L20,tail-side,3,Pro00062_PET_L20_tail_side_r03,0.28021497,2242,8001,False,False
+Pro00062,LCC,212,V212,Cleft/rim patch,PET_L10,bidirectional,1,Pro00062_PET_L10_bidirectional_r01,0.54605674,4369,8001,False,False
+Pro00062,LCC,212,V212,Cleft/rim patch,PET_L10,bidirectional,3,Pro00062_PET_L10_bidirectional_r03,0.03662042,293,8001,False,False
+Pro00062,LCC,212,V212,Cleft/rim patch,PET_L10,head-side,2,Pro00062_PET_L10_head_side_r02,0.99487564,7960,8001,False,False
+Pro00062,LCC,212,V212,Cleft/rim patch,PET_L20,bidirectional,1,Pro00062_PET_L20_bidirectional_r01,0.42832146,3427,8001,False,False
+Pro00062,LCC,212,V212,Cleft/rim patch,PET_L20,bidirectional,2,Pro00062_PET_L20_bidirectional_r02,0.00037495,3,8001,False,False
+Pro00062,LCC,212,V212,Cleft/rim patch,PET_L20,head-side,1,Pro00062_PET_L20_head_side_r01,0.12698413,1016,8001,False,False
+Pro00062,LCC,212,V212,Cleft/rim patch,PET_L20,head-side,2,Pro00062_PET_L20_head_side_r02,0.46231721,3699,8001,False,False
+Pro00062,LCC,212,V212,Cleft/rim patch,PET_L20,head-side,3,Pro00062_PET_L20_head_side_r03,0.96075491,7687,8001,False,False
+Pro00062,LCC,212,V212,Cleft/rim patch,PET_L20,tail-side,1,Pro00062_PET_L20_tail_side_r01,0.00087489,7,8001,False,False
+Pro00062,LCC,212,V212,Cleft/rim patch,PET_L20,tail-side,2,Pro00062_PET_L20_tail_side_r02,0.54093238,4328,8001,False,False
+Pro00062,LCC,212,V212,Cleft/rim patch,PET_L20,tail-side,3,Pro00062_PET_L20_tail_side_r03,0.11948506,956,8001,False,False
+Pro00062,LCC,243,F243,Subsite/hotspot/stability,PET_L10,bidirectional,1,Pro00062_PET_L10_bidirectional_r01,0.27721535,2218,8001,False,False
+Pro00062,LCC,243,F243,Subsite/hotspot/stability,PET_L10,bidirectional,3,Pro00062_PET_L10_bidirectional_r03,0.05949256,476,8001,False,False
+Pro00062,LCC,243,F243,Subsite/hotspot/stability,PET_L10,head-side,2,Pro00062_PET_L10_head_side_r02,0.21309836,1705,8001,False,False
+Pro00062,LCC,243,F243,Subsite/hotspot/stability,PET_L20,bidirectional,1,Pro00062_PET_L20_bidirectional_r01,0.0,0,8001,False,False
+Pro00062,LCC,243,F243,Subsite/hotspot/stability,PET_L20,bidirectional,2,Pro00062_PET_L20_bidirectional_r02,0.04324459,346,8001,False,False
+Pro00062,LCC,243,F243,Subsite/hotspot/stability,PET_L20,head-side,1,Pro00062_PET_L20_head_side_r01,0.32920885,2634,8001,False,False
+Pro00062,LCC,243,F243,Subsite/hotspot/stability,PET_L20,head-side,2,Pro00062_PET_L20_head_side_r02,0.10311211,825,8001,False,False
+Pro00062,LCC,243,F243,Subsite/hotspot/stability,PET_L20,head-side,3,Pro00062_PET_L20_head_side_r03,0.00012498,1,8001,False,False
+Pro00062,LCC,243,F243,Subsite/hotspot/stability,PET_L20,tail-side,1,Pro00062_PET_L20_tail_side_r01,0.66829146,5347,8001,False,False
+Pro00062,LCC,243,F243,Subsite/hotspot/stability,PET_L20,tail-side,2,Pro00062_PET_L20_tail_side_r02,0.15685539,1255,8001,False,False
+Pro00062,LCC,243,F243,Subsite/hotspot/stability,PET_L20,tail-side,3,Pro00062_PET_L20_tail_side_r03,0.48968879,3918,8001,False,False
+Pro00062,LCC,247,S247,Other/candidate,PET_L10,bidirectional,1,Pro00062_PET_L10_bidirectional_r01,0.0,0,8001,False,False
+Pro00062,LCC,247,S247,Other/candidate,PET_L10,bidirectional,3,Pro00062_PET_L10_bidirectional_r03,0.00149981,12,8001,False,False
+Pro00062,LCC,247,S247,Other/candidate,PET_L10,head-side,2,Pro00062_PET_L10_head_side_r02,0.0199975,160,8001,False,False
+Pro00062,LCC,247,S247,Other/candidate,PET_L20,bidirectional,1,Pro00062_PET_L20_bidirectional_r01,0.0,0,8001,False,False
+Pro00062,LCC,247,S247,Other/candidate,PET_L20,bidirectional,2,Pro00062_PET_L20_bidirectional_r02,0.0096238,77,8001,False,False
+Pro00062,LCC,247,S247,Other/candidate,PET_L20,head-side,1,Pro00062_PET_L20_head_side_r01,0.31083615,2487,8001,False,False
+Pro00062,LCC,247,S247,Other/candidate,PET_L20,head-side,2,Pro00062_PET_L20_head_side_r02,0.0,0,8001,False,False
+Pro00062,LCC,247,S247,Other/candidate,PET_L20,head-side,3,Pro00062_PET_L20_head_side_r03,0.0,0,8001,False,False
+Pro00062,LCC,247,S247,Other/candidate,PET_L20,tail-side,1,Pro00062_PET_L20_tail_side_r01,0.83139608,6652,8001,False,False
+Pro00062,LCC,247,S247,Other/candidate,PET_L20,tail-side,2,Pro00062_PET_L20_tail_side_r02,0.09811274,785,8001,False,False
+Pro00062,LCC,247,S247,Other/candidate,PET_L20,tail-side,3,Pro00062_PET_L20_tail_side_r03,0.29708786,2377,8001,False,False
+Pro00075,FoCut5a,42,R42,Other/candidate,PET_L10,bidirectional,1,Pro00075_PET_L10_bidirectional_r01,0.0,0,8001,False,False
+Pro00075,FoCut5a,42,R42,Other/candidate,PET_L10,head-side,1,Pro00075_PET_L10_head_side_r01,0.0,0,8001,False,False
+Pro00075,FoCut5a,42,R42,Other/candidate,PET_L10,head-side,2,Pro00075_PET_L10_head_side_r02,0.0,0,8001,False,False
+Pro00075,FoCut5a,42,R42,Other/candidate,PET_L10,head-side,3,Pro00075_PET_L10_head_side_r03,0.0,0,8001,False,False
+Pro00075,FoCut5a,42,R42,Other/candidate,PET_L10,tail-side,2,Pro00075_PET_L10_tail_side_r02,0.0,0,8001,False,False
+Pro00075,FoCut5a,42,R42,Other/candidate,PET_L20,bidirectional,1,Pro00075_PET_L20_bidirectional_r01,0.00424947,34,8001,False,False
+Pro00075,FoCut5a,42,R42,Other/candidate,PET_L20,head-side,1,Pro00075_PET_L20_head_side_r01,0.75478065,6039,8001,False,False
+Pro00075,FoCut5a,42,R42,Other/candidate,PET_L20,head-side,2,Pro00075_PET_L20_head_side_r02,0.99712536,7978,8001,False,False
+Pro00075,FoCut5a,42,R42,Other/candidate,PET_L20,head-side,3,Pro00075_PET_L20_head_side_r03,0.99987502,8000,8001,False,False
+Pro00075,FoCut5a,42,R42,Other/candidate,PET_L20,tail-side,1,Pro00075_PET_L20_tail_side_r01,0.00837395,67,8001,False,False
+Pro00075,FoCut5a,42,R42,Other/candidate,PET_L20,tail-side,2,Pro00075_PET_L20_tail_side_r02,0.00212473,17,8001,False,False
+Pro00075,FoCut5a,42,R42,Other/candidate,PET_L20,tail-side,3,Pro00075_PET_L20_tail_side_r03,0.10786152,863,8001,False,False
+Pro00075,FoCut5a,43,G43,Other/candidate,PET_L10,bidirectional,1,Pro00075_PET_L10_bidirectional_r01,0.0,0,8001,False,False
+Pro00075,FoCut5a,43,G43,Other/candidate,PET_L10,head-side,1,Pro00075_PET_L10_head_side_r01,0.0,0,8001,False,False
+Pro00075,FoCut5a,43,G43,Other/candidate,PET_L10,head-side,2,Pro00075_PET_L10_head_side_r02,0.00049994,4,8001,False,False
+Pro00075,FoCut5a,43,G43,Other/candidate,PET_L10,head-side,3,Pro00075_PET_L10_head_side_r03,0.0,0,8001,False,False
+Pro00075,FoCut5a,43,G43,Other/candidate,PET_L10,tail-side,2,Pro00075_PET_L10_tail_side_r02,0.0,0,8001,False,False
+Pro00075,FoCut5a,43,G43,Other/candidate,PET_L20,bidirectional,1,Pro00075_PET_L20_bidirectional_r01,0.0,0,8001,False,False
+Pro00075,FoCut5a,43,G43,Other/candidate,PET_L20,head-side,1,Pro00075_PET_L20_head_side_r01,0.99262592,7942,8001,False,False
+Pro00075,FoCut5a,43,G43,Other/candidate,PET_L20,head-side,2,Pro00075_PET_L20_head_side_r02,0.99975003,7999,8001,False,False
+Pro00075,FoCut5a,43,G43,Other/candidate,PET_L20,head-side,3,Pro00075_PET_L20_head_side_r03,0.99887514,7992,8001,False,False
+Pro00075,FoCut5a,43,G43,Other/candidate,PET_L20,tail-side,1,Pro00075_PET_L20_tail_side_r01,0.0,0,8001,False,False
+Pro00075,FoCut5a,43,G43,Other/candidate,PET_L20,tail-side,2,Pro00075_PET_L20_tail_side_r02,0.00737408,59,8001,False,False
+Pro00075,FoCut5a,43,G43,Other/candidate,PET_L20,tail-side,3,Pro00075_PET_L20_tail_side_r03,0.0,0,8001,False,False
+Pro00075,FoCut5a,44,S44,Other/candidate,PET_L10,bidirectional,1,Pro00075_PET_L10_bidirectional_r01,0.62292213,4984,8001,False,False
+Pro00075,FoCut5a,44,S44,Other/candidate,PET_L10,head-side,1,Pro00075_PET_L10_head_side_r01,0.99862517,7990,8001,False,False
+Pro00075,FoCut5a,44,S44,Other/candidate,PET_L10,head-side,2,Pro00075_PET_L10_head_side_r02,0.99662542,7974,8001,False,False
+Pro00075,FoCut5a,44,S44,Other/candidate,PET_L10,head-side,3,Pro00075_PET_L10_head_side_r03,0.9720035,7777,8001,False,False
+Pro00075,FoCut5a,44,S44,Other/candidate,PET_L10,tail-side,2,Pro00075_PET_L10_tail_side_r02,0.22622172,1810,8001,False,False
+Pro00075,FoCut5a,44,S44,Other/candidate,PET_L20,bidirectional,1,Pro00075_PET_L20_bidirectional_r01,0.01649794,132,8001,False,False
+Pro00075,FoCut5a,44,S44,Other/candidate,PET_L20,head-side,1,Pro00075_PET_L20_head_side_r01,0.99450069,7957,8001,False,False
+Pro00075,FoCut5a,44,S44,Other/candidate,PET_L20,head-side,2,Pro00075_PET_L20_head_side_r02,0.99962505,7998,8001,False,False
+Pro00075,FoCut5a,44,S44,Other/candidate,PET_L20,head-side,3,Pro00075_PET_L20_head_side_r03,0.99975003,7999,8001,False,False
+Pro00075,FoCut5a,44,S44,Other/candidate,PET_L20,tail-side,1,Pro00075_PET_L20_tail_side_r01,0.23797025,1904,8001,False,False
+Pro00075,FoCut5a,44,S44,Other/candidate,PET_L20,tail-side,2,Pro00075_PET_L20_tail_side_r02,0.52193476,4176,8001,False,False
+Pro00075,FoCut5a,44,S44,Other/candidate,PET_L20,tail-side,3,Pro00075_PET_L20_tail_side_r03,0.43607049,3489,8001,False,False
+Pro00075,FoCut5a,45,T45,Other/candidate,PET_L10,bidirectional,1,Pro00075_PET_L10_bidirectional_r01,0.7784027,6228,8001,False,False
+Pro00075,FoCut5a,45,T45,Other/candidate,PET_L10,head-side,1,Pro00075_PET_L10_head_side_r01,0.99175103,7935,8001,False,False
+Pro00075,FoCut5a,45,T45,Other/candidate,PET_L10,head-side,2,Pro00075_PET_L10_head_side_r02,0.9983752,7988,8001,False,False
+Pro00075,FoCut5a,45,T45,Other/candidate,PET_L10,head-side,3,Pro00075_PET_L10_head_side_r03,0.94588176,7568,8001,False,False
+Pro00075,FoCut5a,45,T45,Other/candidate,PET_L10,tail-side,2,Pro00075_PET_L10_tail_side_r02,0.1063617,851,8001,False,False
+Pro00075,FoCut5a,45,T45,Other/candidate,PET_L20,bidirectional,1,Pro00075_PET_L20_bidirectional_r01,0.24534433,1963,8001,False,False
+Pro00075,FoCut5a,45,T45,Other/candidate,PET_L20,head-side,1,Pro00075_PET_L20_head_side_r01,1.0,8001,8001,False,False
+Pro00075,FoCut5a,45,T45,Other/candidate,PET_L20,head-side,2,Pro00075_PET_L20_head_side_r02,1.0,8001,8001,False,False
+Pro00075,FoCut5a,45,T45,Other/candidate,PET_L20,head-side,3,Pro00075_PET_L20_head_side_r03,1.0,8001,8001,False,False
+Pro00075,FoCut5a,45,T45,Other/candidate,PET_L20,tail-side,1,Pro00075_PET_L20_tail_side_r01,0.41232346,3299,8001,False,False
+Pro00075,FoCut5a,45,T45,Other/candidate,PET_L20,tail-side,2,Pro00075_PET_L20_tail_side_r02,0.88451444,7077,8001,False,False
+Pro00075,FoCut5a,45,T45,Other/candidate,PET_L20,tail-side,3,Pro00075_PET_L20_tail_side_r03,0.69541307,5564,8001,False,False
+Pro00075,FoCut5a,46,E46,Other/candidate,PET_L10,bidirectional,1,Pro00075_PET_L10_bidirectional_r01,0.84889389,6792,8001,False,False
+Pro00075,FoCut5a,46,E46,Other/candidate,PET_L10,head-side,1,Pro00075_PET_L10_head_side_r01,0.19272591,1542,8001,False,False
+Pro00075,FoCut5a,46,E46,Other/candidate,PET_L10,head-side,2,Pro00075_PET_L10_head_side_r02,0.78165229,6254,8001,False,False
+Pro00075,FoCut5a,46,E46,Other/candidate,PET_L10,head-side,3,Pro00075_PET_L10_head_side_r03,0.51468566,4118,8001,False,False
+Pro00075,FoCut5a,46,E46,Other/candidate,PET_L10,tail-side,2,Pro00075_PET_L10_tail_side_r02,0.0,0,8001,False,False
+Pro00075,FoCut5a,46,E46,Other/candidate,PET_L20,bidirectional,1,Pro00075_PET_L20_bidirectional_r01,0.01174853,94,8001,False,False
+Pro00075,FoCut5a,46,E46,Other/candidate,PET_L20,head-side,1,Pro00075_PET_L20_head_side_r01,1.0,8001,8001,False,False
+Pro00075,FoCut5a,46,E46,Other/candidate,PET_L20,head-side,2,Pro00075_PET_L20_head_side_r02,1.0,8001,8001,False,False
+Pro00075,FoCut5a,46,E46,Other/candidate,PET_L20,head-side,3,Pro00075_PET_L20_head_side_r03,0.99987502,8000,8001,False,False
+Pro00075,FoCut5a,46,E46,Other/candidate,PET_L20,tail-side,1,Pro00075_PET_L20_tail_side_r01,0.07811524,625,8001,False,False
+Pro00075,FoCut5a,46,E46,Other/candidate,PET_L20,tail-side,2,Pro00075_PET_L20_tail_side_r02,0.48668916,3894,8001,False,False
+Pro00075,FoCut5a,46,E46,Other/candidate,PET_L20,tail-side,3,Pro00075_PET_L20_tail_side_r03,0.48706412,3897,8001,False,False
+Pro00075,FoCut5a,47,S47,Other/candidate,PET_L10,bidirectional,1,Pro00075_PET_L10_bidirectional_r01,0.52843395,4228,8001,False,False
+Pro00075,FoCut5a,47,S47,Other/candidate,PET_L10,head-side,1,Pro00075_PET_L10_head_side_r01,0.08036495,643,8001,False,False
+Pro00075,FoCut5a,47,S47,Other/candidate,PET_L10,head-side,2,Pro00075_PET_L10_head_side_r02,0.71666042,5734,8001,False,False
+Pro00075,FoCut5a,47,S47,Other/candidate,PET_L10,head-side,3,Pro00075_PET_L10_head_side_r03,0.53793276,4304,8001,False,False
+Pro00075,FoCut5a,47,S47,Other/candidate,PET_L10,tail-side,2,Pro00075_PET_L10_tail_side_r02,0.0,0,8001,False,False
+Pro00075,FoCut5a,47,S47,Other/candidate,PET_L20,bidirectional,1,Pro00075_PET_L20_bidirectional_r01,0.09798775,784,8001,False,False
+Pro00075,FoCut5a,47,S47,Other/candidate,PET_L20,head-side,1,Pro00075_PET_L20_head_side_r01,1.0,8001,8001,False,False
+Pro00075,FoCut5a,47,S47,Other/candidate,PET_L20,head-side,2,Pro00075_PET_L20_head_side_r02,1.0,8001,8001,False,False
+Pro00075,FoCut5a,47,S47,Other/candidate,PET_L20,head-side,3,Pro00075_PET_L20_head_side_r03,1.0,8001,8001,False,False
+Pro00075,FoCut5a,47,S47,Other/candidate,PET_L20,tail-side,1,Pro00075_PET_L20_tail_side_r01,0.06761655,541,8001,False,False
+Pro00075,FoCut5a,47,S47,Other/candidate,PET_L20,tail-side,2,Pro00075_PET_L20_tail_side_r02,0.54405699,4353,8001,False,False
+Pro00075,FoCut5a,47,S47,Other/candidate,PET_L20,tail-side,3,Pro00075_PET_L20_tail_side_r03,0.58630171,4691,8001,False,False
+Pro00075,FoCut5a,48,G48,Other/candidate,PET_L10,bidirectional,1,Pro00075_PET_L10_bidirectional_r01,0.00087489,7,8001,False,False
+Pro00075,FoCut5a,48,G48,Other/candidate,PET_L10,head-side,1,Pro00075_PET_L10_head_side_r01,0.00012498,1,8001,False,False
+Pro00075,FoCut5a,48,G48,Other/candidate,PET_L10,head-side,2,Pro00075_PET_L10_head_side_r02,0.00999875,80,8001,False,False
+Pro00075,FoCut5a,48,G48,Other/candidate,PET_L10,head-side,3,Pro00075_PET_L10_head_side_r03,0.00049994,4,8001,False,False
+Pro00075,FoCut5a,48,G48,Other/candidate,PET_L10,tail-side,2,Pro00075_PET_L10_tail_side_r02,0.0,0,8001,False,False
+Pro00075,FoCut5a,48,G48,Other/candidate,PET_L20,bidirectional,1,Pro00075_PET_L20_bidirectional_r01,0.0,0,8001,False,False
+Pro00075,FoCut5a,48,G48,Other/candidate,PET_L20,head-side,1,Pro00075_PET_L20_head_side_r01,1.0,8001,8001,False,False
+Pro00075,FoCut5a,48,G48,Other/candidate,PET_L20,head-side,2,Pro00075_PET_L20_head_side_r02,1.0,8001,8001,False,False
+Pro00075,FoCut5a,48,G48,Other/candidate,PET_L20,head-side,3,Pro00075_PET_L20_head_side_r03,1.0,8001,8001,False,False
+Pro00075,FoCut5a,48,G48,Other/candidate,PET_L20,tail-side,1,Pro00075_PET_L20_tail_side_r01,0.00774903,62,8001,False,False
+Pro00075,FoCut5a,48,G48,Other/candidate,PET_L20,tail-side,2,Pro00075_PET_L20_tail_side_r02,0.01137358,91,8001,False,False
+Pro00075,FoCut5a,48,G48,Other/candidate,PET_L20,tail-side,3,Pro00075_PET_L20_tail_side_r03,0.06099238,488,8001,False,False
+Pro00075,FoCut5a,49,N49,Other/candidate,PET_L10,bidirectional,1,Pro00075_PET_L10_bidirectional_r01,0.0,0,8001,False,False
+Pro00075,FoCut5a,49,N49,Other/candidate,PET_L10,head-side,1,Pro00075_PET_L10_head_side_r01,0.0,0,8001,False,False
+Pro00075,FoCut5a,49,N49,Other/candidate,PET_L10,head-side,2,Pro00075_PET_L10_head_side_r02,0.0,0,8001,False,False
+Pro00075,FoCut5a,49,N49,Other/candidate,PET_L10,head-side,3,Pro00075_PET_L10_head_side_r03,0.0,0,8001,False,False
+Pro00075,FoCut5a,49,N49,Other/candidate,PET_L10,tail-side,2,Pro00075_PET_L10_tail_side_r02,0.0,0,8001,False,False
+Pro00075,FoCut5a,49,N49,Other/candidate,PET_L20,bidirectional,1,Pro00075_PET_L20_bidirectional_r01,0.0,0,8001,False,False
+Pro00075,FoCut5a,49,N49,Other/candidate,PET_L20,head-side,1,Pro00075_PET_L20_head_side_r01,0.99987502,8000,8001,False,False
+Pro00075,FoCut5a,49,N49,Other/candidate,PET_L20,head-side,2,Pro00075_PET_L20_head_side_r02,0.99850019,7989,8001,False,False
+Pro00075,FoCut5a,49,N49,Other/candidate,PET_L20,head-side,3,Pro00075_PET_L20_head_side_r03,0.99987502,8000,8001,False,False
+Pro00075,FoCut5a,49,N49,Other/candidate,PET_L20,tail-side,1,Pro00075_PET_L20_tail_side_r01,0.0,0,8001,False,False
+Pro00075,FoCut5a,49,N49,Other/candidate,PET_L20,tail-side,2,Pro00075_PET_L20_tail_side_r02,0.0,0,8001,False,False
+Pro00075,FoCut5a,49,N49,Other/candidate,PET_L20,tail-side,3,Pro00075_PET_L20_tail_side_r03,0.0,0,8001,False,False
+Pro00075,FoCut5a,52,T52,Other/candidate,PET_L10,bidirectional,1,Pro00075_PET_L10_bidirectional_r01,0.97637795,7812,8001,False,False
+Pro00075,FoCut5a,52,T52,Other/candidate,PET_L10,head-side,1,Pro00075_PET_L10_head_side_r01,0.21472316,1718,8001,False,False
+Pro00075,FoCut5a,52,T52,Other/candidate,PET_L10,head-side,2,Pro00075_PET_L10_head_side_r02,0.99925009,7995,8001,False,False
+Pro00075,FoCut5a,52,T52,Other/candidate,PET_L10,head-side,3,Pro00075_PET_L10_head_side_r03,0.81902262,6553,8001,False,False
+Pro00075,FoCut5a,52,T52,Other/candidate,PET_L10,tail-side,2,Pro00075_PET_L10_tail_side_r02,0.0,0,8001,False,False
+Pro00075,FoCut5a,52,T52,Other/candidate,PET_L20,bidirectional,1,Pro00075_PET_L20_bidirectional_r01,0.00137483,11,8001,False,False
+Pro00075,FoCut5a,52,T52,Other/candidate,PET_L20,head-side,1,Pro00075_PET_L20_head_side_r01,0.72503437,5801,8001,False,False
+Pro00075,FoCut5a,52,T52,Other/candidate,PET_L20,head-side,2,Pro00075_PET_L20_head_side_r02,0.99987502,8000,8001,False,False
+Pro00075,FoCut5a,52,T52,Other/candidate,PET_L20,head-side,3,Pro00075_PET_L20_head_side_r03,0.99887514,7992,8001,False,False
+Pro00075,FoCut5a,52,T52,Other/candidate,PET_L20,tail-side,1,Pro00075_PET_L20_tail_side_r01,0.03099613,248,8001,False,False
+Pro00075,FoCut5a,52,T52,Other/candidate,PET_L20,tail-side,2,Pro00075_PET_L20_tail_side_r02,0.59930009,4795,8001,False,False
+Pro00075,FoCut5a,52,T52,Other/candidate,PET_L20,tail-side,3,Pro00075_PET_L20_tail_side_r03,0.47856518,3829,8001,False,False
+Pro00075,FoCut5a,83,L83,Flap/binding loop,PET_L10,bidirectional,1,Pro00075_PET_L10_bidirectional_r01,0.10873641,870,8001,False,False
+Pro00075,FoCut5a,83,L83,Flap/binding loop,PET_L10,head-side,1,Pro00075_PET_L10_head_side_r01,1.0,8001,8001,False,False
+Pro00075,FoCut5a,83,L83,Flap/binding loop,PET_L10,head-side,2,Pro00075_PET_L10_head_side_r02,0.97975253,7839,8001,False,False
+Pro00075,FoCut5a,83,L83,Flap/binding loop,PET_L10,head-side,3,Pro00075_PET_L10_head_side_r03,0.72653418,5813,8001,False,False
+Pro00075,FoCut5a,83,L83,Flap/binding loop,PET_L10,tail-side,2,Pro00075_PET_L10_tail_side_r02,0.99800025,7985,8001,False,False
+Pro00075,FoCut5a,83,L83,Flap/binding loop,PET_L20,bidirectional,1,Pro00075_PET_L20_bidirectional_r01,0.56392951,4512,8001,False,False
+Pro00075,FoCut5a,83,L83,Flap/binding loop,PET_L20,head-side,1,Pro00075_PET_L20_head_side_r01,0.82589676,6608,8001,False,False
+Pro00075,FoCut5a,83,L83,Flap/binding loop,PET_L20,head-side,2,Pro00075_PET_L20_head_side_r02,1.0,8001,8001,False,False
+Pro00075,FoCut5a,83,L83,Flap/binding loop,PET_L20,head-side,3,Pro00075_PET_L20_head_side_r03,0.00124984,10,8001,False,False
+Pro00075,FoCut5a,83,L83,Flap/binding loop,PET_L20,tail-side,1,Pro00075_PET_L20_tail_side_r01,0.65854268,5269,8001,False,False
+Pro00075,FoCut5a,83,L83,Flap/binding loop,PET_L20,tail-side,2,Pro00075_PET_L20_tail_side_r02,0.8943882,7156,8001,False,False
+Pro00075,FoCut5a,83,L83,Flap/binding loop,PET_L20,tail-side,3,Pro00075_PET_L20_tail_side_r03,0.5311836,4250,8001,False,False
+Pro00075,FoCut5a,86,N86,Flap/binding loop,PET_L10,bidirectional,1,Pro00075_PET_L10_bidirectional_r01,0.00012498,1,8001,False,False
+Pro00075,FoCut5a,86,N86,Flap/binding loop,PET_L10,head-side,1,Pro00075_PET_L10_head_side_r01,0.73853268,5909,8001,False,False
+Pro00075,FoCut5a,86,N86,Flap/binding loop,PET_L10,head-side,2,Pro00075_PET_L10_head_side_r02,0.35220597,2818,8001,False,False
+Pro00075,FoCut5a,86,N86,Flap/binding loop,PET_L10,head-side,3,Pro00075_PET_L10_head_side_r03,0.63217098,5058,8001,False,False
+Pro00075,FoCut5a,86,N86,Flap/binding loop,PET_L10,tail-side,2,Pro00075_PET_L10_tail_side_r02,0.96750406,7741,8001,False,False
+Pro00075,FoCut5a,86,N86,Flap/binding loop,PET_L20,bidirectional,1,Pro00075_PET_L20_bidirectional_r01,0.33033371,2643,8001,False,False
+Pro00075,FoCut5a,86,N86,Flap/binding loop,PET_L20,head-side,1,Pro00075_PET_L20_head_side_r01,0.0,0,8001,False,False
+Pro00075,FoCut5a,86,N86,Flap/binding loop,PET_L20,head-side,2,Pro00075_PET_L20_head_side_r02,0.59655043,4773,8001,False,False
+Pro00075,FoCut5a,86,N86,Flap/binding loop,PET_L20,head-side,3,Pro00075_PET_L20_head_side_r03,0.0,0,8001,False,False
+Pro00075,FoCut5a,86,N86,Flap/binding loop,PET_L20,tail-side,1,Pro00075_PET_L20_tail_side_r01,0.01574803,126,8001,False,False
+Pro00075,FoCut5a,86,N86,Flap/binding loop,PET_L20,tail-side,2,Pro00075_PET_L20_tail_side_r02,0.42507187,3401,8001,False,False
+Pro00075,FoCut5a,86,N86,Flap/binding loop,PET_L20,tail-side,3,Pro00075_PET_L20_tail_side_r03,0.00024997,2,8001,False,False
+Pro00075,FoCut5a,122,S122,Catalytic/oxyanion,PET_L10,bidirectional,1,Pro00075_PET_L10_bidirectional_r01,0.0,0,8001,False,False
+Pro00075,FoCut5a,122,S122,Catalytic/oxyanion,PET_L10,head-side,1,Pro00075_PET_L10_head_side_r01,0.01312336,105,8001,False,False
+Pro00075,FoCut5a,122,S122,Catalytic/oxyanion,PET_L10,head-side,2,Pro00075_PET_L10_head_side_r02,0.83852018,6709,8001,False,False
+Pro00075,FoCut5a,122,S122,Catalytic/oxyanion,PET_L10,head-side,3,Pro00075_PET_L10_head_side_r03,0.51556055,4125,8001,False,False
+Pro00075,FoCut5a,122,S122,Catalytic/oxyanion,PET_L10,tail-side,2,Pro00075_PET_L10_tail_side_r02,0.0,0,8001,False,False
+Pro00075,FoCut5a,122,S122,Catalytic/oxyanion,PET_L20,bidirectional,1,Pro00075_PET_L20_bidirectional_r01,0.0,0,8001,False,False
+Pro00075,FoCut5a,122,S122,Catalytic/oxyanion,PET_L20,head-side,1,Pro00075_PET_L20_head_side_r01,0.0,0,8001,False,False
+Pro00075,FoCut5a,122,S122,Catalytic/oxyanion,PET_L20,head-side,2,Pro00075_PET_L20_head_side_r02,0.08173978,654,8001,False,False
+Pro00075,FoCut5a,122,S122,Catalytic/oxyanion,PET_L20,head-side,3,Pro00075_PET_L20_head_side_r03,0.0,0,8001,False,False
+Pro00075,FoCut5a,122,S122,Catalytic/oxyanion,PET_L20,tail-side,1,Pro00075_PET_L20_tail_side_r01,0.0,0,8001,False,False
+Pro00075,FoCut5a,122,S122,Catalytic/oxyanion,PET_L20,tail-side,2,Pro00075_PET_L20_tail_side_r02,0.03299588,264,8001,False,False
+Pro00075,FoCut5a,122,S122,Catalytic/oxyanion,PET_L20,tail-side,3,Pro00075_PET_L20_tail_side_r03,0.0,0,8001,False,False
+Pro00075,FoCut5a,123,Q123,Catalytic/oxyanion,PET_L10,bidirectional,1,Pro00075_PET_L10_bidirectional_r01,0.0,0,8001,False,False
+Pro00075,FoCut5a,123,Q123,Catalytic/oxyanion,PET_L10,head-side,1,Pro00075_PET_L10_head_side_r01,0.09623797,770,8001,False,False
+Pro00075,FoCut5a,123,Q123,Catalytic/oxyanion,PET_L10,head-side,2,Pro00075_PET_L10_head_side_r02,0.03562055,285,8001,False,False
+Pro00075,FoCut5a,123,Q123,Catalytic/oxyanion,PET_L10,head-side,3,Pro00075_PET_L10_head_side_r03,0.57792776,4624,8001,False,False
+Pro00075,FoCut5a,123,Q123,Catalytic/oxyanion,PET_L10,tail-side,2,Pro00075_PET_L10_tail_side_r02,0.48468941,3878,8001,False,False
+Pro00075,FoCut5a,123,Q123,Catalytic/oxyanion,PET_L20,bidirectional,1,Pro00075_PET_L20_bidirectional_r01,0.01699788,136,8001,False,False
+Pro00075,FoCut5a,123,Q123,Catalytic/oxyanion,PET_L20,head-side,1,Pro00075_PET_L20_head_side_r01,0.00249969,20,8001,False,False
+Pro00075,FoCut5a,123,Q123,Catalytic/oxyanion,PET_L20,head-side,2,Pro00075_PET_L20_head_side_r02,0.44094488,3528,8001,False,False
+Pro00075,FoCut5a,123,Q123,Catalytic/oxyanion,PET_L20,head-side,3,Pro00075_PET_L20_head_side_r03,0.0,0,8001,False,False
+Pro00075,FoCut5a,123,Q123,Catalytic/oxyanion,PET_L20,tail-side,1,Pro00075_PET_L20_tail_side_r01,0.0,0,8001,False,False
+Pro00075,FoCut5a,123,Q123,Catalytic/oxyanion,PET_L20,tail-side,2,Pro00075_PET_L20_tail_side_r02,0.0,0,8001,False,False
+Pro00075,FoCut5a,123,Q123,Catalytic/oxyanion,PET_L20,tail-side,3,Pro00075_PET_L20_tail_side_r03,0.0,0,8001,False,False
+Pro00075,FoCut5a,179,V179,Flap/binding loop,PET_L10,bidirectional,1,Pro00075_PET_L10_bidirectional_r01,0.0,0,8001,False,False
+Pro00075,FoCut5a,179,V179,Flap/binding loop,PET_L10,head-side,1,Pro00075_PET_L10_head_side_r01,0.29046369,2324,8001,False,False
+Pro00075,FoCut5a,179,V179,Flap/binding loop,PET_L10,head-side,2,Pro00075_PET_L10_head_side_r02,0.75815523,6066,8001,False,False
+Pro00075,FoCut5a,179,V179,Flap/binding loop,PET_L10,head-side,3,Pro00075_PET_L10_head_side_r03,0.80089989,6408,8001,False,False
+Pro00075,FoCut5a,179,V179,Flap/binding loop,PET_L10,tail-side,2,Pro00075_PET_L10_tail_side_r02,0.0,0,8001,False,False
+Pro00075,FoCut5a,179,V179,Flap/binding loop,PET_L20,bidirectional,1,Pro00075_PET_L20_bidirectional_r01,0.0,0,8001,False,False
+Pro00075,FoCut5a,179,V179,Flap/binding loop,PET_L20,head-side,1,Pro00075_PET_L20_head_side_r01,0.0,0,8001,False,False
+Pro00075,FoCut5a,179,V179,Flap/binding loop,PET_L20,head-side,2,Pro00075_PET_L20_head_side_r02,0.69291339,5544,8001,False,False
+Pro00075,FoCut5a,179,V179,Flap/binding loop,PET_L20,head-side,3,Pro00075_PET_L20_head_side_r03,0.0,0,8001,False,False
+Pro00075,FoCut5a,179,V179,Flap/binding loop,PET_L20,tail-side,1,Pro00075_PET_L20_tail_side_r01,0.0,0,8001,False,False
+Pro00075,FoCut5a,179,V179,Flap/binding loop,PET_L20,tail-side,2,Pro00075_PET_L20_tail_side_r02,0.03237095,259,8001,False,False
+Pro00075,FoCut5a,179,V179,Flap/binding loop,PET_L20,tail-side,3,Pro00075_PET_L20_tail_side_r03,0.0,0,8001,False,False
+Pro00075,FoCut5a,184,L184,Flap/binding loop,PET_L10,bidirectional,1,Pro00075_PET_L10_bidirectional_r01,0.06324209,506,8001,False,False
+Pro00075,FoCut5a,184,L184,Flap/binding loop,PET_L10,head-side,1,Pro00075_PET_L10_head_side_r01,0.99275091,7943,8001,False,False
+Pro00075,FoCut5a,184,L184,Flap/binding loop,PET_L10,head-side,2,Pro00075_PET_L10_head_side_r02,0.79402575,6353,8001,False,False
+Pro00075,FoCut5a,184,L184,Flap/binding loop,PET_L10,head-side,3,Pro00075_PET_L10_head_side_r03,0.99987502,8000,8001,False,False
+Pro00075,FoCut5a,184,L184,Flap/binding loop,PET_L10,tail-side,2,Pro00075_PET_L10_tail_side_r02,1.0,8001,8001,False,False
+Pro00075,FoCut5a,184,L184,Flap/binding loop,PET_L20,bidirectional,1,Pro00075_PET_L20_bidirectional_r01,0.94650669,7573,8001,False,False
+Pro00075,FoCut5a,184,L184,Flap/binding loop,PET_L20,head-side,1,Pro00075_PET_L20_head_side_r01,0.0,0,8001,False,False
+Pro00075,FoCut5a,184,L184,Flap/binding loop,PET_L20,head-side,2,Pro00075_PET_L20_head_side_r02,0.9720035,7777,8001,False,False
+Pro00075,FoCut5a,184,L184,Flap/binding loop,PET_L20,head-side,3,Pro00075_PET_L20_head_side_r03,0.0,0,8001,False,False
+Pro00075,FoCut5a,184,L184,Flap/binding loop,PET_L20,tail-side,1,Pro00075_PET_L20_tail_side_r01,0.82064742,6566,8001,False,False
+Pro00075,FoCut5a,184,L184,Flap/binding loop,PET_L20,tail-side,2,Pro00075_PET_L20_tail_side_r02,0.6167979,4935,8001,False,False
+Pro00075,FoCut5a,184,L184,Flap/binding loop,PET_L20,tail-side,3,Pro00075_PET_L20_tail_side_r03,0.28296463,2264,8001,False,False
+Pro00075,FoCut5a,185,I185,Flap/binding loop,PET_L10,bidirectional,1,Pro00075_PET_L10_bidirectional_r01,0.09498813,760,8001,False,False
+Pro00075,FoCut5a,185,I185,Flap/binding loop,PET_L10,head-side,1,Pro00075_PET_L10_head_side_r01,0.96887889,7752,8001,False,False
+Pro00075,FoCut5a,185,I185,Flap/binding loop,PET_L10,head-side,2,Pro00075_PET_L10_head_side_r02,0.95238095,7620,8001,False,False
+Pro00075,FoCut5a,185,I185,Flap/binding loop,PET_L10,head-side,3,Pro00075_PET_L10_head_side_r03,0.93925759,7515,8001,False,False
+Pro00075,FoCut5a,185,I185,Flap/binding loop,PET_L10,tail-side,2,Pro00075_PET_L10_tail_side_r02,0.95513061,7642,8001,False,False
+Pro00075,FoCut5a,185,I185,Flap/binding loop,PET_L20,bidirectional,1,Pro00075_PET_L20_bidirectional_r01,0.99637545,7972,8001,False,False
+Pro00075,FoCut5a,185,I185,Flap/binding loop,PET_L20,head-side,1,Pro00075_PET_L20_head_side_r01,0.0,0,8001,False,False
+Pro00075,FoCut5a,185,I185,Flap/binding loop,PET_L20,head-side,2,Pro00075_PET_L20_head_side_r02,0.48068991,3846,8001,False,False
+Pro00075,FoCut5a,185,I185,Flap/binding loop,PET_L20,head-side,3,Pro00075_PET_L20_head_side_r03,0.0,0,8001,False,False
+Pro00075,FoCut5a,185,I185,Flap/binding loop,PET_L20,tail-side,1,Pro00075_PET_L20_tail_side_r01,0.99712536,7978,8001,False,False
+Pro00075,FoCut5a,185,I185,Flap/binding loop,PET_L20,tail-side,2,Pro00075_PET_L20_tail_side_r02,0.39432571,3155,8001,False,False
+Pro00075,FoCut5a,185,I185,Flap/binding loop,PET_L20,tail-side,3,Pro00075_PET_L20_tail_side_r03,0.42532183,3403,8001,False,False
+Pro00075,FoCut5a,186,V186,Flap/binding loop,PET_L10,bidirectional,1,Pro00075_PET_L10_bidirectional_r01,0.57330334,4587,8001,False,False
+Pro00075,FoCut5a,186,V186,Flap/binding loop,PET_L10,head-side,1,Pro00075_PET_L10_head_side_r01,0.99925009,7995,8001,False,False
+Pro00075,FoCut5a,186,V186,Flap/binding loop,PET_L10,head-side,2,Pro00075_PET_L10_head_side_r02,1.0,8001,8001,False,False
+Pro00075,FoCut5a,186,V186,Flap/binding loop,PET_L10,head-side,3,Pro00075_PET_L10_head_side_r03,1.0,8001,8001,False,False
+Pro00075,FoCut5a,186,V186,Flap/binding loop,PET_L10,tail-side,2,Pro00075_PET_L10_tail_side_r02,0.31008624,2481,8001,False,False
+Pro00075,FoCut5a,186,V186,Flap/binding loop,PET_L20,bidirectional,1,Pro00075_PET_L20_bidirectional_r01,0.67329084,5387,8001,False,False
+Pro00075,FoCut5a,186,V186,Flap/binding loop,PET_L20,head-side,1,Pro00075_PET_L20_head_side_r01,0.01049869,84,8001,False,False
+Pro00075,FoCut5a,186,V186,Flap/binding loop,PET_L20,head-side,2,Pro00075_PET_L20_head_side_r02,0.9663792,7732,8001,False,False
+Pro00075,FoCut5a,186,V186,Flap/binding loop,PET_L20,head-side,3,Pro00075_PET_L20_head_side_r03,0.0,0,8001,False,False
+Pro00075,FoCut5a,186,V186,Flap/binding loop,PET_L20,tail-side,1,Pro00075_PET_L20_tail_side_r01,0.99887514,7992,8001,False,False
+Pro00075,FoCut5a,186,V186,Flap/binding loop,PET_L20,tail-side,2,Pro00075_PET_L20_tail_side_r02,0.71566054,5726,8001,False,False
+Pro00075,FoCut5a,186,V186,Flap/binding loop,PET_L20,tail-side,3,Pro00075_PET_L20_tail_side_r03,0.73715786,5898,8001,False,False
+Pro00075,FoCut5a,190,H190,Catalytic/oxyanion,PET_L10,bidirectional,1,Pro00075_PET_L10_bidirectional_r01,0.05949256,476,8001,False,False
+Pro00075,FoCut5a,190,H190,Catalytic/oxyanion,PET_L10,head-side,1,Pro00075_PET_L10_head_side_r01,0.72090989,5768,8001,False,False
+Pro00075,FoCut5a,190,H190,Catalytic/oxyanion,PET_L10,head-side,2,Pro00075_PET_L10_head_side_r02,0.99925009,7995,8001,False,False
+Pro00075,FoCut5a,190,H190,Catalytic/oxyanion,PET_L10,head-side,3,Pro00075_PET_L10_head_side_r03,0.74540682,5964,8001,False,False
+Pro00075,FoCut5a,190,H190,Catalytic/oxyanion,PET_L10,tail-side,2,Pro00075_PET_L10_tail_side_r02,0.0,0,8001,False,False
+Pro00075,FoCut5a,190,H190,Catalytic/oxyanion,PET_L20,bidirectional,1,Pro00075_PET_L20_bidirectional_r01,0.0,0,8001,False,False
+Pro00075,FoCut5a,190,H190,Catalytic/oxyanion,PET_L20,head-side,1,Pro00075_PET_L20_head_side_r01,0.0,0,8001,False,False
+Pro00075,FoCut5a,190,H190,Catalytic/oxyanion,PET_L20,head-side,2,Pro00075_PET_L20_head_side_r02,0.50043745,4004,8001,False,False
+Pro00075,FoCut5a,190,H190,Catalytic/oxyanion,PET_L20,head-side,3,Pro00075_PET_L20_head_side_r03,0.09386327,751,8001,False,False
+Pro00075,FoCut5a,190,H190,Catalytic/oxyanion,PET_L20,tail-side,1,Pro00075_PET_L20_tail_side_r01,0.01274841,102,8001,False,False
+Pro00075,FoCut5a,190,H190,Catalytic/oxyanion,PET_L20,tail-side,2,Pro00075_PET_L20_tail_side_r02,0.15010624,1201,8001,False,False
+Pro00075,FoCut5a,190,H190,Catalytic/oxyanion,PET_L20,tail-side,3,Pro00075_PET_L20_tail_side_r03,0.0216223,173,8001,False,False
+Pro00075,FoCut5a,191,L191,Flap/binding loop,PET_L10,bidirectional,1,Pro00075_PET_L10_bidirectional_r01,0.9896263,7918,8001,False,False
+Pro00075,FoCut5a,191,L191,Flap/binding loop,PET_L10,head-side,1,Pro00075_PET_L10_head_side_r01,0.9823772,7860,8001,False,False
+Pro00075,FoCut5a,191,L191,Flap/binding loop,PET_L10,head-side,2,Pro00075_PET_L10_head_side_r02,0.99912511,7994,8001,False,False
+Pro00075,FoCut5a,191,L191,Flap/binding loop,PET_L10,head-side,3,Pro00075_PET_L10_head_side_r03,0.99787527,7984,8001,False,False
+Pro00075,FoCut5a,191,L191,Flap/binding loop,PET_L10,tail-side,2,Pro00075_PET_L10_tail_side_r02,0.0,0,8001,False,False
+Pro00075,FoCut5a,191,L191,Flap/binding loop,PET_L20,bidirectional,1,Pro00075_PET_L20_bidirectional_r01,0.25834271,2067,8001,False,False
+Pro00075,FoCut5a,191,L191,Flap/binding loop,PET_L20,head-side,1,Pro00075_PET_L20_head_side_r01,0.99862517,7990,8001,False,False
+Pro00075,FoCut5a,191,L191,Flap/binding loop,PET_L20,head-side,2,Pro00075_PET_L20_head_side_r02,0.90513686,7242,8001,False,False
+Pro00075,FoCut5a,191,L191,Flap/binding loop,PET_L20,head-side,3,Pro00075_PET_L20_head_side_r03,0.98787652,7904,8001,False,False
+Pro00075,FoCut5a,191,L191,Flap/binding loop,PET_L20,tail-side,1,Pro00075_PET_L20_tail_side_r01,0.77715286,6218,8001,False,False
+Pro00075,FoCut5a,191,L191,Flap/binding loop,PET_L20,tail-side,2,Pro00075_PET_L20_tail_side_r02,0.66141732,5292,8001,False,False
+Pro00075,FoCut5a,191,L191,Flap/binding loop,PET_L20,tail-side,3,Pro00075_PET_L20_tail_side_r03,0.92950881,7437,8001,False,False
+Pro00083,IsPETase,14,V14,Other/candidate,PET_L10,bidirectional,1,Pro00083_PET_L10_bidirectional_r01,0.68741407,5500,8001,False,False
+Pro00083,IsPETase,14,V14,Other/candidate,PET_L10,head-side,2,Pro00083_PET_L10_head_side_r02,0.0,0,8001,False,False
+Pro00083,IsPETase,14,V14,Other/candidate,PET_L10,head-side,3,Pro00083_PET_L10_head_side_r03,0.0,0,8001,False,False
+Pro00083,IsPETase,14,V14,Other/candidate,PET_L10,tail-side,3,Pro00083_PET_L10_tail_side_r03,0.0,0,8001,False,False
+Pro00083,IsPETase,14,V14,Other/candidate,PET_L20,bidirectional,1,Pro00083_PET_L20_bidirectional_r01,0.0,0,8001,False,False
+Pro00083,IsPETase,14,V14,Other/candidate,PET_L20,bidirectional,2,Pro00083_PET_L20_bidirectional_r02,0.0,0,8001,False,False
+Pro00083,IsPETase,14,V14,Other/candidate,PET_L20,head-side,1,Pro00083_PET_L20_head_side_r01,0.0,0,8001,False,False
+Pro00083,IsPETase,14,V14,Other/candidate,PET_L20,head-side,2,Pro00083_PET_L20_head_side_r02,0.0,0,8001,False,False
+Pro00083,IsPETase,14,V14,Other/candidate,PET_L20,head-side,3,Pro00083_PET_L20_head_side_r03,0.04124484,330,8001,False,False
+Pro00083,IsPETase,14,V14,Other/candidate,PET_L20,tail-side,1,Pro00083_PET_L20_tail_side_r01,0.0,0,8001,False,False
+Pro00083,IsPETase,14,V14,Other/candidate,PET_L20,tail-side,2,Pro00083_PET_L20_tail_side_r02,0.0,0,8001,False,False
+Pro00083,IsPETase,36,P36,Other/candidate,PET_L10,bidirectional,1,Pro00083_PET_L10_bidirectional_r01,0.0,0,8001,False,False
+Pro00083,IsPETase,36,P36,Other/candidate,PET_L10,head-side,2,Pro00083_PET_L10_head_side_r02,0.0,0,8001,False,False
+Pro00083,IsPETase,36,P36,Other/candidate,PET_L10,head-side,3,Pro00083_PET_L10_head_side_r03,0.0,0,8001,False,False
+Pro00083,IsPETase,36,P36,Other/candidate,PET_L10,tail-side,3,Pro00083_PET_L10_tail_side_r03,0.0,0,8001,False,False
+Pro00083,IsPETase,36,P36,Other/candidate,PET_L20,bidirectional,1,Pro00083_PET_L20_bidirectional_r01,0.0,0,8001,False,False
+Pro00083,IsPETase,36,P36,Other/candidate,PET_L20,bidirectional,2,Pro00083_PET_L20_bidirectional_r02,0.0,0,8001,False,False
+Pro00083,IsPETase,36,P36,Other/candidate,PET_L20,head-side,1,Pro00083_PET_L20_head_side_r01,0.0,0,8001,False,False
+Pro00083,IsPETase,36,P36,Other/candidate,PET_L20,head-side,2,Pro00083_PET_L20_head_side_r02,0.0,0,8001,False,False
+Pro00083,IsPETase,36,P36,Other/candidate,PET_L20,head-side,3,Pro00083_PET_L20_head_side_r03,0.70066242,5606,8001,False,False
+Pro00083,IsPETase,36,P36,Other/candidate,PET_L20,tail-side,1,Pro00083_PET_L20_tail_side_r01,0.0,0,8001,False,False
+Pro00083,IsPETase,36,P36,Other/candidate,PET_L20,tail-side,2,Pro00083_PET_L20_tail_side_r02,0.0,0,8001,False,False
+Pro00083,IsPETase,37,N37,Other/candidate,PET_L10,bidirectional,1,Pro00083_PET_L10_bidirectional_r01,0.0,0,8001,False,False
+Pro00083,IsPETase,37,N37,Other/candidate,PET_L10,head-side,2,Pro00083_PET_L10_head_side_r02,0.0,0,8001,False,False
+Pro00083,IsPETase,37,N37,Other/candidate,PET_L10,head-side,3,Pro00083_PET_L10_head_side_r03,0.0,0,8001,False,False
+Pro00083,IsPETase,37,N37,Other/candidate,PET_L10,tail-side,3,Pro00083_PET_L10_tail_side_r03,0.0,0,8001,False,False
+Pro00083,IsPETase,37,N37,Other/candidate,PET_L20,bidirectional,1,Pro00083_PET_L20_bidirectional_r01,0.0,0,8001,False,False
+Pro00083,IsPETase,37,N37,Other/candidate,PET_L20,bidirectional,2,Pro00083_PET_L20_bidirectional_r02,0.0,0,8001,False,False
+Pro00083,IsPETase,37,N37,Other/candidate,PET_L20,head-side,1,Pro00083_PET_L20_head_side_r01,0.0,0,8001,False,False
+Pro00083,IsPETase,37,N37,Other/candidate,PET_L20,head-side,2,Pro00083_PET_L20_head_side_r02,0.0,0,8001,False,False
+Pro00083,IsPETase,37,N37,Other/candidate,PET_L20,head-side,3,Pro00083_PET_L20_head_side_r03,0.73965754,5918,8001,False,False
+Pro00083,IsPETase,37,N37,Other/candidate,PET_L20,tail-side,1,Pro00083_PET_L20_tail_side_r01,0.0,0,8001,False,False
+Pro00083,IsPETase,37,N37,Other/candidate,PET_L20,tail-side,2,Pro00083_PET_L20_tail_side_r02,0.0,0,8001,False,False
+Pro00083,IsPETase,87,Y87,Catalytic/oxyanion,PET_L10,bidirectional,1,Pro00083_PET_L10_bidirectional_r01,0.00824897,66,8001,False,False
+Pro00083,IsPETase,87,Y87,Catalytic/oxyanion,PET_L10,head-side,2,Pro00083_PET_L10_head_side_r02,0.99900012,7993,8001,False,False
+Pro00083,IsPETase,87,Y87,Catalytic/oxyanion,PET_L10,head-side,3,Pro00083_PET_L10_head_side_r03,0.99700037,7977,8001,False,False
+Pro00083,IsPETase,87,Y87,Catalytic/oxyanion,PET_L10,tail-side,3,Pro00083_PET_L10_tail_side_r03,0.99050119,7925,8001,False,False
+Pro00083,IsPETase,87,Y87,Catalytic/oxyanion,PET_L20,bidirectional,1,Pro00083_PET_L20_bidirectional_r01,0.63642045,5092,8001,False,False
+Pro00083,IsPETase,87,Y87,Catalytic/oxyanion,PET_L20,bidirectional,2,Pro00083_PET_L20_bidirectional_r02,0.736033,5889,8001,False,False
+Pro00083,IsPETase,87,Y87,Catalytic/oxyanion,PET_L20,head-side,1,Pro00083_PET_L20_head_side_r01,0.88276465,7063,8001,False,False
+Pro00083,IsPETase,87,Y87,Catalytic/oxyanion,PET_L20,head-side,2,Pro00083_PET_L20_head_side_r02,0.99662542,7974,8001,False,False
+Pro00083,IsPETase,87,Y87,Catalytic/oxyanion,PET_L20,head-side,3,Pro00083_PET_L20_head_side_r03,0.0,0,8001,False,False
+Pro00083,IsPETase,87,Y87,Catalytic/oxyanion,PET_L20,tail-side,1,Pro00083_PET_L20_tail_side_r01,0.99650044,7973,8001,False,False
+Pro00083,IsPETase,87,Y87,Catalytic/oxyanion,PET_L20,tail-side,2,Pro00083_PET_L20_tail_side_r02,0.66266717,5302,8001,False,False
+Pro00083,IsPETase,117,L117,Catalytic/oxyanion,PET_L10,bidirectional,1,Pro00083_PET_L10_bidirectional_r01,0.00812398,65,8001,False,False
+Pro00083,IsPETase,117,L117,Catalytic/oxyanion,PET_L10,head-side,2,Pro00083_PET_L10_head_side_r02,0.33483315,2679,8001,False,False
+Pro00083,IsPETase,117,L117,Catalytic/oxyanion,PET_L10,head-side,3,Pro00083_PET_L10_head_side_r03,0.42632171,3411,8001,False,False
+Pro00083,IsPETase,117,L117,Catalytic/oxyanion,PET_L10,tail-side,3,Pro00083_PET_L10_tail_side_r03,0.74278215,5943,8001,False,False
+Pro00083,IsPETase,117,L117,Catalytic/oxyanion,PET_L20,bidirectional,1,Pro00083_PET_L20_bidirectional_r01,0.08023997,642,8001,False,False
+Pro00083,IsPETase,117,L117,Catalytic/oxyanion,PET_L20,bidirectional,2,Pro00083_PET_L20_bidirectional_r02,0.3495813,2797,8001,False,False
+Pro00083,IsPETase,117,L117,Catalytic/oxyanion,PET_L20,head-side,1,Pro00083_PET_L20_head_side_r01,0.59317585,4746,8001,False,False
+Pro00083,IsPETase,117,L117,Catalytic/oxyanion,PET_L20,head-side,2,Pro00083_PET_L20_head_side_r02,0.08898888,712,8001,False,False
+Pro00083,IsPETase,117,L117,Catalytic/oxyanion,PET_L20,head-side,3,Pro00083_PET_L20_head_side_r03,0.0,0,8001,False,False
+Pro00083,IsPETase,117,L117,Catalytic/oxyanion,PET_L20,tail-side,1,Pro00083_PET_L20_tail_side_r01,0.78365204,6270,8001,False,False
+Pro00083,IsPETase,117,L117,Catalytic/oxyanion,PET_L20,tail-side,2,Pro00083_PET_L20_tail_side_r02,0.34045744,2724,8001,False,False
+Pro00083,IsPETase,119,Q119,Other/candidate,PET_L10,bidirectional,1,Pro00083_PET_L10_bidirectional_r01,0.01149856,92,8001,False,False
+Pro00083,IsPETase,119,Q119,Other/candidate,PET_L10,head-side,2,Pro00083_PET_L10_head_side_r02,0.8343957,6676,8001,False,False
+Pro00083,IsPETase,119,Q119,Other/candidate,PET_L10,head-side,3,Pro00083_PET_L10_head_side_r03,0.58380202,4671,8001,False,False
+Pro00083,IsPETase,119,Q119,Other/candidate,PET_L10,tail-side,3,Pro00083_PET_L10_tail_side_r03,0.78915136,6314,8001,False,False
+Pro00083,IsPETase,119,Q119,Other/candidate,PET_L20,bidirectional,1,Pro00083_PET_L20_bidirectional_r01,0.39770029,3182,8001,False,False
+Pro00083,IsPETase,119,Q119,Other/candidate,PET_L20,bidirectional,2,Pro00083_PET_L20_bidirectional_r02,0.21309836,1705,8001,False,False
+Pro00083,IsPETase,119,Q119,Other/candidate,PET_L20,head-side,1,Pro00083_PET_L20_head_side_r01,0.63704537,5097,8001,False,False
+Pro00083,IsPETase,119,Q119,Other/candidate,PET_L20,head-side,2,Pro00083_PET_L20_head_side_r02,0.06899138,552,8001,False,False
+Pro00083,IsPETase,119,Q119,Other/candidate,PET_L20,head-side,3,Pro00083_PET_L20_head_side_r03,0.0,0,8001,False,False
+Pro00083,IsPETase,119,Q119,Other/candidate,PET_L20,tail-side,1,Pro00083_PET_L20_tail_side_r01,0.50393701,4032,8001,False,False
+Pro00083,IsPETase,119,Q119,Other/candidate,PET_L20,tail-side,2,Pro00083_PET_L20_tail_side_r02,0.61242345,4900,8001,False,False
+Pro00083,IsPETase,160,S160,Catalytic/oxyanion,PET_L10,bidirectional,1,Pro00083_PET_L10_bidirectional_r01,0.0,0,8001,False,False
+Pro00083,IsPETase,160,S160,Catalytic/oxyanion,PET_L10,head-side,2,Pro00083_PET_L10_head_side_r02,0.12648419,1012,8001,False,False
+Pro00083,IsPETase,160,S160,Catalytic/oxyanion,PET_L10,head-side,3,Pro00083_PET_L10_head_side_r03,0.02062242,165,8001,False,False
+Pro00083,IsPETase,160,S160,Catalytic/oxyanion,PET_L10,tail-side,3,Pro00083_PET_L10_tail_side_r03,0.0,0,8001,False,False
+Pro00083,IsPETase,160,S160,Catalytic/oxyanion,PET_L20,bidirectional,1,Pro00083_PET_L20_bidirectional_r01,0.08261467,661,8001,False,False
+Pro00083,IsPETase,160,S160,Catalytic/oxyanion,PET_L20,bidirectional,2,Pro00083_PET_L20_bidirectional_r02,0.06324209,506,8001,False,False
+Pro00083,IsPETase,160,S160,Catalytic/oxyanion,PET_L20,head-side,1,Pro00083_PET_L20_head_side_r01,0.25621797,2050,8001,False,False
+Pro00083,IsPETase,160,S160,Catalytic/oxyanion,PET_L20,head-side,2,Pro00083_PET_L20_head_side_r02,0.98812648,7906,8001,False,False
+Pro00083,IsPETase,160,S160,Catalytic/oxyanion,PET_L20,head-side,3,Pro00083_PET_L20_head_side_r03,0.0,0,8001,False,False
+Pro00083,IsPETase,160,S160,Catalytic/oxyanion,PET_L20,tail-side,1,Pro00083_PET_L20_tail_side_r01,0.01224847,98,8001,False,False
+Pro00083,IsPETase,160,S160,Catalytic/oxyanion,PET_L20,tail-side,2,Pro00083_PET_L20_tail_side_r02,0.01162355,93,8001,False,False
+Pro00083,IsPETase,161,M161,Catalytic/oxyanion,PET_L10,bidirectional,1,Pro00083_PET_L10_bidirectional_r01,0.00624922,50,8001,False,False
+Pro00083,IsPETase,161,M161,Catalytic/oxyanion,PET_L10,head-side,2,Pro00083_PET_L10_head_side_r02,0.96362955,7710,8001,False,False
+Pro00083,IsPETase,161,M161,Catalytic/oxyanion,PET_L10,head-side,3,Pro00083_PET_L10_head_side_r03,0.94513186,7562,8001,False,False
+Pro00083,IsPETase,161,M161,Catalytic/oxyanion,PET_L10,tail-side,3,Pro00083_PET_L10_tail_side_r03,0.95225597,7619,8001,False,False
+Pro00083,IsPETase,161,M161,Catalytic/oxyanion,PET_L20,bidirectional,1,Pro00083_PET_L20_bidirectional_r01,0.52918385,4234,8001,False,False
+Pro00083,IsPETase,161,M161,Catalytic/oxyanion,PET_L20,bidirectional,2,Pro00083_PET_L20_bidirectional_r02,0.6424197,5140,8001,False,False
+Pro00083,IsPETase,161,M161,Catalytic/oxyanion,PET_L20,head-side,1,Pro00083_PET_L20_head_side_r01,0.84589426,6768,8001,False,False
+Pro00083,IsPETase,161,M161,Catalytic/oxyanion,PET_L20,head-side,2,Pro00083_PET_L20_head_side_r02,0.99912511,7994,8001,False,False
+Pro00083,IsPETase,161,M161,Catalytic/oxyanion,PET_L20,head-side,3,Pro00083_PET_L20_head_side_r03,0.0,0,8001,False,False
+Pro00083,IsPETase,161,M161,Catalytic/oxyanion,PET_L20,tail-side,1,Pro00083_PET_L20_tail_side_r01,0.94100737,7529,8001,False,False
+Pro00083,IsPETase,161,M161,Catalytic/oxyanion,PET_L20,tail-side,2,Pro00083_PET_L20_tail_side_r02,0.65816773,5266,8001,False,False
+Pro00083,IsPETase,185,W185,W-loop/flexible or rigid pair,PET_L10,bidirectional,1,Pro00083_PET_L10_bidirectional_r01,0.00987377,79,8001,False,False
+Pro00083,IsPETase,185,W185,W-loop/flexible or rigid pair,PET_L10,head-side,2,Pro00083_PET_L10_head_side_r02,0.99675041,7975,8001,False,False
+Pro00083,IsPETase,185,W185,W-loop/flexible or rigid pair,PET_L10,head-side,3,Pro00083_PET_L10_head_side_r03,0.76003,6081,8001,False,False
+Pro00083,IsPETase,185,W185,W-loop/flexible or rigid pair,PET_L10,tail-side,3,Pro00083_PET_L10_tail_side_r03,0.99000125,7921,8001,False,False
+Pro00083,IsPETase,185,W185,W-loop/flexible or rigid pair,PET_L20,bidirectional,1,Pro00083_PET_L20_bidirectional_r01,0.60304962,4825,8001,False,False
+Pro00083,IsPETase,185,W185,W-loop/flexible or rigid pair,PET_L20,bidirectional,2,Pro00083_PET_L20_bidirectional_r02,0.60654918,4853,8001,False,False
+Pro00083,IsPETase,185,W185,W-loop/flexible or rigid pair,PET_L20,head-side,1,Pro00083_PET_L20_head_side_r01,0.98300212,7865,8001,False,False
+Pro00083,IsPETase,185,W185,W-loop/flexible or rigid pair,PET_L20,head-side,2,Pro00083_PET_L20_head_side_r02,1.0,8001,8001,False,False
+Pro00083,IsPETase,185,W185,W-loop/flexible or rigid pair,PET_L20,head-side,3,Pro00083_PET_L20_head_side_r03,0.0,0,8001,False,False
+Pro00083,IsPETase,185,W185,W-loop/flexible or rigid pair,PET_L20,tail-side,1,Pro00083_PET_L20_tail_side_r01,0.98712661,7898,8001,False,False
+Pro00083,IsPETase,185,W185,W-loop/flexible or rigid pair,PET_L20,tail-side,2,Pro00083_PET_L20_tail_side_r02,0.6224222,4980,8001,False,False
+Pro00083,IsPETase,187,S187,W-loop/flexible or rigid pair,PET_L10,bidirectional,1,Pro00083_PET_L10_bidirectional_r01,0.01237345,99,8001,False,False
+Pro00083,IsPETase,187,S187,W-loop/flexible or rigid pair,PET_L10,head-side,2,Pro00083_PET_L10_head_side_r02,0.62054743,4965,8001,False,False
+Pro00083,IsPETase,187,S187,W-loop/flexible or rigid pair,PET_L10,head-side,3,Pro00083_PET_L10_head_side_r03,0.25509311,2041,8001,False,False
+Pro00083,IsPETase,187,S187,W-loop/flexible or rigid pair,PET_L10,tail-side,3,Pro00083_PET_L10_tail_side_r03,0.69791276,5584,8001,False,False
+Pro00083,IsPETase,187,S187,W-loop/flexible or rigid pair,PET_L20,bidirectional,1,Pro00083_PET_L20_bidirectional_r01,0.44644419,3572,8001,False,False
+Pro00083,IsPETase,187,S187,W-loop/flexible or rigid pair,PET_L20,bidirectional,2,Pro00083_PET_L20_bidirectional_r02,0.29408824,2353,8001,False,False
+Pro00083,IsPETase,187,S187,W-loop/flexible or rigid pair,PET_L20,head-side,1,Pro00083_PET_L20_head_side_r01,0.42119735,3370,8001,False,False
+Pro00083,IsPETase,187,S187,W-loop/flexible or rigid pair,PET_L20,head-side,2,Pro00083_PET_L20_head_side_r02,0.04949381,396,8001,False,False
+Pro00083,IsPETase,187,S187,W-loop/flexible or rigid pair,PET_L20,head-side,3,Pro00083_PET_L20_head_side_r03,0.0,0,8001,False,False
+Pro00083,IsPETase,187,S187,W-loop/flexible or rigid pair,PET_L20,tail-side,1,Pro00083_PET_L20_tail_side_r01,0.94625672,7571,8001,False,False
+Pro00083,IsPETase,187,S187,W-loop/flexible or rigid pair,PET_L20,tail-side,2,Pro00083_PET_L20_tail_side_r02,0.50168729,4014,8001,False,False
+Pro00083,IsPETase,207,S207,Cleft/rim patch,PET_L10,bidirectional,1,Pro00083_PET_L10_bidirectional_r01,0.0,0,8001,False,False
+Pro00083,IsPETase,207,S207,Cleft/rim patch,PET_L10,head-side,2,Pro00083_PET_L10_head_side_r02,0.68978878,5519,8001,False,False
+Pro00083,IsPETase,207,S207,Cleft/rim patch,PET_L10,head-side,3,Pro00083_PET_L10_head_side_r03,0.87564054,7006,8001,False,False
+Pro00083,IsPETase,207,S207,Cleft/rim patch,PET_L10,tail-side,3,Pro00083_PET_L10_tail_side_r03,0.87014123,6962,8001,False,False
+Pro00083,IsPETase,207,S207,Cleft/rim patch,PET_L20,bidirectional,1,Pro00083_PET_L20_bidirectional_r01,0.63217098,5058,8001,False,False
+Pro00083,IsPETase,207,S207,Cleft/rim patch,PET_L20,bidirectional,2,Pro00083_PET_L20_bidirectional_r02,0.5175603,4141,8001,False,False
+Pro00083,IsPETase,207,S207,Cleft/rim patch,PET_L20,head-side,1,Pro00083_PET_L20_head_side_r01,0.61667292,4934,8001,False,False
+Pro00083,IsPETase,207,S207,Cleft/rim patch,PET_L20,head-side,2,Pro00083_PET_L20_head_side_r02,0.74090739,5928,8001,False,False
+Pro00083,IsPETase,207,S207,Cleft/rim patch,PET_L20,head-side,3,Pro00083_PET_L20_head_side_r03,0.0,0,8001,False,False
+Pro00083,IsPETase,207,S207,Cleft/rim patch,PET_L20,tail-side,1,Pro00083_PET_L20_tail_side_r01,0.11698538,936,8001,False,False
+Pro00083,IsPETase,207,S207,Cleft/rim patch,PET_L20,tail-side,2,Pro00083_PET_L20_tail_side_r02,0.47994001,3840,8001,False,False
+Pro00083,IsPETase,208,I208,Cleft/rim patch,PET_L10,bidirectional,1,Pro00083_PET_L10_bidirectional_r01,0.00249969,20,8001,False,False
+Pro00083,IsPETase,208,I208,Cleft/rim patch,PET_L10,head-side,2,Pro00083_PET_L10_head_side_r02,0.95238095,7620,8001,False,False
+Pro00083,IsPETase,208,I208,Cleft/rim patch,PET_L10,head-side,3,Pro00083_PET_L10_head_side_r03,0.98937633,7916,8001,False,False
+Pro00083,IsPETase,208,I208,Cleft/rim patch,PET_L10,tail-side,3,Pro00083_PET_L10_tail_side_r03,0.99250094,7941,8001,False,False
+Pro00083,IsPETase,208,I208,Cleft/rim patch,PET_L20,bidirectional,1,Pro00083_PET_L20_bidirectional_r01,0.68541432,5484,8001,False,False
+Pro00083,IsPETase,208,I208,Cleft/rim patch,PET_L20,bidirectional,2,Pro00083_PET_L20_bidirectional_r02,0.73953256,5917,8001,False,False
+Pro00083,IsPETase,208,I208,Cleft/rim patch,PET_L20,head-side,1,Pro00083_PET_L20_head_side_r01,0.96812898,7746,8001,False,False
+Pro00083,IsPETase,208,I208,Cleft/rim patch,PET_L20,head-side,2,Pro00083_PET_L20_head_side_r02,1.0,8001,8001,False,False
+Pro00083,IsPETase,208,I208,Cleft/rim patch,PET_L20,head-side,3,Pro00083_PET_L20_head_side_r03,0.0,0,8001,False,False
+Pro00083,IsPETase,208,I208,Cleft/rim patch,PET_L20,tail-side,1,Pro00083_PET_L20_tail_side_r01,0.96862892,7750,8001,False,False
+Pro00083,IsPETase,208,I208,Cleft/rim patch,PET_L20,tail-side,2,Pro00083_PET_L20_tail_side_r02,0.70391201,5632,8001,False,False
+Pro00083,IsPETase,209,A209,W-loop/flexible or rigid pair,PET_L10,bidirectional,1,Pro00083_PET_L10_bidirectional_r01,0.0,0,8001,False,False
+Pro00083,IsPETase,209,A209,W-loop/flexible or rigid pair,PET_L10,head-side,2,Pro00083_PET_L10_head_side_r02,0.44356955,3549,8001,False,False
+Pro00083,IsPETase,209,A209,W-loop/flexible or rigid pair,PET_L10,head-side,3,Pro00083_PET_L10_head_side_r03,0.43182102,3455,8001,False,False
+Pro00083,IsPETase,209,A209,W-loop/flexible or rigid pair,PET_L10,tail-side,3,Pro00083_PET_L10_tail_side_r03,0.37232846,2979,8001,False,False
+Pro00083,IsPETase,209,A209,W-loop/flexible or rigid pair,PET_L20,bidirectional,1,Pro00083_PET_L20_bidirectional_r01,0.17897763,1432,8001,False,False
+Pro00083,IsPETase,209,A209,W-loop/flexible or rigid pair,PET_L20,bidirectional,2,Pro00083_PET_L20_bidirectional_r02,0.05811774,465,8001,False,False
+Pro00083,IsPETase,209,A209,W-loop/flexible or rigid pair,PET_L20,head-side,1,Pro00083_PET_L20_head_side_r01,0.21822272,1746,8001,False,False
+Pro00083,IsPETase,209,A209,W-loop/flexible or rigid pair,PET_L20,head-side,2,Pro00083_PET_L20_head_side_r02,0.88913886,7114,8001,False,False
+Pro00083,IsPETase,209,A209,W-loop/flexible or rigid pair,PET_L20,head-side,3,Pro00083_PET_L20_head_side_r03,0.0,0,8001,False,False
+Pro00083,IsPETase,209,A209,W-loop/flexible or rigid pair,PET_L20,tail-side,1,Pro00083_PET_L20_tail_side_r01,0.65166854,5214,8001,False,False
+Pro00083,IsPETase,209,A209,W-loop/flexible or rigid pair,PET_L20,tail-side,2,Pro00083_PET_L20_tail_side_r02,0.00437445,35,8001,False,False
+Pro00083,IsPETase,210,P210,Catalytic/oxyanion,PET_L10,bidirectional,1,Pro00083_PET_L10_bidirectional_r01,0.0,0,8001,False,False
+Pro00083,IsPETase,210,P210,Catalytic/oxyanion,PET_L10,head-side,2,Pro00083_PET_L10_head_side_r02,0.43894513,3512,8001,False,False
+Pro00083,IsPETase,210,P210,Catalytic/oxyanion,PET_L10,head-side,3,Pro00083_PET_L10_head_side_r03,0.45606799,3649,8001,False,False
+Pro00083,IsPETase,210,P210,Catalytic/oxyanion,PET_L10,tail-side,3,Pro00083_PET_L10_tail_side_r03,0.56742907,4540,8001,False,False
+Pro00083,IsPETase,210,P210,Catalytic/oxyanion,PET_L20,bidirectional,1,Pro00083_PET_L20_bidirectional_r01,0.25059368,2005,8001,False,False
+Pro00083,IsPETase,210,P210,Catalytic/oxyanion,PET_L20,bidirectional,2,Pro00083_PET_L20_bidirectional_r02,0.31408574,2513,8001,False,False
+Pro00083,IsPETase,210,P210,Catalytic/oxyanion,PET_L20,head-side,1,Pro00083_PET_L20_head_side_r01,0.54118235,4330,8001,False,False
+Pro00083,IsPETase,210,P210,Catalytic/oxyanion,PET_L20,head-side,2,Pro00083_PET_L20_head_side_r02,0.37007874,2961,8001,False,False
+Pro00083,IsPETase,210,P210,Catalytic/oxyanion,PET_L20,head-side,3,Pro00083_PET_L20_head_side_r03,0.0,0,8001,False,False
+Pro00083,IsPETase,210,P210,Catalytic/oxyanion,PET_L20,tail-side,1,Pro00083_PET_L20_tail_side_r01,0.23559555,1885,8001,False,False
+Pro00083,IsPETase,210,P210,Catalytic/oxyanion,PET_L20,tail-side,2,Pro00083_PET_L20_tail_side_r02,0.20134983,1611,8001,False,False
+Pro00083,IsPETase,213,S213,W-loop/flexible or rigid pair,PET_L10,bidirectional,1,Pro00083_PET_L10_bidirectional_r01,0.0,0,8001,False,False
+Pro00083,IsPETase,213,S213,W-loop/flexible or rigid pair,PET_L10,head-side,2,Pro00083_PET_L10_head_side_r02,0.51931009,4155,8001,False,False
+Pro00083,IsPETase,213,S213,W-loop/flexible or rigid pair,PET_L10,head-side,3,Pro00083_PET_L10_head_side_r03,0.25571804,2046,8001,False,False
+Pro00083,IsPETase,213,S213,W-loop/flexible or rigid pair,PET_L10,tail-side,3,Pro00083_PET_L10_tail_side_r03,0.55380577,4431,8001,False,False
+Pro00083,IsPETase,213,S213,W-loop/flexible or rigid pair,PET_L20,bidirectional,1,Pro00083_PET_L20_bidirectional_r01,0.44569429,3566,8001,False,False
+Pro00083,IsPETase,213,S213,W-loop/flexible or rigid pair,PET_L20,bidirectional,2,Pro00083_PET_L20_bidirectional_r02,0.49706287,3977,8001,False,False
+Pro00083,IsPETase,213,S213,W-loop/flexible or rigid pair,PET_L20,head-side,1,Pro00083_PET_L20_head_side_r01,0.51418573,4114,8001,False,False
+Pro00083,IsPETase,213,S213,W-loop/flexible or rigid pair,PET_L20,head-side,2,Pro00083_PET_L20_head_side_r02,0.19285089,1543,8001,False,False
+Pro00083,IsPETase,213,S213,W-loop/flexible or rigid pair,PET_L20,head-side,3,Pro00083_PET_L20_head_side_r03,0.0,0,8001,False,False
+Pro00083,IsPETase,213,S213,W-loop/flexible or rigid pair,PET_L20,tail-side,1,Pro00083_PET_L20_tail_side_r01,0.44531934,3563,8001,False,False
+Pro00083,IsPETase,213,S213,W-loop/flexible or rigid pair,PET_L20,tail-side,2,Pro00083_PET_L20_tail_side_r02,0.26584177,2127,8001,False,False
+Pro00083,IsPETase,224,R224,Other/candidate,PET_L10,bidirectional,1,Pro00083_PET_L10_bidirectional_r01,0.70891139,5672,8001,False,False
+Pro00083,IsPETase,224,R224,Other/candidate,PET_L10,head-side,2,Pro00083_PET_L10_head_side_r02,0.0,0,8001,False,False
+Pro00083,IsPETase,224,R224,Other/candidate,PET_L10,head-side,3,Pro00083_PET_L10_head_side_r03,0.0,0,8001,False,False
+Pro00083,IsPETase,224,R224,Other/candidate,PET_L10,tail-side,3,Pro00083_PET_L10_tail_side_r03,0.0,0,8001,False,False
+Pro00083,IsPETase,224,R224,Other/candidate,PET_L20,bidirectional,1,Pro00083_PET_L20_bidirectional_r01,0.0,0,8001,False,False
+Pro00083,IsPETase,224,R224,Other/candidate,PET_L20,bidirectional,2,Pro00083_PET_L20_bidirectional_r02,0.0,0,8001,False,False
+Pro00083,IsPETase,224,R224,Other/candidate,PET_L20,head-side,1,Pro00083_PET_L20_head_side_r01,0.0,0,8001,False,False
+Pro00083,IsPETase,224,R224,Other/candidate,PET_L20,head-side,2,Pro00083_PET_L20_head_side_r02,0.0,0,8001,False,False
+Pro00083,IsPETase,224,R224,Other/candidate,PET_L20,head-side,3,Pro00083_PET_L20_head_side_r03,0.0,0,8001,False,False
+Pro00083,IsPETase,224,R224,Other/candidate,PET_L20,tail-side,1,Pro00083_PET_L20_tail_side_r01,0.0,0,8001,False,False
+Pro00083,IsPETase,224,R224,Other/candidate,PET_L20,tail-side,2,Pro00083_PET_L20_tail_side_r02,0.00124984,10,8001,False,False
+Pro00083,IsPETase,237,H237,Catalytic/oxyanion,PET_L10,bidirectional,1,Pro00083_PET_L10_bidirectional_r01,0.0,0,8001,False,False
+Pro00083,IsPETase,237,H237,Catalytic/oxyanion,PET_L10,head-side,2,Pro00083_PET_L10_head_side_r02,0.0376203,301,8001,False,False
+Pro00083,IsPETase,237,H237,Catalytic/oxyanion,PET_L10,head-side,3,Pro00083_PET_L10_head_side_r03,0.32845894,2628,8001,False,False
+Pro00083,IsPETase,237,H237,Catalytic/oxyanion,PET_L10,tail-side,3,Pro00083_PET_L10_tail_side_r03,0.00374953,30,8001,False,False
+Pro00083,IsPETase,237,H237,Catalytic/oxyanion,PET_L20,bidirectional,1,Pro00083_PET_L20_bidirectional_r01,0.32208474,2577,8001,False,False
+Pro00083,IsPETase,237,H237,Catalytic/oxyanion,PET_L20,bidirectional,2,Pro00083_PET_L20_bidirectional_r02,0.33870766,2710,8001,False,False
+Pro00083,IsPETase,237,H237,Catalytic/oxyanion,PET_L20,head-side,1,Pro00083_PET_L20_head_side_r01,0.13060867,1045,8001,False,False
+Pro00083,IsPETase,237,H237,Catalytic/oxyanion,PET_L20,head-side,2,Pro00083_PET_L20_head_side_r02,0.04424447,354,8001,False,False
+Pro00083,IsPETase,237,H237,Catalytic/oxyanion,PET_L20,head-side,3,Pro00083_PET_L20_head_side_r03,0.0,0,8001,False,False
+Pro00083,IsPETase,237,H237,Catalytic/oxyanion,PET_L20,tail-side,1,Pro00083_PET_L20_tail_side_r01,0.24121985,1930,8001,False,False
+Pro00083,IsPETase,237,H237,Catalytic/oxyanion,PET_L20,tail-side,2,Pro00083_PET_L20_tail_side_r02,0.06299213,504,8001,False,False
+Pro00121,HiC,29,T29,Cleft/rim patch,PET_L10,bidirectional,3,Pro00121_PET_L10_bidirectional_r03,0.58655168,4693,8001,True,True
+Pro00121,HiC,29,T29,Cleft/rim patch,PET_L10,head-side,2,Pro00121_PET_L10_head_side_r02,0.04249469,340,8001,True,True
+Pro00121,HiC,29,T29,Cleft/rim patch,PET_L10,tail-side,1,Pro00121_PET_L10_tail_side_r01,0.9903762,7924,8001,True,True
+Pro00121,HiC,29,T29,Cleft/rim patch,PET_L10,tail-side,2,Pro00121_PET_L10_tail_side_r02,0.46706662,3737,8001,True,True
+Pro00121,HiC,29,T29,Cleft/rim patch,PET_L10,tail-side,3,Pro00121_PET_L10_tail_side_r03,0.12085989,967,8001,True,True
+Pro00121,HiC,29,T29,Cleft/rim patch,PET_L20,bidirectional,1,Pro00121_PET_L20_bidirectional_r01,0.66141732,5292,8001,True,True
+Pro00121,HiC,29,T29,Cleft/rim patch,PET_L20,bidirectional,2,Pro00121_PET_L20_bidirectional_r02,0.78302712,6265,8001,True,True
+Pro00121,HiC,29,T29,Cleft/rim patch,PET_L20,bidirectional,3,Pro00121_PET_L20_bidirectional_r03,0.87539058,7004,8001,True,True
+Pro00121,HiC,29,T29,Cleft/rim patch,PET_L20,head-side,1,Pro00121_PET_L20_head_side_r01,0.00012498,1,8001,True,True
+Pro00121,HiC,29,T29,Cleft/rim patch,PET_L20,head-side,2,Pro00121_PET_L20_head_side_r02,0.99287589,7944,8001,True,True
+Pro00121,HiC,29,T29,Cleft/rim patch,PET_L20,head-side,3,Pro00121_PET_L20_head_side_r03,0.08786402,703,8001,True,True
+Pro00121,HiC,29,T29,Cleft/rim patch,PET_L20,tail-side,1,Pro00121_PET_L20_tail_side_r01,0.77627797,6211,8001,True,True
+Pro00121,HiC,29,T29,Cleft/rim patch,PET_L20,tail-side,2,Pro00121_PET_L20_tail_side_r02,0.00012498,1,8001,True,True
+Pro00121,HiC,38,V38,Other/candidate,PET_L10,bidirectional,3,Pro00121_PET_L10_bidirectional_r03,0.0,0,8001,True,True
+Pro00121,HiC,38,V38,Other/candidate,PET_L10,head-side,2,Pro00121_PET_L10_head_side_r02,0.0,0,8001,True,True
+Pro00121,HiC,38,V38,Other/candidate,PET_L10,tail-side,1,Pro00121_PET_L10_tail_side_r01,0.20859893,1669,8001,True,True
+Pro00121,HiC,38,V38,Other/candidate,PET_L10,tail-side,2,Pro00121_PET_L10_tail_side_r02,0.47169104,3774,8001,True,True
+Pro00121,HiC,38,V38,Other/candidate,PET_L10,tail-side,3,Pro00121_PET_L10_tail_side_r03,0.0,0,8001,True,True
+Pro00121,HiC,38,V38,Other/candidate,PET_L20,bidirectional,1,Pro00121_PET_L20_bidirectional_r01,0.0,0,8001,True,True
+Pro00121,HiC,38,V38,Other/candidate,PET_L20,bidirectional,2,Pro00121_PET_L20_bidirectional_r02,0.00099988,8,8001,True,True
+Pro00121,HiC,38,V38,Other/candidate,PET_L20,bidirectional,3,Pro00121_PET_L20_bidirectional_r03,0.0,0,8001,True,True
+Pro00121,HiC,38,V38,Other/candidate,PET_L20,head-side,1,Pro00121_PET_L20_head_side_r01,0.0,0,8001,True,True
+Pro00121,HiC,38,V38,Other/candidate,PET_L20,head-side,2,Pro00121_PET_L20_head_side_r02,0.0,0,8001,True,True
+Pro00121,HiC,38,V38,Other/candidate,PET_L20,head-side,3,Pro00121_PET_L20_head_side_r03,0.0,0,8001,True,True
+Pro00121,HiC,38,V38,Other/candidate,PET_L20,tail-side,1,Pro00121_PET_L20_tail_side_r01,0.00062492,5,8001,True,True
+Pro00121,HiC,38,V38,Other/candidate,PET_L20,tail-side,2,Pro00121_PET_L20_tail_side_r02,0.0,0,8001,True,True
+Pro00121,HiC,66,L66,Cleft/rim patch,PET_L10,bidirectional,3,Pro00121_PET_L10_bidirectional_r03,0.92588426,7408,8001,True,True
+Pro00121,HiC,66,L66,Cleft/rim patch,PET_L10,head-side,2,Pro00121_PET_L10_head_side_r02,0.16972878,1358,8001,True,True
+Pro00121,HiC,66,L66,Cleft/rim patch,PET_L10,tail-side,1,Pro00121_PET_L10_tail_side_r01,0.99850019,7989,8001,True,True
+Pro00121,HiC,66,L66,Cleft/rim patch,PET_L10,tail-side,2,Pro00121_PET_L10_tail_side_r02,0.09948756,796,8001,True,True
+Pro00121,HiC,66,L66,Cleft/rim patch,PET_L10,tail-side,3,Pro00121_PET_L10_tail_side_r03,0.60004999,4801,8001,True,True
+Pro00121,HiC,66,L66,Cleft/rim patch,PET_L20,bidirectional,1,Pro00121_PET_L20_bidirectional_r01,0.99987502,8000,8001,True,True
+Pro00121,HiC,66,L66,Cleft/rim patch,PET_L20,bidirectional,2,Pro00121_PET_L20_bidirectional_r02,0.91651044,7333,8001,True,True
+Pro00121,HiC,66,L66,Cleft/rim patch,PET_L20,bidirectional,3,Pro00121_PET_L20_bidirectional_r03,0.94700662,7577,8001,True,True
+Pro00121,HiC,66,L66,Cleft/rim patch,PET_L20,head-side,1,Pro00121_PET_L20_head_side_r01,0.61592301,4928,8001,True,True
+Pro00121,HiC,66,L66,Cleft/rim patch,PET_L20,head-side,2,Pro00121_PET_L20_head_side_r02,0.72378453,5791,8001,True,True
+Pro00121,HiC,66,L66,Cleft/rim patch,PET_L20,head-side,3,Pro00121_PET_L20_head_side_r03,0.55243095,4420,8001,True,True
+Pro00121,HiC,66,L66,Cleft/rim patch,PET_L20,tail-side,1,Pro00121_PET_L20_tail_side_r01,0.78090239,6248,8001,True,True
+Pro00121,HiC,66,L66,Cleft/rim patch,PET_L20,tail-side,2,Pro00121_PET_L20_tail_side_r02,0.31133608,2491,8001,True,True
+Pro00121,HiC,67,A67,Cleft/rim patch,PET_L10,bidirectional,3,Pro00121_PET_L10_bidirectional_r03,0.95850519,7669,8001,True,True
+Pro00121,HiC,67,A67,Cleft/rim patch,PET_L10,head-side,2,Pro00121_PET_L10_head_side_r02,0.15473066,1238,8001,True,True
+Pro00121,HiC,67,A67,Cleft/rim patch,PET_L10,tail-side,1,Pro00121_PET_L10_tail_side_r01,0.7480315,5985,8001,True,True
+Pro00121,HiC,67,A67,Cleft/rim patch,PET_L10,tail-side,2,Pro00121_PET_L10_tail_side_r02,0.00337458,27,8001,True,True
+Pro00121,HiC,67,A67,Cleft/rim patch,PET_L10,tail-side,3,Pro00121_PET_L10_tail_side_r03,0.27509061,2201,8001,True,True
+Pro00121,HiC,67,A67,Cleft/rim patch,PET_L20,bidirectional,1,Pro00121_PET_L20_bidirectional_r01,0.0,0,8001,True,True
+Pro00121,HiC,67,A67,Cleft/rim patch,PET_L20,bidirectional,2,Pro00121_PET_L20_bidirectional_r02,0.51706037,4137,8001,True,True
+Pro00121,HiC,67,A67,Cleft/rim patch,PET_L20,bidirectional,3,Pro00121_PET_L20_bidirectional_r03,0.2895888,2317,8001,True,True
+Pro00121,HiC,67,A67,Cleft/rim patch,PET_L20,head-side,1,Pro00121_PET_L20_head_side_r01,0.76702912,6137,8001,True,True
+Pro00121,HiC,67,A67,Cleft/rim patch,PET_L20,head-side,2,Pro00121_PET_L20_head_side_r02,0.49631296,3971,8001,True,True
+Pro00121,HiC,67,A67,Cleft/rim patch,PET_L20,head-side,3,Pro00121_PET_L20_head_side_r03,0.48806399,3905,8001,True,True
+Pro00121,HiC,67,A67,Cleft/rim patch,PET_L20,tail-side,1,Pro00121_PET_L20_tail_side_r01,0.39295088,3144,8001,True,True
+Pro00121,HiC,67,A67,Cleft/rim patch,PET_L20,tail-side,2,Pro00121_PET_L20_tail_side_r02,0.0679915,544,8001,True,True
+Pro00121,HiC,68,T68,Cleft/rim patch,PET_L10,bidirectional,3,Pro00121_PET_L10_bidirectional_r03,0.58780152,4703,8001,True,True
+Pro00121,HiC,68,T68,Cleft/rim patch,PET_L10,head-side,2,Pro00121_PET_L10_head_side_r02,0.39645044,3172,8001,True,True
+Pro00121,HiC,68,T68,Cleft/rim patch,PET_L10,tail-side,1,Pro00121_PET_L10_tail_side_r01,0.20509936,1641,8001,True,True
+Pro00121,HiC,68,T68,Cleft/rim patch,PET_L10,tail-side,2,Pro00121_PET_L10_tail_side_r02,0.00199975,16,8001,True,True
+Pro00121,HiC,68,T68,Cleft/rim patch,PET_L10,tail-side,3,Pro00121_PET_L10_tail_side_r03,0.00887389,71,8001,True,True
+Pro00121,HiC,68,T68,Cleft/rim patch,PET_L20,bidirectional,1,Pro00121_PET_L20_bidirectional_r01,0.0,0,8001,True,True
+Pro00121,HiC,68,T68,Cleft/rim patch,PET_L20,bidirectional,2,Pro00121_PET_L20_bidirectional_r02,0.55618048,4450,8001,True,True
+Pro00121,HiC,68,T68,Cleft/rim patch,PET_L20,bidirectional,3,Pro00121_PET_L20_bidirectional_r03,0.01624797,130,8001,True,True
+Pro00121,HiC,68,T68,Cleft/rim patch,PET_L20,head-side,1,Pro00121_PET_L20_head_side_r01,0.00362455,29,8001,True,True
+Pro00121,HiC,68,T68,Cleft/rim patch,PET_L20,head-side,2,Pro00121_PET_L20_head_side_r02,0.05824272,466,8001,True,True
+Pro00121,HiC,68,T68,Cleft/rim patch,PET_L20,head-side,3,Pro00121_PET_L20_head_side_r03,0.06611674,529,8001,True,True
+Pro00121,HiC,68,T68,Cleft/rim patch,PET_L20,tail-side,1,Pro00121_PET_L20_tail_side_r01,0.00012498,1,8001,True,True
+Pro00121,HiC,68,T68,Cleft/rim patch,PET_L20,tail-side,2,Pro00121_PET_L20_tail_side_r02,0.00074991,6,8001,True,True
+Pro00121,HiC,70,F70,Cleft/rim patch,PET_L10,bidirectional,3,Pro00121_PET_L10_bidirectional_r03,0.92463442,7398,8001,True,True
+Pro00121,HiC,70,F70,Cleft/rim patch,PET_L10,head-side,2,Pro00121_PET_L10_head_side_r02,0.63504562,5081,8001,True,True
+Pro00121,HiC,70,F70,Cleft/rim patch,PET_L10,tail-side,1,Pro00121_PET_L10_tail_side_r01,0.97925259,7835,8001,True,True
+Pro00121,HiC,70,F70,Cleft/rim patch,PET_L10,tail-side,2,Pro00121_PET_L10_tail_side_r02,0.0,0,8001,True,True
+Pro00121,HiC,70,F70,Cleft/rim patch,PET_L10,tail-side,3,Pro00121_PET_L10_tail_side_r03,0.98387702,7872,8001,True,True
+Pro00121,HiC,70,F70,Cleft/rim patch,PET_L20,bidirectional,1,Pro00121_PET_L20_bidirectional_r01,0.99387577,7952,8001,True,True
+Pro00121,HiC,70,F70,Cleft/rim patch,PET_L20,bidirectional,2,Pro00121_PET_L20_bidirectional_r02,0.62354706,4989,8001,True,True
+Pro00121,HiC,70,F70,Cleft/rim patch,PET_L20,bidirectional,3,Pro00121_PET_L20_bidirectional_r03,0.80127484,6411,8001,True,True
+Pro00121,HiC,70,F70,Cleft/rim patch,PET_L20,head-side,1,Pro00121_PET_L20_head_side_r01,0.99987502,8000,8001,True,True
+Pro00121,HiC,70,F70,Cleft/rim patch,PET_L20,head-side,2,Pro00121_PET_L20_head_side_r02,0.73540807,5884,8001,True,True
+Pro00121,HiC,70,F70,Cleft/rim patch,PET_L20,head-side,3,Pro00121_PET_L20_head_side_r03,0.97987752,7840,8001,True,True
+Pro00121,HiC,70,F70,Cleft/rim patch,PET_L20,tail-side,1,Pro00121_PET_L20_tail_side_r01,0.70528684,5643,8001,True,True
+Pro00121,HiC,70,F70,Cleft/rim patch,PET_L20,tail-side,2,Pro00121_PET_L20_tail_side_r02,0.79915011,6394,8001,True,True
+Pro00121,HiC,104,Y104,Catalytic/oxyanion,PET_L10,bidirectional,3,Pro00121_PET_L10_bidirectional_r03,0.00062492,5,8001,True,True
+Pro00121,HiC,104,Y104,Catalytic/oxyanion,PET_L10,head-side,2,Pro00121_PET_L10_head_side_r02,0.00112486,9,8001,True,True
+Pro00121,HiC,104,Y104,Catalytic/oxyanion,PET_L10,tail-side,1,Pro00121_PET_L10_tail_side_r01,0.83714536,6698,8001,True,True
+Pro00121,HiC,104,Y104,Catalytic/oxyanion,PET_L10,tail-side,2,Pro00121_PET_L10_tail_side_r02,0.96837895,7748,8001,True,True
+Pro00121,HiC,104,Y104,Catalytic/oxyanion,PET_L10,tail-side,3,Pro00121_PET_L10_tail_side_r03,0.00599925,48,8001,True,True
+Pro00121,HiC,104,Y104,Catalytic/oxyanion,PET_L20,bidirectional,1,Pro00121_PET_L20_bidirectional_r01,0.23334583,1867,8001,True,True
+Pro00121,HiC,104,Y104,Catalytic/oxyanion,PET_L20,bidirectional,2,Pro00121_PET_L20_bidirectional_r02,0.0703662,563,8001,True,True
+Pro00121,HiC,104,Y104,Catalytic/oxyanion,PET_L20,bidirectional,3,Pro00121_PET_L20_bidirectional_r03,0.16185477,1295,8001,True,True
+Pro00121,HiC,104,Y104,Catalytic/oxyanion,PET_L20,head-side,1,Pro00121_PET_L20_head_side_r01,0.0,0,8001,True,True
+Pro00121,HiC,104,Y104,Catalytic/oxyanion,PET_L20,head-side,2,Pro00121_PET_L20_head_side_r02,0.18910136,1513,8001,True,True
+Pro00121,HiC,104,Y104,Catalytic/oxyanion,PET_L20,head-side,3,Pro00121_PET_L20_head_side_r03,0.0,0,8001,True,True
+Pro00121,HiC,104,Y104,Catalytic/oxyanion,PET_L20,tail-side,1,Pro00121_PET_L20_tail_side_r01,0.0863642,691,8001,True,True
+Pro00121,HiC,104,Y104,Catalytic/oxyanion,PET_L20,tail-side,2,Pro00121_PET_L20_tail_side_r02,0.0,0,8001,True,True
+Pro00121,HiC,138,L138,Other/candidate,PET_L10,bidirectional,3,Pro00121_PET_L10_bidirectional_r03,0.0,0,8001,True,True
+Pro00121,HiC,138,L138,Other/candidate,PET_L10,head-side,2,Pro00121_PET_L10_head_side_r02,0.43132108,3451,8001,True,True
+Pro00121,HiC,138,L138,Other/candidate,PET_L10,tail-side,1,Pro00121_PET_L10_tail_side_r01,0.0,0,8001,True,True
+Pro00121,HiC,138,L138,Other/candidate,PET_L10,tail-side,2,Pro00121_PET_L10_tail_side_r02,0.0,0,8001,True,True
+Pro00121,HiC,138,L138,Other/candidate,PET_L10,tail-side,3,Pro00121_PET_L10_tail_side_r03,0.12748406,1020,8001,True,True
+Pro00121,HiC,138,L138,Other/candidate,PET_L20,bidirectional,1,Pro00121_PET_L20_bidirectional_r01,0.24696913,1976,8001,True,True
+Pro00121,HiC,138,L138,Other/candidate,PET_L20,bidirectional,2,Pro00121_PET_L20_bidirectional_r02,0.27709036,2217,8001,True,True
+Pro00121,HiC,138,L138,Other/candidate,PET_L20,bidirectional,3,Pro00121_PET_L20_bidirectional_r03,0.00187477,15,8001,True,True
+Pro00121,HiC,138,L138,Other/candidate,PET_L20,head-side,1,Pro00121_PET_L20_head_side_r01,0.83827022,6707,8001,True,True
+Pro00121,HiC,138,L138,Other/candidate,PET_L20,head-side,2,Pro00121_PET_L20_head_side_r02,0.20734908,1659,8001,True,True
+Pro00121,HiC,138,L138,Other/candidate,PET_L20,head-side,3,Pro00121_PET_L20_head_side_r03,0.54268216,4342,8001,True,True
+Pro00121,HiC,138,L138,Other/candidate,PET_L20,tail-side,1,Pro00121_PET_L20_tail_side_r01,0.32495938,2600,8001,True,True
+Pro00121,HiC,138,L138,Other/candidate,PET_L20,tail-side,2,Pro00121_PET_L20_tail_side_r02,0.96550431,7725,8001,True,True
+Pro00121,HiC,164,T164,Cleft/rim patch,PET_L10,bidirectional,3,Pro00121_PET_L10_bidirectional_r03,0.00699913,56,8001,True,True
+Pro00121,HiC,164,T164,Cleft/rim patch,PET_L10,head-side,2,Pro00121_PET_L10_head_side_r02,0.2375953,1901,8001,True,True
+Pro00121,HiC,164,T164,Cleft/rim patch,PET_L10,tail-side,1,Pro00121_PET_L10_tail_side_r01,0.00199975,16,8001,True,True
+Pro00121,HiC,164,T164,Cleft/rim patch,PET_L10,tail-side,2,Pro00121_PET_L10_tail_side_r02,0.0,0,8001,True,True
+Pro00121,HiC,164,T164,Cleft/rim patch,PET_L10,tail-side,3,Pro00121_PET_L10_tail_side_r03,0.41469816,3318,8001,True,True
+Pro00121,HiC,164,T164,Cleft/rim patch,PET_L20,bidirectional,1,Pro00121_PET_L20_bidirectional_r01,0.88501437,7081,8001,True,True
+Pro00121,HiC,164,T164,Cleft/rim patch,PET_L20,bidirectional,2,Pro00121_PET_L20_bidirectional_r02,0.5591801,4474,8001,True,True
+Pro00121,HiC,164,T164,Cleft/rim patch,PET_L20,bidirectional,3,Pro00121_PET_L20_bidirectional_r03,0.01462317,117,8001,True,True
+Pro00121,HiC,164,T164,Cleft/rim patch,PET_L20,head-side,1,Pro00121_PET_L20_head_side_r01,0.80414948,6434,8001,True,True
+Pro00121,HiC,164,T164,Cleft/rim patch,PET_L20,head-side,2,Pro00121_PET_L20_head_side_r02,0.44169479,3534,8001,True,True
+Pro00121,HiC,164,T164,Cleft/rim patch,PET_L20,head-side,3,Pro00121_PET_L20_head_side_r03,0.24496938,1960,8001,True,True
+Pro00121,HiC,164,T164,Cleft/rim patch,PET_L20,tail-side,1,Pro00121_PET_L20_tail_side_r01,0.46431696,3715,8001,True,True
+Pro00121,HiC,164,T164,Cleft/rim patch,PET_L20,tail-side,2,Pro00121_PET_L20_tail_side_r02,0.93925759,7515,8001,True,True
+Pro00121,HiC,165,G165,Cleft/rim patch,PET_L10,bidirectional,3,Pro00121_PET_L10_bidirectional_r03,0.23034621,1843,8001,True,True
+Pro00121,HiC,165,G165,Cleft/rim patch,PET_L10,head-side,2,Pro00121_PET_L10_head_side_r02,0.46331709,3707,8001,True,True
+Pro00121,HiC,165,G165,Cleft/rim patch,PET_L10,tail-side,1,Pro00121_PET_L10_tail_side_r01,0.08811399,705,8001,True,True
+Pro00121,HiC,165,G165,Cleft/rim patch,PET_L10,tail-side,2,Pro00121_PET_L10_tail_side_r02,0.0,0,8001,True,True
+Pro00121,HiC,165,G165,Cleft/rim patch,PET_L10,tail-side,3,Pro00121_PET_L10_tail_side_r03,0.82039745,6564,8001,True,True
+Pro00121,HiC,165,G165,Cleft/rim patch,PET_L20,bidirectional,1,Pro00121_PET_L20_bidirectional_r01,0.9560055,7649,8001,True,True
+Pro00121,HiC,165,G165,Cleft/rim patch,PET_L20,bidirectional,2,Pro00121_PET_L20_bidirectional_r02,0.60054993,4805,8001,True,True
+Pro00121,HiC,165,G165,Cleft/rim patch,PET_L20,bidirectional,3,Pro00121_PET_L20_bidirectional_r03,0.0903637,723,8001,True,True
+Pro00121,HiC,165,G165,Cleft/rim patch,PET_L20,head-side,1,Pro00121_PET_L20_head_side_r01,0.91151106,7293,8001,True,True
+Pro00121,HiC,165,G165,Cleft/rim patch,PET_L20,head-side,2,Pro00121_PET_L20_head_side_r02,0.5248094,4199,8001,True,True
+Pro00121,HiC,165,G165,Cleft/rim patch,PET_L20,head-side,3,Pro00121_PET_L20_head_side_r03,0.51381077,4111,8001,True,True
+Pro00121,HiC,165,G165,Cleft/rim patch,PET_L20,tail-side,1,Pro00121_PET_L20_tail_side_r01,0.56730409,4539,8001,True,True
+Pro00121,HiC,165,G165,Cleft/rim patch,PET_L20,tail-side,2,Pro00121_PET_L20_tail_side_r02,0.71103612,5689,8001,True,True
+Pro00121,HiC,166,T166,Cleft/rim patch,PET_L10,bidirectional,3,Pro00121_PET_L10_bidirectional_r03,0.38307712,3065,8001,True,True
+Pro00121,HiC,166,T166,Cleft/rim patch,PET_L10,head-side,2,Pro00121_PET_L10_head_side_r02,0.41494813,3320,8001,True,True
+Pro00121,HiC,166,T166,Cleft/rim patch,PET_L10,tail-side,1,Pro00121_PET_L10_tail_side_r01,0.61929759,4955,8001,True,True
+Pro00121,HiC,166,T166,Cleft/rim patch,PET_L10,tail-side,2,Pro00121_PET_L10_tail_side_r02,0.01074866,86,8001,True,True
+Pro00121,HiC,166,T166,Cleft/rim patch,PET_L10,tail-side,3,Pro00121_PET_L10_tail_side_r03,0.64929384,5195,8001,True,True
+Pro00121,HiC,166,T166,Cleft/rim patch,PET_L20,bidirectional,1,Pro00121_PET_L20_bidirectional_r01,0.99800025,7985,8001,True,True
+Pro00121,HiC,166,T166,Cleft/rim patch,PET_L20,bidirectional,2,Pro00121_PET_L20_bidirectional_r02,0.62554681,5005,8001,True,True
+Pro00121,HiC,166,T166,Cleft/rim patch,PET_L20,bidirectional,3,Pro00121_PET_L20_bidirectional_r03,0.20484939,1639,8001,True,True
+Pro00121,HiC,166,T166,Cleft/rim patch,PET_L20,head-side,1,Pro00121_PET_L20_head_side_r01,0.88913886,7114,8001,True,True
+Pro00121,HiC,166,T166,Cleft/rim patch,PET_L20,head-side,2,Pro00121_PET_L20_head_side_r02,0.53405824,4273,8001,True,True
+Pro00121,HiC,166,T166,Cleft/rim patch,PET_L20,head-side,3,Pro00121_PET_L20_head_side_r03,0.62229721,4979,8001,True,True
+Pro00121,HiC,166,T166,Cleft/rim patch,PET_L20,tail-side,1,Pro00121_PET_L20_tail_side_r01,0.61554806,4925,8001,True,True
+Pro00121,HiC,166,T166,Cleft/rim patch,PET_L20,tail-side,2,Pro00121_PET_L20_tail_side_r02,0.90576178,7247,8001,True,True
+Pro00121,HiC,167,L167,Cleft/rim patch,PET_L10,bidirectional,3,Pro00121_PET_L10_bidirectional_r03,0.9663792,7732,8001,True,True
+Pro00121,HiC,167,L167,Cleft/rim patch,PET_L10,head-side,2,Pro00121_PET_L10_head_side_r02,0.6407949,5127,8001,True,True
+Pro00121,HiC,167,L167,Cleft/rim patch,PET_L10,tail-side,1,Pro00121_PET_L10_tail_side_r01,0.99987502,8000,8001,True,True
+Pro00121,HiC,167,L167,Cleft/rim patch,PET_L10,tail-side,2,Pro00121_PET_L10_tail_side_r02,0.20347457,1628,8001,True,True
+Pro00121,HiC,167,L167,Cleft/rim patch,PET_L10,tail-side,3,Pro00121_PET_L10_tail_side_r03,0.69941257,5596,8001,True,True
+Pro00121,HiC,167,L167,Cleft/rim patch,PET_L20,bidirectional,1,Pro00121_PET_L20_bidirectional_r01,1.0,8001,8001,True,True
+Pro00121,HiC,167,L167,Cleft/rim patch,PET_L20,bidirectional,2,Pro00121_PET_L20_bidirectional_r02,0.98412698,7874,8001,True,True
+Pro00121,HiC,167,L167,Cleft/rim patch,PET_L20,bidirectional,3,Pro00121_PET_L20_bidirectional_r03,0.99187602,7936,8001,True,True
+Pro00121,HiC,167,L167,Cleft/rim patch,PET_L20,head-side,1,Pro00121_PET_L20_head_side_r01,0.99450069,7957,8001,True,True
+Pro00121,HiC,167,L167,Cleft/rim patch,PET_L20,head-side,2,Pro00121_PET_L20_head_side_r02,0.7887764,6311,8001,True,True
+Pro00121,HiC,167,L167,Cleft/rim patch,PET_L20,head-side,3,Pro00121_PET_L20_head_side_r03,0.60417448,4834,8001,True,True
+Pro00121,HiC,167,L167,Cleft/rim patch,PET_L20,tail-side,1,Pro00121_PET_L20_tail_side_r01,0.75665542,6054,8001,True,True
+Pro00121,HiC,167,L167,Cleft/rim patch,PET_L20,tail-side,2,Pro00121_PET_L20_tail_side_r02,0.81452318,6517,8001,True,True
+Pro00121,HiC,168,I168,Cleft/rim patch,PET_L10,bidirectional,3,Pro00121_PET_L10_bidirectional_r03,0.84589426,6768,8001,True,True
+Pro00121,HiC,168,I168,Cleft/rim patch,PET_L10,head-side,2,Pro00121_PET_L10_head_side_r02,0.49243845,3940,8001,True,True
+Pro00121,HiC,168,I168,Cleft/rim patch,PET_L10,tail-side,1,Pro00121_PET_L10_tail_side_r01,0.72165979,5774,8001,True,True
+Pro00121,HiC,168,I168,Cleft/rim patch,PET_L10,tail-side,2,Pro00121_PET_L10_tail_side_r02,0.17010374,1361,8001,True,True
+Pro00121,HiC,168,I168,Cleft/rim patch,PET_L10,tail-side,3,Pro00121_PET_L10_tail_side_r03,0.55418073,4434,8001,True,True
+Pro00121,HiC,168,I168,Cleft/rim patch,PET_L20,bidirectional,1,Pro00121_PET_L20_bidirectional_r01,0.99875016,7991,8001,True,True
+Pro00121,HiC,168,I168,Cleft/rim patch,PET_L20,bidirectional,2,Pro00121_PET_L20_bidirectional_r02,0.36520435,2922,8001,True,True
+Pro00121,HiC,168,I168,Cleft/rim patch,PET_L20,bidirectional,3,Pro00121_PET_L20_bidirectional_r03,0.92338458,7388,8001,True,True
+Pro00121,HiC,168,I168,Cleft/rim patch,PET_L20,head-side,1,Pro00121_PET_L20_head_side_r01,0.48918885,3914,8001,True,True
+Pro00121,HiC,168,I168,Cleft/rim patch,PET_L20,head-side,2,Pro00121_PET_L20_head_side_r02,0.41257343,3301,8001,True,True
+Pro00121,HiC,168,I168,Cleft/rim patch,PET_L20,head-side,3,Pro00121_PET_L20_head_side_r03,0.45206849,3617,8001,True,True
+Pro00121,HiC,168,I168,Cleft/rim patch,PET_L20,tail-side,1,Pro00121_PET_L20_tail_side_r01,0.42532183,3403,8001,True,True
+Pro00121,HiC,168,I168,Cleft/rim patch,PET_L20,tail-side,2,Pro00121_PET_L20_tail_side_r02,0.80164979,6414,8001,True,True
+Pro00121,HiC,169,I169,Cleft/rim patch,PET_L10,bidirectional,3,Pro00121_PET_L10_bidirectional_r03,0.70491189,5640,8001,True,True
+Pro00121,HiC,169,I169,Cleft/rim patch,PET_L10,head-side,2,Pro00121_PET_L10_head_side_r02,0.23559555,1885,8001,True,True
+Pro00121,HiC,169,I169,Cleft/rim patch,PET_L10,tail-side,1,Pro00121_PET_L10_tail_side_r01,0.93525809,7483,8001,True,True
+Pro00121,HiC,169,I169,Cleft/rim patch,PET_L10,tail-side,2,Pro00121_PET_L10_tail_side_r02,0.82427197,6595,8001,True,True
+Pro00121,HiC,169,I169,Cleft/rim patch,PET_L10,tail-side,3,Pro00121_PET_L10_tail_side_r03,0.37720285,3018,8001,True,True
+Pro00121,HiC,169,I169,Cleft/rim patch,PET_L20,bidirectional,1,Pro00121_PET_L20_bidirectional_r01,0.96575428,7727,8001,True,True
+Pro00121,HiC,169,I169,Cleft/rim patch,PET_L20,bidirectional,2,Pro00121_PET_L20_bidirectional_r02,0.97950256,7837,8001,True,True
+Pro00121,HiC,169,I169,Cleft/rim patch,PET_L20,bidirectional,3,Pro00121_PET_L20_bidirectional_r03,0.94763155,7582,8001,True,True
+Pro00121,HiC,169,I169,Cleft/rim patch,PET_L20,head-side,1,Pro00121_PET_L20_head_side_r01,0.19035121,1523,8001,True,True
+Pro00121,HiC,169,I169,Cleft/rim patch,PET_L20,head-side,2,Pro00121_PET_L20_head_side_r02,0.8816398,7054,8001,True,True
+Pro00121,HiC,169,I169,Cleft/rim patch,PET_L20,head-side,3,Pro00121_PET_L20_head_side_r03,0.26921635,2154,8001,True,True
+Pro00121,HiC,169,I169,Cleft/rim patch,PET_L20,tail-side,1,Pro00121_PET_L20_tail_side_r01,0.7944007,6356,8001,True,True
+Pro00121,HiC,169,I169,Cleft/rim patch,PET_L20,tail-side,2,Pro00121_PET_L20_tail_side_r02,0.50618673,4050,8001,True,True
+Pro00121,HiC,175,S175,Cleft/rim patch,PET_L10,bidirectional,3,Pro00121_PET_L10_bidirectional_r03,0.0,0,8001,True,True
+Pro00121,HiC,175,S175,Cleft/rim patch,PET_L10,head-side,2,Pro00121_PET_L10_head_side_r02,0.0,0,8001,True,True
+Pro00121,HiC,175,S175,Cleft/rim patch,PET_L10,tail-side,1,Pro00121_PET_L10_tail_side_r01,0.20209974,1617,8001,True,True
+Pro00121,HiC,175,S175,Cleft/rim patch,PET_L10,tail-side,2,Pro00121_PET_L10_tail_side_r02,0.99962505,7998,8001,True,True
+Pro00121,HiC,175,S175,Cleft/rim patch,PET_L10,tail-side,3,Pro00121_PET_L10_tail_side_r03,0.06274216,502,8001,True,True
+Pro00121,HiC,175,S175,Cleft/rim patch,PET_L20,bidirectional,1,Pro00121_PET_L20_bidirectional_r01,0.03849519,308,8001,True,True
+Pro00121,HiC,175,S175,Cleft/rim patch,PET_L20,bidirectional,2,Pro00121_PET_L20_bidirectional_r02,0.20134983,1611,8001,True,True
+Pro00121,HiC,175,S175,Cleft/rim patch,PET_L20,bidirectional,3,Pro00121_PET_L20_bidirectional_r03,0.07424072,594,8001,True,True
+Pro00121,HiC,175,S175,Cleft/rim patch,PET_L20,head-side,1,Pro00121_PET_L20_head_side_r01,0.0,0,8001,True,True
+Pro00121,HiC,175,S175,Cleft/rim patch,PET_L20,head-side,2,Pro00121_PET_L20_head_side_r02,0.00437445,35,8001,True,True
+Pro00121,HiC,175,S175,Cleft/rim patch,PET_L20,head-side,3,Pro00121_PET_L20_head_side_r03,0.0,0,8001,True,True
+Pro00121,HiC,175,S175,Cleft/rim patch,PET_L20,tail-side,1,Pro00121_PET_L20_tail_side_r01,0.00187477,15,8001,True,True
+Pro00121,HiC,175,S175,Cleft/rim patch,PET_L20,tail-side,2,Pro00121_PET_L20_tail_side_r02,0.0,0,8001,True,True
+Pro00121,HiC,176,Y176,Cleft/rim patch,PET_L10,bidirectional,3,Pro00121_PET_L10_bidirectional_r03,0.0,0,8001,True,True
+Pro00121,HiC,176,Y176,Cleft/rim patch,PET_L10,head-side,2,Pro00121_PET_L10_head_side_r02,0.0,0,8001,True,True
+Pro00121,HiC,176,Y176,Cleft/rim patch,PET_L10,tail-side,1,Pro00121_PET_L10_tail_side_r01,0.20247469,1620,8001,True,True
+Pro00121,HiC,176,Y176,Cleft/rim patch,PET_L10,tail-side,2,Pro00121_PET_L10_tail_side_r02,1.0,8001,8001,True,True
+Pro00121,HiC,176,Y176,Cleft/rim patch,PET_L10,tail-side,3,Pro00121_PET_L10_tail_side_r03,0.0,0,8001,True,True
+Pro00121,HiC,176,Y176,Cleft/rim patch,PET_L20,bidirectional,1,Pro00121_PET_L20_bidirectional_r01,0.00774903,62,8001,True,True
+Pro00121,HiC,176,Y176,Cleft/rim patch,PET_L20,bidirectional,2,Pro00121_PET_L20_bidirectional_r02,0.0,0,8001,True,True
+Pro00121,HiC,176,Y176,Cleft/rim patch,PET_L20,bidirectional,3,Pro00121_PET_L20_bidirectional_r03,0.00024997,2,8001,True,True
+Pro00121,HiC,176,Y176,Cleft/rim patch,PET_L20,head-side,1,Pro00121_PET_L20_head_side_r01,0.0,0,8001,True,True
+Pro00121,HiC,176,Y176,Cleft/rim patch,PET_L20,head-side,2,Pro00121_PET_L20_head_side_r02,0.0,0,8001,True,True
+Pro00121,HiC,176,Y176,Cleft/rim patch,PET_L20,head-side,3,Pro00121_PET_L20_head_side_r03,0.0,0,8001,True,True
+Pro00121,HiC,176,Y176,Cleft/rim patch,PET_L20,tail-side,1,Pro00121_PET_L20_tail_side_r01,0.0,0,8001,True,True
+Pro00121,HiC,176,Y176,Cleft/rim patch,PET_L20,tail-side,2,Pro00121_PET_L20_tail_side_r02,0.0,0,8001,True,True
+Pro00137,PHL7,63,F63,Subsite/hotspot/stability,PET_L10,head-side,1,Pro00137_PET_L10_head_side_r01,0.97187852,7776,8001,True,True
+Pro00137,PHL7,63,F63,Subsite/hotspot/stability,PET_L10,head-side,3,Pro00137_PET_L10_head_side_r03,0.34608174,2769,8001,True,True
+Pro00137,PHL7,63,F63,Subsite/hotspot/stability,PET_L10,tail-side,3,Pro00137_PET_L10_tail_side_r03,0.9480065,7585,8001,True,True
+Pro00137,PHL7,63,F63,Subsite/hotspot/stability,PET_L20,bidirectional,2,Pro00137_PET_L20_bidirectional_r02,0.90726159,7259,8001,True,True
+Pro00137,PHL7,63,F63,Subsite/hotspot/stability,PET_L20,tail-side,2,Pro00137_PET_L20_tail_side_r02,0.93663292,7494,8001,True,True
+Pro00137,PHL7,64,T64,Subsite/hotspot/stability,PET_L10,head-side,1,Pro00137_PET_L10_head_side_r01,0.13823272,1106,8001,True,True
+Pro00137,PHL7,64,T64,Subsite/hotspot/stability,PET_L10,head-side,3,Pro00137_PET_L10_head_side_r03,0.21072366,1686,8001,True,True
+Pro00137,PHL7,64,T64,Subsite/hotspot/stability,PET_L10,tail-side,3,Pro00137_PET_L10_tail_side_r03,0.7527809,6023,8001,True,True
+Pro00137,PHL7,64,T64,Subsite/hotspot/stability,PET_L20,bidirectional,2,Pro00137_PET_L20_bidirectional_r02,0.0576178,461,8001,True,True
+Pro00137,PHL7,64,T64,Subsite/hotspot/stability,PET_L20,tail-side,2,Pro00137_PET_L20_tail_side_r02,0.06811649,545,8001,True,True
+Pro00137,PHL7,93,L93,Subsite/hotspot/stability,PET_L10,head-side,1,Pro00137_PET_L10_head_side_r01,0.88326459,7067,8001,True,True
+Pro00137,PHL7,93,L93,Subsite/hotspot/stability,PET_L10,head-side,3,Pro00137_PET_L10_head_side_r03,0.05511811,441,8001,True,True
+Pro00137,PHL7,93,L93,Subsite/hotspot/stability,PET_L10,tail-side,3,Pro00137_PET_L10_tail_side_r03,0.19460067,1557,8001,True,True
+Pro00137,PHL7,93,L93,Subsite/hotspot/stability,PET_L20,bidirectional,2,Pro00137_PET_L20_bidirectional_r02,0.46769154,3742,8001,True,True
+Pro00137,PHL7,93,L93,Subsite/hotspot/stability,PET_L20,tail-side,2,Pro00137_PET_L20_tail_side_r02,0.32133483,2571,8001,True,True
+Pro00137,PHL7,95,Q95,Subsite/hotspot/stability,PET_L10,head-side,1,Pro00137_PET_L10_head_side_r01,0.97575303,7807,8001,True,True
+Pro00137,PHL7,95,Q95,Subsite/hotspot/stability,PET_L10,head-side,3,Pro00137_PET_L10_head_side_r03,0.06411699,513,8001,True,True
+Pro00137,PHL7,95,Q95,Subsite/hotspot/stability,PET_L10,tail-side,3,Pro00137_PET_L10_tail_side_r03,0.15285589,1223,8001,True,True
+Pro00137,PHL7,95,Q95,Subsite/hotspot/stability,PET_L20,bidirectional,2,Pro00137_PET_L20_bidirectional_r02,0.92350956,7389,8001,True,True
+Pro00137,PHL7,95,Q95,Subsite/hotspot/stability,PET_L20,tail-side,2,Pro00137_PET_L20_tail_side_r02,0.60329959,4827,8001,True,True
+Pro00137,PHL7,132,M132,Catalytic/oxyanion,PET_L10,head-side,1,Pro00137_PET_L10_head_side_r01,0.87864017,7030,8001,True,True
+Pro00137,PHL7,132,M132,Catalytic/oxyanion,PET_L10,head-side,3,Pro00137_PET_L10_head_side_r03,0.28621422,2290,8001,True,True
+Pro00137,PHL7,132,M132,Catalytic/oxyanion,PET_L10,tail-side,3,Pro00137_PET_L10_tail_side_r03,0.85639295,6852,8001,True,True
+Pro00137,PHL7,132,M132,Catalytic/oxyanion,PET_L20,bidirectional,2,Pro00137_PET_L20_bidirectional_r02,0.84364454,6750,8001,True,True
+Pro00137,PHL7,132,M132,Catalytic/oxyanion,PET_L20,tail-side,2,Pro00137_PET_L20_tail_side_r02,0.904012,7233,8001,True,True
+Pro00137,PHL7,156,W156,W-loop/flexible or rigid pair,PET_L10,head-side,1,Pro00137_PET_L10_head_side_r01,0.89501312,7161,8001,True,True
+Pro00137,PHL7,156,W156,W-loop/flexible or rigid pair,PET_L10,head-side,3,Pro00137_PET_L10_head_side_r03,0.26296713,2104,8001,True,True
+Pro00137,PHL7,156,W156,W-loop/flexible or rigid pair,PET_L10,tail-side,3,Pro00137_PET_L10_tail_side_r03,0.29021372,2322,8001,True,True
+Pro00137,PHL7,156,W156,W-loop/flexible or rigid pair,PET_L20,bidirectional,2,Pro00137_PET_L20_bidirectional_r02,0.90613673,7250,8001,True,True
+Pro00137,PHL7,156,W156,W-loop/flexible or rigid pair,PET_L20,tail-side,2,Pro00137_PET_L20_tail_side_r02,0.93238345,7460,8001,True,True
+Pro00137,PHL7,158,T158,W-loop/flexible or rigid pair,PET_L10,head-side,1,Pro00137_PET_L10_head_side_r01,0.09098863,728,8001,True,True
+Pro00137,PHL7,158,T158,W-loop/flexible or rigid pair,PET_L10,head-side,3,Pro00137_PET_L10_head_side_r03,0.00412448,33,8001,True,True
+Pro00137,PHL7,158,T158,W-loop/flexible or rigid pair,PET_L10,tail-side,3,Pro00137_PET_L10_tail_side_r03,0.07949006,636,8001,True,True
+Pro00137,PHL7,158,T158,W-loop/flexible or rigid pair,PET_L20,bidirectional,2,Pro00137_PET_L20_bidirectional_r02,0.59667542,4774,8001,True,True
+Pro00137,PHL7,158,T158,W-loop/flexible or rigid pair,PET_L20,tail-side,2,Pro00137_PET_L20_tail_side_r02,0.23547057,1884,8001,True,True
+Pro00137,PHL7,178,T178,Subsite/hotspot/stability,PET_L10,head-side,1,Pro00137_PET_L10_head_side_r01,0.58417698,4674,8001,True,True
+Pro00137,PHL7,178,T178,Subsite/hotspot/stability,PET_L10,head-side,3,Pro00137_PET_L10_head_side_r03,0.33008374,2641,8001,True,True
+Pro00137,PHL7,178,T178,Subsite/hotspot/stability,PET_L10,tail-side,3,Pro00137_PET_L10_tail_side_r03,0.90713661,7258,8001,True,True
+Pro00137,PHL7,178,T178,Subsite/hotspot/stability,PET_L20,bidirectional,2,Pro00137_PET_L20_bidirectional_r02,0.44344457,3548,8001,True,True
+Pro00137,PHL7,178,T178,Subsite/hotspot/stability,PET_L20,tail-side,2,Pro00137_PET_L20_tail_side_r02,0.90663667,7254,8001,True,True
+Pro00137,PHL7,179,I179,Subsite/hotspot/stability,PET_L10,head-side,1,Pro00137_PET_L10_head_side_r01,0.85126859,6811,8001,True,True
+Pro00137,PHL7,179,I179,Subsite/hotspot/stability,PET_L10,head-side,3,Pro00137_PET_L10_head_side_r03,0.33045869,2644,8001,True,True
+Pro00137,PHL7,179,I179,Subsite/hotspot/stability,PET_L10,tail-side,3,Pro00137_PET_L10_tail_side_r03,0.95313086,7626,8001,True,True
+Pro00137,PHL7,179,I179,Subsite/hotspot/stability,PET_L20,bidirectional,2,Pro00137_PET_L20_bidirectional_r02,0.70828646,5667,8001,True,True
+Pro00137,PHL7,179,I179,Subsite/hotspot/stability,PET_L20,tail-side,2,Pro00137_PET_L20_tail_side_r02,0.96337958,7708,8001,True,True
+Pro00137,PHL7,181,P181,Subsite/hotspot/stability,PET_L10,head-side,1,Pro00137_PET_L10_head_side_r01,0.10211224,817,8001,True,True
+Pro00137,PHL7,181,P181,Subsite/hotspot/stability,PET_L10,head-side,3,Pro00137_PET_L10_head_side_r03,0.15898013,1272,8001,True,True
+Pro00137,PHL7,181,P181,Subsite/hotspot/stability,PET_L10,tail-side,3,Pro00137_PET_L10_tail_side_r03,0.24646919,1972,8001,True,True
+Pro00137,PHL7,181,P181,Subsite/hotspot/stability,PET_L20,bidirectional,2,Pro00137_PET_L20_bidirectional_r02,0.2175978,1741,8001,True,True
+Pro00137,PHL7,181,P181,Subsite/hotspot/stability,PET_L20,tail-side,2,Pro00137_PET_L20_tail_side_r02,0.81052368,6485,8001,True,True
+Pro00137,PHL7,184,S184,W-loop/flexible or rigid pair,PET_L10,head-side,1,Pro00137_PET_L10_head_side_r01,0.04761905,381,8001,True,True
+Pro00137,PHL7,184,S184,W-loop/flexible or rigid pair,PET_L10,head-side,3,Pro00137_PET_L10_head_side_r03,0.01924759,154,8001,True,True
+Pro00137,PHL7,184,S184,W-loop/flexible or rigid pair,PET_L10,tail-side,3,Pro00137_PET_L10_tail_side_r03,0.12585927,1007,8001,True,True
+Pro00137,PHL7,184,S184,W-loop/flexible or rigid pair,PET_L20,bidirectional,2,Pro00137_PET_L20_bidirectional_r02,0.17510311,1401,8001,True,True
+Pro00137,PHL7,184,S184,W-loop/flexible or rigid pair,PET_L20,tail-side,2,Pro00137_PET_L20_tail_side_r02,0.75553056,6045,8001,True,True
+Pro00137,PHL7,185,H185,W-loop/flexible or rigid pair,PET_L10,head-side,1,Pro00137_PET_L10_head_side_r01,0.007999,64,8001,True,True
+Pro00137,PHL7,185,H185,W-loop/flexible or rigid pair,PET_L10,head-side,3,Pro00137_PET_L10_head_side_r03,0.00474941,38,8001,True,True
+Pro00137,PHL7,185,H185,W-loop/flexible or rigid pair,PET_L10,tail-side,3,Pro00137_PET_L10_tail_side_r03,0.10061242,805,8001,True,True
+Pro00137,PHL7,185,H185,W-loop/flexible or rigid pair,PET_L20,bidirectional,2,Pro00137_PET_L20_bidirectional_r02,0.12235971,979,8001,True,True
+Pro00137,PHL7,185,H185,W-loop/flexible or rigid pair,PET_L20,tail-side,2,Pro00137_PET_L20_tail_side_r02,0.75303087,6025,8001,True,True
+Pro00137,PHL7,209,H209,Catalytic/oxyanion,PET_L10,head-side,1,Pro00137_PET_L10_head_side_r01,0.06736658,539,8001,True,True
+Pro00137,PHL7,209,H209,Catalytic/oxyanion,PET_L10,head-side,3,Pro00137_PET_L10_head_side_r03,0.15510561,1241,8001,True,True
+Pro00137,PHL7,209,H209,Catalytic/oxyanion,PET_L10,tail-side,3,Pro00137_PET_L10_tail_side_r03,0.64566929,5166,8001,True,True
+Pro00137,PHL7,209,H209,Catalytic/oxyanion,PET_L20,bidirectional,2,Pro00137_PET_L20_bidirectional_r02,0.0,0,8001,True,True
+Pro00137,PHL7,209,H209,Catalytic/oxyanion,PET_L20,tail-side,2,Pro00137_PET_L20_tail_side_r02,0.00249969,20,8001,True,True
+Pro00137,PHL7,210,L210,Subsite/hotspot/stability,PET_L10,head-side,1,Pro00137_PET_L10_head_side_r01,0.08486439,679,8001,True,True
+Pro00137,PHL7,210,L210,Subsite/hotspot/stability,PET_L10,head-side,3,Pro00137_PET_L10_head_side_r03,0.17972753,1438,8001,True,True
+Pro00137,PHL7,210,L210,Subsite/hotspot/stability,PET_L10,tail-side,3,Pro00137_PET_L10_tail_side_r03,0.61292338,4904,8001,True,True
+Pro00137,PHL7,210,L210,Subsite/hotspot/stability,PET_L20,bidirectional,2,Pro00137_PET_L20_bidirectional_r02,0.00062492,5,8001,True,True
+Pro00137,PHL7,210,L210,Subsite/hotspot/stability,PET_L20,tail-side,2,Pro00137_PET_L20_tail_side_r02,0.0,0,8001,True,True

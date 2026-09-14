@@ -1,0 +1,26 @@
+\begin{table}[ht]
+  \caption{Enzyme panel used in this study.
+  PDB codes identify experimental structural references that are
+  sequence-identical to the production models over the aligned regions.
+  Production simulations used standardized single-chain AlphaFold2 models
+  from PlasticDB.
+  Met.\ = Mesophilic; Ther.\ = Thermophilic; meta.\ = metagenome-derived.}
+  \label{tab:enzymes}
+  \small
+  \begin{tabular*}{\linewidth}{@{\extracolsep{\fill}} l l l l @{}}
+    \toprule
+    Enzyme   & PDB ref. & Source organism$^{a}$       & Thermal class \\
+    \midrule
+    IsPETase & 6EQD\cite{austin2018} & \textit{Ideonella sakaiensis}  & Met. \\
+    TfCut1   & 7QJR\cite{erickson2022} & \textit{Thermobifida fusca}    & Ther. \\
+    LCC      & 4EB0\cite{sulaiman2014} & meta.\ (leaf-branch compost)   & Ther. \\
+    FoCut5a  & 5AJH\cite{dimarogona2015} & \textit{Fusarium oxysporum}    & Met. \\
+    HiC      & 4OYY\cite{kold2014} & \textit{Humicola insolens}     & Ther. \\
+    PHL7     & 7NEI\cite{sonnendecker2022} & meta.\ (environmental sample)  & Ther. \\
+    \bottomrule
+  \end{tabular*}\\[4pt]
+  \parbox{\linewidth}{\footnotesize
+  $^{a}$LCC and PHL7 are metagenome-derived. TfCut1 corresponds to `enzyme~703'
+  in Erickson
+  \textit{et al.}\cite{erickson2022}}
+\end{table}

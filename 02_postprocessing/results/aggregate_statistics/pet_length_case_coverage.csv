@@ -1,0 +1,19 @@
+protein_id,protein_label,pet_kind,n_gate_rows,n_retained,n_partial,n_detached,n_retained_fingerprint_eligible,n_strict_fingerprint_eligible,n_files_ready,retention_mean,retention_min,retention_max,all_files_ready,condition_status,fingerprint_cases,strict_fingerprint_cases,stability_pass_cases,protein_short
+Pro00057,T. fusca cutinase 1 / CUT1 / 7QJR,PET_L4,3,2,0,1,2,2,3,0.6537000000000001,0.1535,0.9766,True,usable but underpowered,2,2,2,CUT1
+Pro00057,T. fusca cutinase 1 / CUT1 / 7QJR,PET_L10,9,6,1,2,6,6,9,0.8,0.161,1.0,True,primary-ready,6,6,6,CUT1
+Pro00057,T. fusca cutinase 1 / CUT1 / 7QJR,PET_L20,9,6,0,3,6,6,9,0.7356,0.0096,1.0,True,primary-ready,6,6,6,CUT1
+Pro00062,LCC WT,PET_L4,3,2,1,0,2,0,3,0.8435,0.5986,1.0,True,usable but underpowered,2,0,0,LCC
+Pro00062,LCC WT,PET_L10,9,3,3,3,3,0,9,0.6283333333333333,0.0574,1.0,True,primary-ready with stability caveat,3,0,0,LCC
+Pro00062,LCC WT,PET_L20,9,8,0,1,8,0,9,0.9108333333333332,0.4868,1.0,True,primary-ready with stability caveat,8,0,0,LCC
+Pro00075,FoCut5a,PET_L4,3,0,2,1,0,0,0,0.5445333333333333,0.3062,0.6875,False,not ready; missing local files,0,0,0,FoCut5a
+Pro00075,FoCut5a,PET_L10,9,5,0,4,5,0,9,0.6597,0.019,1.0,True,primary-ready with stability caveat,5,0,0,FoCut5a
+Pro00075,FoCut5a,PET_L20,9,7,0,2,7,0,9,0.7810666666666667,0.0065,1.0,True,primary-ready with stability caveat,7,0,0,FoCut5a
+Pro00083,IsPETase WT,PET_L4,3,2,1,0,2,0,3,0.7829333333333333,0.5689,0.9491,True,usable but underpowered,2,0,0,IsPETase
+Pro00083,IsPETase WT,PET_L10,9,4,1,4,4,0,9,0.6415888888888889,0.0204,1.0,True,primary-ready with stability caveat,4,0,0,IsPETase
+Pro00083,IsPETase WT,PET_L20,9,7,0,2,7,0,9,0.7789777777777778,0.0006,1.0,True,primary-ready with stability caveat,7,0,0,IsPETase
+Pro00121,HiC / 4OYY,PET_L4,3,0,1,2,0,0,3,0.4185333333333333,0.239,0.6865,True,not ready; no retained eligible trajectories,0,0,0,HiC
+Pro00121,HiC / 4OYY,PET_L10,9,5,1,3,5,5,9,0.6882777777777778,0.0011,1.0,True,primary-ready,5,5,5,HiC
+Pro00121,HiC / 4OYY,PET_L20,9,8,0,1,8,8,9,0.9047222222222222,0.1425,1.0,True,primary-ready,8,8,8,HiC
+Pro00137,PHL7 / 7NEI,PET_L4,3,1,0,2,1,1,3,0.4989333333333333,0.1255,1.0,True,single retained replicate only,1,1,1,PHL7
+Pro00137,PHL7 / 7NEI,PET_L10,9,3,2,4,3,3,9,0.5595444444444444,0.0162,1.0,True,primary-ready,3,3,3,PHL7
+Pro00137,PHL7 / 7NEI,PET_L20,9,2,3,4,2,2,9,0.5265555555555556,0.0059,1.0,True,usable but underpowered,2,2,2,PHL7

@@ -1,0 +1,72 @@
+case,protein_id,pet_kind,protein_label,direction,replica_id,strict_bool,retained_bool,stability_pass_bool
+Pro00057_PET_L10_bidirectional_r02,Pro00057,PET_L10,T. fusca cutinase 1 / CUT1 / 7QJR,bidirectional,2,True,True,True
+Pro00057_PET_L10_bidirectional_r03,Pro00057,PET_L10,T. fusca cutinase 1 / CUT1 / 7QJR,bidirectional,3,True,True,True
+Pro00057_PET_L10_head_side_r02,Pro00057,PET_L10,T. fusca cutinase 1 / CUT1 / 7QJR,head-side,2,True,True,True
+Pro00057_PET_L10_head_side_r03,Pro00057,PET_L10,T. fusca cutinase 1 / CUT1 / 7QJR,head-side,3,True,True,True
+Pro00057_PET_L10_tail_side_r02,Pro00057,PET_L10,T. fusca cutinase 1 / CUT1 / 7QJR,tail-side,2,True,True,True
+Pro00057_PET_L10_tail_side_r03,Pro00057,PET_L10,T. fusca cutinase 1 / CUT1 / 7QJR,tail-side,3,True,True,True
+Pro00057_PET_L20_bidirectional_r01,Pro00057,PET_L20,T. fusca cutinase 1 / CUT1 / 7QJR,bidirectional,1,True,True,True
+Pro00057_PET_L20_bidirectional_r02,Pro00057,PET_L20,T. fusca cutinase 1 / CUT1 / 7QJR,bidirectional,2,True,True,True
+Pro00057_PET_L20_head_side_r01,Pro00057,PET_L20,T. fusca cutinase 1 / CUT1 / 7QJR,head-side,1,True,True,True
+Pro00057_PET_L20_head_side_r02,Pro00057,PET_L20,T. fusca cutinase 1 / CUT1 / 7QJR,head-side,2,True,True,True
+Pro00057_PET_L20_head_side_r03,Pro00057,PET_L20,T. fusca cutinase 1 / CUT1 / 7QJR,head-side,3,True,True,True
+Pro00057_PET_L20_tail_side_r02,Pro00057,PET_L20,T. fusca cutinase 1 / CUT1 / 7QJR,tail-side,2,True,True,True
+Pro00057_PET_L4_single_r02,Pro00057,PET_L4,T. fusca cutinase 1 / CUT1 / 7QJR,single,2,True,True,True
+Pro00057_PET_L4_single_r03,Pro00057,PET_L4,T. fusca cutinase 1 / CUT1 / 7QJR,single,3,True,True,True
+Pro00062_PET_L10_bidirectional_r01,Pro00062,PET_L10,LCC WT,bidirectional,1,False,True,False
+Pro00062_PET_L10_bidirectional_r03,Pro00062,PET_L10,LCC WT,bidirectional,3,False,True,False
+Pro00062_PET_L10_head_side_r02,Pro00062,PET_L10,LCC WT,head-side,2,False,True,False
+Pro00062_PET_L20_bidirectional_r01,Pro00062,PET_L20,LCC WT,bidirectional,1,False,True,False
+Pro00062_PET_L20_bidirectional_r02,Pro00062,PET_L20,LCC WT,bidirectional,2,False,True,False
+Pro00062_PET_L20_head_side_r01,Pro00062,PET_L20,LCC WT,head-side,1,False,True,False
+Pro00062_PET_L20_head_side_r02,Pro00062,PET_L20,LCC WT,head-side,2,False,True,False
+Pro00062_PET_L20_head_side_r03,Pro00062,PET_L20,LCC WT,head-side,3,False,True,False
+Pro00062_PET_L20_tail_side_r01,Pro00062,PET_L20,LCC WT,tail-side,1,False,True,False
+Pro00062_PET_L20_tail_side_r02,Pro00062,PET_L20,LCC WT,tail-side,2,False,True,False
+Pro00062_PET_L20_tail_side_r03,Pro00062,PET_L20,LCC WT,tail-side,3,False,True,False
+Pro00062_PET_L4_single_r01,Pro00062,PET_L4,LCC WT,single,1,False,True,False
+Pro00062_PET_L4_single_r02,Pro00062,PET_L4,LCC WT,single,2,False,True,False
+Pro00075_PET_L10_bidirectional_r01,Pro00075,PET_L10,FoCut5a,bidirectional,1,False,True,False
+Pro00075_PET_L10_head_side_r01,Pro00075,PET_L10,FoCut5a,head-side,1,False,True,False
+Pro00075_PET_L10_head_side_r02,Pro00075,PET_L10,FoCut5a,head-side,2,False,True,False
+Pro00075_PET_L10_head_side_r03,Pro00075,PET_L10,FoCut5a,head-side,3,False,True,False
+Pro00075_PET_L10_tail_side_r02,Pro00075,PET_L10,FoCut5a,tail-side,2,False,True,False
+Pro00075_PET_L20_bidirectional_r01,Pro00075,PET_L20,FoCut5a,bidirectional,1,False,True,False
+Pro00075_PET_L20_head_side_r01,Pro00075,PET_L20,FoCut5a,head-side,1,False,True,False
+Pro00075_PET_L20_head_side_r02,Pro00075,PET_L20,FoCut5a,head-side,2,False,True,False
+Pro00075_PET_L20_head_side_r03,Pro00075,PET_L20,FoCut5a,head-side,3,False,True,False
+Pro00075_PET_L20_tail_side_r01,Pro00075,PET_L20,FoCut5a,tail-side,1,False,True,False
+Pro00075_PET_L20_tail_side_r02,Pro00075,PET_L20,FoCut5a,tail-side,2,False,True,False
+Pro00075_PET_L20_tail_side_r03,Pro00075,PET_L20,FoCut5a,tail-side,3,False,True,False
+Pro00083_PET_L10_bidirectional_r01,Pro00083,PET_L10,IsPETase WT,bidirectional,1,False,True,False
+Pro00083_PET_L10_head_side_r02,Pro00083,PET_L10,IsPETase WT,head-side,2,False,True,False
+Pro00083_PET_L10_head_side_r03,Pro00083,PET_L10,IsPETase WT,head-side,3,False,True,False
+Pro00083_PET_L10_tail_side_r03,Pro00083,PET_L10,IsPETase WT,tail-side,3,False,True,False
+Pro00083_PET_L20_bidirectional_r01,Pro00083,PET_L20,IsPETase WT,bidirectional,1,False,True,False
+Pro00083_PET_L20_bidirectional_r02,Pro00083,PET_L20,IsPETase WT,bidirectional,2,False,True,False
+Pro00083_PET_L20_head_side_r01,Pro00083,PET_L20,IsPETase WT,head-side,1,False,True,False
+Pro00083_PET_L20_head_side_r02,Pro00083,PET_L20,IsPETase WT,head-side,2,False,True,False
+Pro00083_PET_L20_head_side_r03,Pro00083,PET_L20,IsPETase WT,head-side,3,False,True,False
+Pro00083_PET_L20_tail_side_r01,Pro00083,PET_L20,IsPETase WT,tail-side,1,False,True,False
+Pro00083_PET_L20_tail_side_r02,Pro00083,PET_L20,IsPETase WT,tail-side,2,False,True,False
+Pro00083_PET_L4_single_r01,Pro00083,PET_L4,IsPETase WT,single,1,False,True,False
+Pro00083_PET_L4_single_r02,Pro00083,PET_L4,IsPETase WT,single,2,False,True,False
+Pro00121_PET_L10_bidirectional_r03,Pro00121,PET_L10,HiC / 4OYY,bidirectional,3,True,True,True
+Pro00121_PET_L10_head_side_r02,Pro00121,PET_L10,HiC / 4OYY,head-side,2,True,True,True
+Pro00121_PET_L10_tail_side_r01,Pro00121,PET_L10,HiC / 4OYY,tail-side,1,True,True,True
+Pro00121_PET_L10_tail_side_r02,Pro00121,PET_L10,HiC / 4OYY,tail-side,2,True,True,True
+Pro00121_PET_L10_tail_side_r03,Pro00121,PET_L10,HiC / 4OYY,tail-side,3,True,True,True
+Pro00121_PET_L20_bidirectional_r01,Pro00121,PET_L20,HiC / 4OYY,bidirectional,1,True,True,True
+Pro00121_PET_L20_bidirectional_r02,Pro00121,PET_L20,HiC / 4OYY,bidirectional,2,True,True,True
+Pro00121_PET_L20_bidirectional_r03,Pro00121,PET_L20,HiC / 4OYY,bidirectional,3,True,True,True
+Pro00121_PET_L20_head_side_r01,Pro00121,PET_L20,HiC / 4OYY,head-side,1,True,True,True
+Pro00121_PET_L20_head_side_r02,Pro00121,PET_L20,HiC / 4OYY,head-side,2,True,True,True
+Pro00121_PET_L20_head_side_r03,Pro00121,PET_L20,HiC / 4OYY,head-side,3,True,True,True
+Pro00121_PET_L20_tail_side_r01,Pro00121,PET_L20,HiC / 4OYY,tail-side,1,True,True,True
+Pro00121_PET_L20_tail_side_r02,Pro00121,PET_L20,HiC / 4OYY,tail-side,2,True,True,True
+Pro00137_PET_L10_head_side_r01,Pro00137,PET_L10,PHL7 / 7NEI,head-side,1,True,True,True
+Pro00137_PET_L10_head_side_r03,Pro00137,PET_L10,PHL7 / 7NEI,head-side,3,True,True,True
+Pro00137_PET_L10_tail_side_r03,Pro00137,PET_L10,PHL7 / 7NEI,tail-side,3,True,True,True
+Pro00137_PET_L20_bidirectional_r02,Pro00137,PET_L20,PHL7 / 7NEI,bidirectional,2,True,True,True
+Pro00137_PET_L20_tail_side_r02,Pro00137,PET_L20,PHL7 / 7NEI,tail-side,2,True,True,True
+Pro00137_PET_L4_single_r02,Pro00137,PET_L4,PHL7 / 7NEI,single,2,True,True,True

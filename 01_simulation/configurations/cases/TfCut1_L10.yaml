@@ -1,0 +1,75 @@
+id: Pro00057__PET_L10__binding002
+case_schema_version: v1.1
+workflow: PrebalanceDocking_MD
+
+protein:
+  id: '00057'
+  asset: inputs/proteins/00057
+  name: T_fusca_cutinase
+
+ligand:
+  family: PET
+  kind: PET_L10
+  raw_asset: inputs/pets/PET_L10/raw/charmm-gui-001
+  template_asset: inputs/pets/PET_L10/templates/pet_l10-template-001
+  preequilibrated_asset: inputs/pets/PET_L10/preequilibrated
+
+docking:
+  method: vina
+  fragment: PET_L4
+  target_chain_length: PET_L10
+  profile: code/profiles/docking/vina-local.yaml
+  site_source: registry
+  require_trusted_active_site: true
+  require_catalytic_pose_qc_v2: false
+  max_motif_rmsd: 99.0
+  max_ser_carbonyl: 99.0
+  max_severe_clashes: 50
+
+r1_phase_b:
+  conformer_count: 5
+  motif_policy: catalytic_ester_auto
+  window_policy: all_windows
+  directions:
+    - head-side
+    - tail-side
+    - bidirectional
+  forward_reverse_both: true
+  kabsch_ranking_weights:
+    motif_rmsd: 0.4
+    clash: 0.3
+    affinity: 0.2
+    envelope: 0.1
+
+build:
+  chain_extension:
+    enabled: true
+    extend_to: PET_L10
+    equilibrate_ns: 3.0
+
+box:
+  protocol_version: v1.1.0_unified_cubic
+  box_dim_nm: auto
+  box_type: cubic
+  padding_check_margin_nm: 1.5
+
+chain_relax:
+  enabled: auto
+  duration_ns: 0.4
+  protein_posres_k_kj_mol_nm2: 1000
+  pet_anchor_posres_k_kj_mol_nm2: 500
+
+md:
+  profile: code/profiles/md/production.yaml
+  replicas: 3
+  burn_in_ns: 20.0
+
+postprocess:
+  profile: code/profiles/postprocess/default.yaml
+
+env:
+  profile: code/profiles/env/local.yaml
+
+classification:
+  is_negative_control: false
+  positive_protein_family: Cutinase

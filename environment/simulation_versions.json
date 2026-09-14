@@ -1,0 +1,26 @@
+{
+  "GROMACS": "2025.4",
+  "CUDA_runtime": "12.8",
+  "test_GPU": "NVIDIA RTX 5000 Ada 32 GB",
+  "docking": {
+    "conda_package": "1.2.6 py310hea6c23e_2",
+    "reported_version": "AutoDock Vina 7ac2999-mod",
+    "binary_sha256": "d3ce0a944922a2e674a5de2e96bf1d5a99d06a82af72366527976c6e97f062ac",
+    "matches_conda_package_binary": true,
+    "Python": "3.10.20",
+    "RDKit": "2025.09.5",
+    "Meeko": "0.7.1",
+    "OpenBabel": "3.1.1",
+    "NumPy": "2.2.6"
+  },
+  "trajectory_archive": {
+    "Python": "3.12.3",
+    "MDAnalysis": "2.10.0",
+    "NumPy": "2.4.4",
+    "SciPy": "1.17.1"
+  },
+  "analysis_extras": {
+    "scikit_learn": "1.8.0",
+    "PyYAML": "6.0.3"
+  }
+}

@@ -1,0 +1,7 @@
+name: default
+metrics:
+  - rmsd
+  - rmsf
+  - hbond
+  - mindist
+  - sasa

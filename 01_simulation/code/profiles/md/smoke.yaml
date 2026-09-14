@@ -1,0 +1,4 @@
+name: smoke
+runner: md
+md_nsteps: 5000
+clean: true

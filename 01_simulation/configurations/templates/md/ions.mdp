@@ -1,0 +1,20 @@
+; LINES STARTING WITH ';' ARE COMMENTS
+; Ion placement (used by grompp + genion)
+
+title                   = Minimization        ; run title (only for log)
+
+; Run control
+integrator              = steep               ; steepest descent minimization (for ion placement)
+emtol                   = 1000.0              ; stop when max force < 1000 kJ/mol/nm
+emstep                  = 0.01                ; initial step size (nm)
+nsteps                  = 50000               ; maximum number of minimization steps
+
+; Neighbor searching and non-bonded interactions
+nstlist                 = 1                   ; update neighbor list every step
+cutoff-scheme           = Verlet              ; Verlet neighbor list scheme
+ns_type                 = grid                ; grid search (legacy; ignored with Verlet)
+rlist                   = 1.0                 ; neighbor list cutoff (nm)
+coulombtype             = cutoff              ; simple Coulomb cutoff (sufficient for ion placement)
+rcoulomb                = 1.0                 ; real-space electrostatic cutoff (nm)
+rvdw                    = 1.0                 ; LJ cutoff (nm)
+pbc                     = xyz                 ; periodic boundary conditions

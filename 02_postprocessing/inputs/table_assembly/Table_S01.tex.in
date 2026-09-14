@@ -1,0 +1,18 @@
+\begin{table}[H]
+  \caption{Residue landmarks and numbering used across the six-enzyme panel.}
+  \label{tab:residue_correspondence}
+  \scriptsize
+  \setlength{\tabcolsep}{4pt}
+  \begin{tabularx}{\linewidth}{@{}ll>{\raggedright\arraybackslash}Xll>{\raggedright\arraybackslash}X@{}}
+    \toprule
+    Enzyme & Catalytic triad & Oxyanion, subsite, or interface landmarks & W-loop Trp & Adjacent pair & Numbering note \\
+    \midrule
+{{ROWS}}
+    \bottomrule
+  \end{tabularx}
+  \par\vspace{2pt}
+  \begin{minipage}{\linewidth}
+    \footnotesize
+    Residue identifiers in the manuscript use the local simulation numbering. Dashes indicate that no W-loop tryptophan or adjacent-pair landmark was assigned in this study.
+  \end{minipage}
+\end{table}

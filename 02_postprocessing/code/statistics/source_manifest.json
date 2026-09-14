@@ -1,0 +1,30 @@
+[
+  {
+    "source_id": "B2-0001",
+    "source_sha256": "c76cc56111b83fd3298f5cbdaeda499d13e23ba56543aeb5e8307e1763a9d583",
+    "release_path": "02_postprocessing/code/statistics/con03.py",
+    "copy_sha256": "b9643a27c61a8a1b52421d8de60baacc4e36fcdf234cb9a18b240740641fe98b",
+    "transformation": "pure_AST_extract"
+  },
+  {
+    "source_id": "B2-0002",
+    "source_sha256": "b34e12326979f6312b0a5e013043479e06aff80acdf04cdf8dbe6bc361b86c53",
+    "release_path": "02_postprocessing/code/statistics/loc01.py",
+    "copy_sha256": "fedf1d3287d32146c99dff8e3b5ce042df848ec5cb3e533fdf9d73fa2a237b9f",
+    "transformation": "pure_AST_extract"
+  },
+  {
+    "source_id": "B2-0003",
+    "source_sha256": "92743d883081f8a10a7cdcece6f8e64a70d254997f17901803a4e2718399ebd3",
+    "release_path": "02_postprocessing/results/trajectory_summaries/candidate_case_contact_values.csv",
+    "copy_sha256": "92743d883081f8a10a7cdcece6f8e64a70d254997f17901803a4e2718399ebd3",
+    "transformation": "byte_exact_copy"
+  },
+  {
+    "source_id": "B2-0004",
+    "source_sha256": "d9fc8037049740cb02434af08464e86f313863914d738a6640c3727335eaac2e",
+    "release_path": "02_postprocessing/results/trajectory_summaries/trajectory_metric_values.csv",
+    "copy_sha256": "d9fc8037049740cb02434af08464e86f313863914d738a6640c3727335eaac2e",
+    "transformation": "byte_exact_copy"
+  }
+]

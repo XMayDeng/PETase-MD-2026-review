@@ -1,0 +1,24 @@
+\begin{table}[H]
+  \caption{Structural concordance between the production models and experimental references.}
+  \label{tab:structural_concordance}
+  \scriptsize
+  \setlength{\tabcolsep}{3pt}
+  \begin{tabularx}{\linewidth}{@{}llcS[table-format=2.1]S[table-format=1.3]S[table-format=1.3]cS[table-format=1.3]>{\raggedright\arraybackslash}X@{}}
+    \toprule
+    Enzyme & Experimental reference$^{a}$ & \shortstack{Aligned $n$\\(identity, \%)} &
+    \multicolumn{1}{c}{\shortstack{Model\\coverage (\%)}} &
+    \multicolumn{1}{c}{\shortstack{Global C$\alpha$\\RMSD (\AA)}} &
+    \multicolumn{1}{c}{\shortstack{Pocket backbone\\RMSD$^{b}$ (\AA)}} &
+    \shortstack{Pocket side-chain\\median/p90$^{c}$ (\AA)} &
+    \multicolumn{1}{c}{\shortstack{Max triad\\$\Delta$$^{d}$ (\AA)}} &
+    Threshold-exceeding site$^{e}$ \\
+    \midrule
+{{ROWS}}
+    \bottomrule
+  \end{tabularx}
+  \par\vspace{2pt}
+  \begin{minipage}{\linewidth}
+    \footnotesize
+    Production simulations used standardized single-chain AlphaFold2 models from PlasticDB. The corresponding experimental structures served as references for structural comparison. Primary structural references for these PDB entries are provided in Table 1 of the main text. Residue identifiers use simulation numbering. FoCut5a simulation numbering is $+1$ relative to 5AJH in the mapped active-site region. $^{a}$Values in parentheses are experimental resolutions. $^{b}$Backbone RMSD after local fitting of N, C$\alpha$, and C atoms for mapped residues within \SI{8}{\angstromunit} of the production-model catalytic triad. $^{c}$Median and 90th percentile of residue side-chain conformation RMSDs after fitting each residue backbone. $^{d}$Largest absolute production-versus-experimental difference among Ser O$\gamma$--His N$\varepsilon$2, His N$\delta$1--acid carboxylate O, and Ser O$\gamma$--acid carboxylate O distances. $^{e}$Named residues exceeding the prespecified \SI{1.0}{\angstromunit} local-backbone or \SI{1.5}{\angstromunit} residue-fitted side-chain-conformation threshold. ``None'' indicates that no named residue exceeded either threshold. All global C$\alpha$ RMSD, pocket-backbone RMSD, and maximum catalytic-triad distance-difference values were below the prespecified \SI{1.0}{\angstromunit} panel-wide thresholds.
+  \end{minipage}
+\end{table}

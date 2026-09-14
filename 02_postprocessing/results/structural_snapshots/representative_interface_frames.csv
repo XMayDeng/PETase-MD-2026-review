@@ -1,0 +1,7 @@
+protein_id,protein,case,pet_kind,direction,replica_id,frame_time_ps,trajectory_rmse_to_pooled_top8,frame_mse_to_pooled_top8,selection_rule,frame_contact_hotspots_from_index,frame_contact_hotspots_4p5A
+Pro00083,IsPETase,Pro00083_PET_L20_bidirectional_r02,PET_L20,bidirectional,2,61640.0,0.08278388909417644,0.13796035330181183,common pooled-top8 trajectory/frame rule,87;161;185;208,87;161;185;208
+Pro00057,TfCut1,Pro00057_PET_L20_head_side_r03,PET_L20,head-side,3,60000.0,0.1326158437110626,0.0834802618048607,common pooled-top8 trajectory/frame rule,61;62;91;132;156;178;179;210,61;62;91;132;156;178;179;210
+Pro00062,LCC,Pro00062_PET_L20_tail_side_r02,PET_L20,tail-side,2,47450.0,0.11727374466903842,0.17720993410142927,common pooled-top8 trajectory/frame rule,95;127,95;127
+Pro00075,FoCut5a,Pro00075_PET_L20_tail_side_r02,PET_L20,tail-side,2,59990.0,0.13340174633703156,0.11339115688551307,common pooled-top8 trajectory/frame rule,44;45;52;83;184;185;186;191,44;45;52;83;184;185;186;191
+Pro00121,HiC,Pro00121_PET_L20_tail_side_r01,PET_L20,tail-side,1,44470.0,0.13844735199672273,0.144017175912382,common pooled-top8 trajectory/frame rule,66;70;166;167;168;169,66;70;166;167;168;169
+Pro00137,PHL7,Pro00137_PET_L20_tail_side_r02,PET_L20,tail-side,2,60030.0,0.1668402935100703,0.10082605059250287,common pooled-top8 trajectory/frame rule,63;95;132;156;178;179,63;95;132;156;178;179

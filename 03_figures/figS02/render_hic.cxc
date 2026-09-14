@@ -1,0 +1,60 @@
+# Revised Figure 4: HiC selected with the common pooled-top8 rule.
+close
+open @PACKAGE@/02_postprocessing/results/structural_snapshots/coordinates/Figure_04_HiC_common.pdb
+open @PACKAGE@/01_simulation/inputs/production_structures/00083.pdb
+align #1/A:105,160,173@CA toAtoms #2/A:160,206,237@CA move structures
+cartoon #1/A
+set bgColor white
+lighting soft
+graphics silhouettes true
+hide #1-2 atoms
+color #1/A #8794A4 cartoons
+view #1/A
+turn y 30
+turn x -12
+hide #1-2 models
+show #1 models
+show #1/A cartoons
+show #1/B:1,2,3,4,20 atoms
+style #1/B:1,2,3,4,20 stick
+size #1/B:1,2,3,4,20 stickRadius 0.115
+color #1/B:1,2,3,4,20 #C8782A atoms
+show #1/A:105,160,173 atoms
+style #1/A:105,160,173 stick
+size #1/A:105,160,173 stickRadius 0.110
+color #1/A:105,160,173 #59616B atoms
+show #1/A:167,70,66,169,168,166,165,29 atoms
+style #1/A:167,70,66,169,168,166,165,29 stick
+size #1/A:167,70,66,169,168,166,165,29 stickRadius 0.180
+color #1/A:167,70,66,169,168,166,165,29 #5B9BD5 atoms
+hide #1/A:167,70,66,169,168,166,165,29@H* atoms
+transparency #1/A:167,70,66,169,168,166,165,29 38 target a
+size #1/A:167,70,66,169,168,166 stickRadius 0.260
+transparency #1/A:167,70,66,169,168,166 0 target a
+transparency #1/A 58 target c
+hide #1/B atoms
+show #1/B:1,2,3,4,20 atoms
+view #1/A:29,66,70,165,166,167,168,169 pad 0.055
+zoom 1.18
+save @WORK@/Figure_04_HiC_closeup.png width 3960 height 3520 supersample 2 transparentBackground false
+hide #1 cartoons
+hide #1 atoms
+lighting flat
+show #1/A:167@CA atoms
+style #1/A:167@CA sphere
+size #1/A:167@CA atomRadius 0.75
+color #1/A:167@CA #FF0000 atoms
+show #1/A:70@CA atoms
+style #1/A:70@CA sphere
+size #1/A:70@CA atomRadius 0.75
+color #1/A:70@CA #00B000 atoms
+show #1/A:66@CA atoms
+style #1/A:66@CA sphere
+size #1/A:66@CA atomRadius 0.75
+color #1/A:66@CA #0050FF atoms
+show #1/A:169@CA atoms
+style #1/A:169@CA sphere
+size #1/A:169@CA atomRadius 0.75
+color #1/A:169@CA #C000C0 atoms
+save @WORK@/Figure_04_HiC_label_anchor_map.png width 1980 height 1760 supersample 1 transparentBackground false
+exit

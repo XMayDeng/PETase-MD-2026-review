@@ -1,0 +1,58 @@
+schema_version: v1.1
+pet_kind: PET_L10
+asset_purpose: R1 Phase A conformer asset (consumed by Phase B Kabsch)
+cluster_method: linkage
+rmsd_cutoff_nm: 0.2
+k: 5
+pool_strategy: cross_trajectory
+frame_filter:
+  begin_ps: 25000.0
+  end_ps: null
+source_trajectories:
+- archived_path/runtime/adhoc/pet_preeq_PET_L10_r1/01_preeq/MD/MD.xtc
+- archived_path/runtime/adhoc/pet_preeq_PET_L10_r2/01_preeq/MD/MD.xtc
+- archived_path/runtime/adhoc/pet_preeq_PET_L10_r3/01_preeq/MD/MD.xtc
+total_frames_pooled: 7503
+gromacs_version: 'GROMACS version:     2025.4'
+conformers:
+- id: '001'
+  gro_path: conformer_001.gro
+  cluster_id: 1
+  population_frames: 2501
+  population_fraction: 0.3333333333333333
+  rg_nm: 0.7451
+  end_to_end_nm: 0.8084
+  gro_sha256: a7f708937cf8fe5888011d7aceb6b340029e209827428f25858ee116e7d927b6
+- id: '002'
+  gro_path: conformer_002.gro
+  cluster_id: 32
+  population_frames: 2436
+  population_fraction: 0.3246701319472211
+  rg_nm: 0.7675
+  end_to_end_nm: 1.1654
+  gro_sha256: 5e9b8574d08fa3e758f5eb112519589216644ed351c4630192f24b2ae4cdd52c
+- id: '003'
+  gro_path: conformer_003.gro
+  cluster_id: 10
+  population_frames: 1367
+  population_fraction: 0.18219378915100626
+  rg_nm: 0.8748
+  end_to_end_nm: 2.3215
+  gro_sha256: 70925e950dced9bee4f60ba6befa58a2ee4782ba529f74fae60f2405cacca6e0
+- id: '004'
+  gro_path: conformer_004.gro
+  cluster_id: 4
+  population_frames: 321
+  population_fraction: 0.042782886845261894
+  rg_nm: 0.8708
+  end_to_end_nm: 1.8563
+  gro_sha256: 8881c69debfac73b0b88651444380d03e1a9be72f92c9b8bf60cace513281251
+- id: '005'
+  gro_path: conformer_005.gro
+  cluster_id: 26
+  population_frames: 282
+  population_fraction: 0.03758496601359456
+  rg_nm: 0.9156
+  end_to_end_nm: 1.2697
+  gro_sha256: c0bb6fbe090b4da62b121d41ab5c6284210999151c74e2883baf819112df45a3
+computed_at_utc: '2026-05-25T17:42:14.226042+00:00'

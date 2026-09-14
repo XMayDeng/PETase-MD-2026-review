@@ -1,0 +1,241 @@
+{
+  "Figure_01": {
+    "entrypoint": "03_figures/fig01/make_figure.py",
+    "output": "03_figures/fig01/Figure_01_enzyme_panel_overview.png",
+    "reference_sha256": "ae72beb95be821e737d41b1e4e62d870d13288315a63103a1a66bf691af1e4f6",
+    "inputs": {
+      "01_simulation/inputs/reference_structures/6EQD.pdb": "e923f7aae8a4e2cc0765a12e27faa1fe459cce0f32d484ec784e76d01ba12b2f",
+      "01_simulation/inputs/reference_structures/7QJR.pdb": "90cad21dcc77cc02516aa71118b4351238b9bb50e0d56bbf9520aeefcf0b17b1",
+      "01_simulation/inputs/reference_structures/4EB0.pdb": "952288d4a49893ee259638bc72e17868b6903f0027c4bd4d207f76b9ddf85718",
+      "01_simulation/inputs/reference_structures/5AJH.pdb": "a2ee7a432e7df85e79ab7325b5c1eef7b5d9ec2d72b06edba088aaa32cfd3219",
+      "01_simulation/inputs/reference_structures/4OYY.pdb": "ad8043560d92c33b5ec72c3aa0d5a1eb1acc14dcd0edd9e15cd95444f826d1b2",
+      "01_simulation/inputs/reference_structures/7NEI.pdb": "7b5a076a8e3b520da304869bb5538a8af552f16df97d055308abdaee555c3f00",
+      "03_figures/fig01/render_scene.cxc": "1a83bff5403c25228d2c1564d6eae2340bf8c8fa571ba28e501daf11340b87c3",
+      "03_figures/fig01/project_labels.py": "956f06c6e1e4b6eec12670df384ec1dccc27d80da089bbc1ec323f1be30eadbb"
+    },
+    "render_scenes": [
+      {
+        "scene": "03_figures/fig01/render_scene.cxc",
+        "outputs": [
+          "Figure_01_IsPETase_context.png",
+          "Figure_01_IsPETase_active_site.png",
+          "Figure_01_TfCut1_context.png",
+          "Figure_01_TfCut1_active_site.png",
+          "Figure_01_LCC_context.png",
+          "Figure_01_LCC_active_site.png",
+          "Figure_01_FoCut5a_context.png",
+          "Figure_01_FoCut5a_active_site.png",
+          "Figure_01_HiC_context.png",
+          "Figure_01_HiC_active_site.png",
+          "Figure_01_PHL7_context.png",
+          "Figure_01_PHL7_active_site.png",
+          "Figure_01_IsPETase_label_projection.json",
+          "Figure_01_TfCut1_label_projection.json",
+          "Figure_01_LCC_label_projection.json",
+          "Figure_01_FoCut5a_label_projection.json",
+          "Figure_01_HiC_label_projection.json",
+          "Figure_01_PHL7_label_projection.json"
+        ]
+      }
+    ]
+  },
+  "Figure_02": {
+    "entrypoint": "03_figures/fig02/make_figure.py",
+    "output": "03_figures/fig02/Figure_02_retention_heatmap.png",
+    "reference_sha256": "85d8dbc8e0a7bdde4888d9076a4f55918c7f2e00c4ed81e7f53e6763e7f2932c",
+    "inputs": {
+      "02_postprocessing/results/aggregate_statistics/retention_conditions.csv": "c3610409b0856c7a52243ae57f1cf18f7a033585d7d4e466fc1efcacc471fde5",
+      "02_postprocessing/results/aggregate_statistics/retention_qc_counts.csv": "3785b08cd5022c6273bdc7a4717d93b70e8505f7ccc440b3e065398d8e4f6c4b",
+      "02_postprocessing/results/trajectory_summaries/retention_manifest.csv": "e3c056233bc17148fdf7605a9713b975e9278430840480a2c8ec70bc55579854"
+    }
+  },
+  "Figure_03": {
+    "entrypoint": "03_figures/fig03/make_figure.py",
+    "output": "03_figures/fig03/Figure_03_retained_interface_architecture.png",
+    "reference_sha256": "c2f4c455da511d981c8395f0380295e0cb1cc3bf3b4190777aa9cdc09bde7104",
+    "inputs": {
+      "02_postprocessing/results/aggregate_statistics/pooled_top8_contacts_unfiltered.csv": "54281db90dbe8b35c9f6c70c563217c236522a5cdb94693efea1bb64a0122520",
+      "02_postprocessing/results/aggregate_statistics/pooled_top20_contact_class_composition_unfiltered.csv": "1d0abfb5cc6a580987ace4ada51e67da5ece5aed0e942d3eedc17115c73debb2"
+    }
+  },
+  "Figure_04": {
+    "entrypoint": "03_figures/fig04/make_figure.py",
+    "output": "03_figures/fig04/Figure_04_L10_to_L20_interface_response.png",
+    "reference_sha256": "7ab1306d346b2c848141009c2a3f79c5a49e780deeab72135da774f036bc62b4",
+    "inputs": {
+      "02_postprocessing/results/aggregate_statistics/pet_length_landmark_share_filtered_contact_ge_0_2.csv": "17a82685afec20cc6e87a267ebccaafc2813508c2594be22488be727ae986495",
+      "02_postprocessing/results/aggregate_statistics/pet_length_case_coverage.csv": "41364727513a0801d79103c05b2a621c9195c9a82a9faefc93b378c7cc5fbd87",
+      "02_postprocessing/results/aggregate_statistics/class_contact_shift_bootstrap.csv": "1f118f51d41be9c9bdda7d0918ebc17a2bea5ee62f06847ede3ff29839c9d2bf",
+      "02_postprocessing/results/aggregate_statistics/manuscript_candidate_residues.csv": "01d753098732516550f2f0112529545ecfd735258deb7ef013540779fa0b53ab"
+    }
+  },
+  "Figure_05": {
+    "entrypoint": "03_figures/fig05/make_figure.py",
+    "output": "03_figures/fig05/Figure_05_HiC_FoCut5a_differential_interface_use.png",
+    "reference_sha256": "850b00aaae6a3b7fdee794756f6956c7b70b616c13ae4d226d3dd77267cbcf42",
+    "inputs": {
+      "01_simulation/inputs/production_structures/00121.pdb": "b98f40dc9c7bf80f16c3365de9c7053099b07932ef1f2be3988b46f04201062f",
+      "01_simulation/inputs/production_structures/00075.pdb": "6ac17076b6af03bdadc70f1b4171ddb9c0025b62215a7f8b9ffe41129e70c470",
+      "03_figures/fig05/render_scene.cxc": "b29f46eabdd311447c2cde695bbf0247889c2a7a609e4dc8771f10e32a9c0724",
+      "02_postprocessing/results/aggregate_statistics/hic_structural_equivalent_mapping.csv": "2abedc430b0b329f9c67ca9d2c9b835a0c1d369abf353125a074ca63a1dd89a9",
+      "02_postprocessing/results/aggregate_statistics/hic_equivalent_contact_fraction_by_length.csv": "3a7dc9c3f0a79769fce407848b33bd7b774fd705acbe0d30c3ebdf241821fb0c",
+      "02_postprocessing/results/aggregate_statistics/hic_pairwise_ce_alignment_summary.csv": "c1b2bef18883be560a6179f66fc685a5d5ac987323b3a6cb7ca36269f9f49800"
+    },
+    "render_scenes": [
+      {
+        "scene": "03_figures/fig05/render_scene.cxc",
+        "outputs": [
+          "Figure_06_HiC_FoCut5a_overlay.png",
+          "Figure_06_HiC_FoCut5a_anchor_map.png"
+        ]
+      }
+    ]
+  },
+  "Figure_06": {
+    "entrypoint": "03_figures/fig06/make_figure.py",
+    "output": "03_figures/fig06/Figure_06_local_interaction_geometry.png",
+    "reference_sha256": "1f8d3b0e643a667fe5226fca09e3a763603273214f8fbadecb7eeca8288a6043",
+    "inputs": {
+      "02_postprocessing/results/structural_snapshots/coordinates/CUT1_T64_L20_75.49ns_hbond.pdb": "daba67b8f1a82e3ac3d14f4622bd983b1c1e80c6850a0eb390c1e0f069ac9599",
+      "02_postprocessing/results/structural_snapshots/coordinates/CUT1_S67_L20_56.19ns_hbond.pdb": "0e574e039c6d7a00cc8e66f50af5995513d645c16052506952b0551281ea6a0a",
+      "02_postprocessing/results/structural_snapshots/coordinates/HiC_T166_L20_52.44ns_hbond.pdb": "8cf4669e4f9b6477d7d46dc0b79660bcf61968399305a21aabf13685d7c4c950",
+      "03_figures/fig06/render_scene.cxc": "cc8ddac45c36aa4e8eb6510a2fb069b57827f21a694700b30f952abecc4300f0",
+      "02_postprocessing/results/aggregate_statistics/candidate_hbond_shift_uncertainty.csv": "15ed4fd704895576ce522fa4730c063bd9725dd34b5c892de1d3ec540b76d80e",
+      "02_postprocessing/results/aggregate_statistics/interaction_shift_statistics.csv": "5496bd5dab8501b205be7de16eda7ac80fcb6c8e58d4abc96879776bb2f6ba89",
+      "02_postprocessing/results/structural_snapshots/representative_hbond_frames.csv": "ff281cd79c381e3977f78121a72a012c8bf7de3ed4a99802d80a2b3d8bb2b4da"
+    },
+    "render_scenes": [
+      {
+        "scene": "03_figures/fig06/render_scene.cxc",
+        "outputs": [
+          "Figure_07_T64_no_distance_label.png",
+          "Figure_07_S67_no_distance_label.png",
+          "Figure_07_T166_no_distance_label.png"
+        ]
+      }
+    ]
+  },
+  "Figure_S01": {
+    "entrypoint": "03_figures/figS01/make_figure.py",
+    "output": "03_figures/figS01/Figure_S01_retention_filter_statistics.png",
+    "reference_sha256": "6104fa5f72d5a35f31f7377aed463c22fabbcc8dee01219ad35f0d206bd386bf",
+    "inputs": {
+      "02_postprocessing/results/aggregate_statistics/retention_conditions.csv": "c3610409b0856c7a52243ae57f1cf18f7a033585d7d4e466fc1efcacc471fde5",
+      "02_postprocessing/results/aggregate_statistics/retention_qc_counts.csv": "3785b08cd5022c6273bdc7a4717d93b70e8505f7ccc440b3e065398d8e4f6c4b",
+      "02_postprocessing/results/trajectory_summaries/retention_manifest.csv": "e3c056233bc17148fdf7605a9713b975e9278430840480a2c8ec70bc55579854"
+    }
+  },
+  "Figure_S02": {
+    "entrypoint": "03_figures/figS02/make_figure.py",
+    "output": "03_figures/figS02/Figure_S02_spatial_retained_interfaces.png",
+    "reference_sha256": "907a9fe681103b357f567331b4944d549468a8e9596c16e9a3d261cb62bc75e1",
+    "inputs": {
+      "02_postprocessing/results/structural_snapshots/coordinates/Figure_05_IsPETase.pdb": "9712879bb4c1572bff746cd8e8a23abfabc575a8d8cd863cfef26747ebd9ead6",
+      "02_postprocessing/results/structural_snapshots/coordinates/Figure_05_TfCut1.pdb": "4dfc8ce0cc5a8b48bc735d4fe826843d5238acf026948dae5bf9725858677407",
+      "02_postprocessing/results/structural_snapshots/coordinates/Figure_05_LCC.pdb": "6fbbc09709f19b695982961cca55e0ec01e452d01f1c05480343c64ee91cf36a",
+      "02_postprocessing/results/structural_snapshots/coordinates/Figure_05_FoCut5a.pdb": "6aa86577f5be531065dddeb5fe3f784b1411006095b40075de894db9c19bfe0f",
+      "02_postprocessing/results/structural_snapshots/coordinates/Figure_05_PHL7.pdb": "3f67594b45cee5377d81f97b09705a501d7239c2e380901cc2363ed61c9cc96b",
+      "01_simulation/inputs/production_structures/00083.pdb": "3e43f491a35da7cef5bd75b3b75ed23617e358613504ed93739e221c2d351aac",
+      "03_figures/figS02/render_five_enzymes.cxc": "f9e0e5f59f1c30979441b6ed55b33597ace5143ba2d2cfbabe12f962739dccfb",
+      "02_postprocessing/results/structural_snapshots/coordinates/Figure_04_HiC_common.pdb": "726eceb1ec40a04e6140740256bc167a9d660f52da9f5dbdb40c345fe99cd9fd",
+      "03_figures/figS02/render_hic.cxc": "772dd31858ae16c17e05234ac04901bcde4ee830266aee7cdb3a9a06521c3ac8",
+      "02_postprocessing/results/aggregate_statistics/pooled_top8_contacts_unfiltered.csv": "54281db90dbe8b35c9f6c70c563217c236522a5cdb94693efea1bb64a0122520",
+      "02_postprocessing/results/structural_snapshots/representative_interface_frames.csv": "ddd01ba1164638761798f66baa5acd1a32472c30e20467996add89b4146fdb4f",
+      "02_postprocessing/results/structural_snapshots/coordinates/HiC_T166_L20_52.44ns_hbond.pdb": "8cf4669e4f9b6477d7d46dc0b79660bcf61968399305a21aabf13685d7c4c950"
+    },
+    "render_scenes": [
+      {
+        "scene": "03_figures/figS02/render_five_enzymes.cxc",
+        "outputs": [
+          "Figure_04_IsPETase_closeup.png",
+          "Figure_04_IsPETase_label_anchor_map.png",
+          "Figure_04_TfCut1_closeup.png",
+          "Figure_04_TfCut1_label_anchor_map.png",
+          "Figure_04_LCC_closeup.png",
+          "Figure_04_LCC_label_anchor_map.png",
+          "Figure_04_FoCut5a_closeup.png",
+          "Figure_04_FoCut5a_label_anchor_map.png",
+          "Figure_04_PHL7_closeup.png",
+          "Figure_04_PHL7_label_anchor_map.png"
+        ]
+      },
+      {
+        "scene": "03_figures/figS02/render_hic.cxc",
+        "outputs": [
+          "Figure_04_HiC_closeup.png",
+          "Figure_04_HiC_label_anchor_map.png"
+        ]
+      }
+    ]
+  },
+  "Figure_S03": {
+    "entrypoint": "03_figures/figS03/make_figure.py",
+    "output": "03_figures/figS03/Figure_S03_class_contact_shift_uncertainty.png",
+    "reference_sha256": "05d691d11d0159cd182fb9d7f5853fd9986ff52ab2e8cbe10cf4344cf5891c64",
+    "inputs": {
+      "02_postprocessing/results/aggregate_statistics/class_contact_shift_bootstrap.csv": "1f118f51d41be9c9bdda7d0918ebc17a2bea5ee62f06847ede3ff29839c9d2bf"
+    }
+  },
+  "Figure_S04": {
+    "entrypoint": "03_figures/figS04/make_figure.py",
+    "output": "03_figures/figS04/Figure_S04_PHL7_W156_rotamer_contact_coupling.png",
+    "reference_sha256": "f41264437c26bdefb0f44c9c587ed82f4ee8b881bdc8ae0a10cf0f5d3452cdb1",
+    "inputs": {
+      "02_postprocessing/results/frame_observables/frame_level_w156_rotamer_contacts.csv.gz": "a4ac5fe5387bea236e50db619df2ad2bec6556e6b2f4cb1e92069ea446b09554",
+      "02_postprocessing/results/trajectory_summaries/trajectory_rotamer_summary.csv": "a06d1463cd9c7a289217d05bff339dbb4e2ee351abe1b9530ef4fee6be0f330d",
+      "02_postprocessing/results/aggregate_statistics/length_group_summary.csv": "55f17c30744b020abc839613378f58bfc21dafcaa027a90bc6dfdcd4029f9b94",
+      "02_postprocessing/results/aggregate_statistics/reference_structure_angles.csv": "c7ff46f9a4d66a9ff9aeb03d57f90f183b41f8b26767b0b37e004fc1fd1267bb",
+      "02_postprocessing/results/aggregate_statistics/mixture_model_sensitivity.csv": "3cd877caa3234faf8b679f9ada530d99068d1724ea537ed9171e811557872302"
+    }
+  },
+  "Figure_S05": {
+    "entrypoint": "03_figures/figS05/make_figure.py",
+    "output": "03_figures/figS05/Figure_S05_catalytic_ser_pet_min_distance.png",
+    "reference_sha256": "06cc0d774bb55bcb2ecbd1378ec141b7745b9a447c143617a20e0a8b2f120d13",
+    "inputs": {
+      "02_postprocessing/results/trajectory_summaries/catalytic_ser_pet_trajectory_summary.csv": "0a0a5ec2fd39d60f6057cd4a9101898264a8137186ebe0e42f1f7cd2d5a73c3d"
+    }
+  },
+  "Figure_S06": {
+    "entrypoint": "03_figures/figS06/make_figure.py",
+    "output": "03_figures/figS06/Figure_S06_L20_head_PET_Rg_LCC_vs_TfCut1.png",
+    "reference_sha256": "f649b2649a12b1e03c38dc3e6b0008b83ededc3742c9028ca9953bf330e91b0f",
+    "inputs": {
+      "02_postprocessing/results/frame_observables/pet_rg_per_frame.csv.gz": "6302b4124a010a77813a2b59f1354eaf0d15e8dcfe43848ef5a244f258a26ada",
+      "02_postprocessing/results/trajectory_summaries/pet_rg_trajectory_summary.csv": "d902b229924e9697da29cbea8c1d7127468d00444f10103eb4e419f44b982981",
+      "02_postprocessing/results/aggregate_statistics/pet_rg_group_comparison.csv": "4ecf74922aa74952b23d8c72cd4dda92fbaae887043f0c8658041255c76ebcea"
+    }
+  },
+  "Figure_S07": {
+    "entrypoint": "03_figures/figS07/make_figure.py",
+    "output": "03_figures/figS07/Figure_S07_HiC_structural_equivalents.png",
+    "reference_sha256": "7c287979934713cc432c651eeb5aec4a3c3af5cebc4f5f552a0e43d1eb33b190",
+    "inputs": {
+      "02_postprocessing/results/aggregate_statistics/hic_pairwise_ce_alignment_summary.csv": "c1b2bef18883be560a6179f66fc685a5d5ac987323b3a6cb7ca36269f9f49800",
+      "02_postprocessing/results/aggregate_statistics/hic_structural_equivalent_mapping.csv": "2abedc430b0b329f9c67ca9d2c9b835a0c1d369abf353125a074ca63a1dd89a9",
+      "02_postprocessing/results/aggregate_statistics/hic_equivalent_contact_fraction_by_length.csv": "3a7dc9c3f0a79769fce407848b33bd7b774fd705acbe0d30c3ebdf241821fb0c"
+    }
+  },
+  "Figure_S08": {
+    "entrypoint": "03_figures/figS08/make_figure.py",
+    "output": "03_figures/figS08/Figure_S08_hbond_evidence_composite.png",
+    "reference_sha256": "64d3c1b067c8eccf1bf5ebca05e22c93e691e1baecdd8271cc4317cb76c001da",
+    "inputs": {
+      "02_postprocessing/results/trajectory_summaries/candidate_case_hbond_values_zero_filled.csv": "ed0ff9b47c07f8990850f9a21db3d5ccd362615ba0f446fd7efd9451b51ef889",
+      "02_postprocessing/results/aggregate_statistics/candidate_pet_hbond_summary.csv": "2dfca5761df529f1e9fa85aa51302326d3533746b5ed5fba5d2a8864d9bdba30",
+      "02_postprocessing/results/aggregate_statistics/candidate_hbond_shift_uncertainty.csv": "15ed4fd704895576ce522fa4730c063bd9725dd34b5c892de1d3ec540b76d80e",
+      "02_postprocessing/results/aggregate_statistics/criterion_residue_shift_statistics.csv": "85c5d6678b0fc8be71f10f28c45bffaeb0cf7589fdc4a149d69ef11acbb21f27"
+    }
+  },
+  "Figure_S09": {
+    "entrypoint": "03_figures/figS09/make_figure.py",
+    "output": "03_figures/figS09/Figure_S09_Wloop_Calpha_RMSF.png",
+    "reference_sha256": "6d57025e1c7e2347f927a832943e70612ed8fbadcd5b0046c26444b8add56e50",
+    "inputs": {
+      "02_postprocessing/results/aggregate_statistics/protein_wloop_profile_summary.csv": "de12d21e1d68de1fe5a446565ebc591144a60118d537f660f1e749c5cc8512d0",
+      "02_postprocessing/results/trajectory_summaries/trajectory_wloop_summary.csv": "b9d54833c5df148272bdc6ec9ca735d13137c062134e64df3cd397914745d5fe",
+      "02_postprocessing/results/aggregate_statistics/protein_wloop_metric_summary.csv": "47cb9db0a19c5cfd1cdba4171040cc002b3f581ba8d553509344add695006fe2",
+      "02_postprocessing/results/aggregate_statistics/mapped_pair_site_summary.csv": "c8e670a4fb1cc3d3b7196ebd7b7c96ac26154c790ca4a25984159a0e04d43d46"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "computed_at_utc": "2026-05-25T17:50:40.037367+00:00",
+  "files": {
+    "cluster_summary.yaml": {
+      "sha256": "b60f031015384cf7f994c35e0a9b76e9d1d06a823308ba41eb791019e3c5261d",
+      "size_bytes": 1838
+    },
+    "cluster_table.txt": {
+      "sha256": "9e18956b8ddd5e5925b5925a59affda8cbf1eb7c5df91f7b69e00aa69852d6d0",
+      "size_bytes": 87852
+    },
+    "conformer_001.gro": {
+      "sha256": "a7f708937cf8fe5888011d7aceb6b340029e209827428f25858ee116e7d927b6",
+      "size_bytes": 10091
+    },
+    "conformer_002.gro": {
+      "sha256": "5e9b8574d08fa3e758f5eb112519589216644ed351c4630192f24b2ae4cdd52c",
+      "size_bytes": 10091
+    },
+    "conformer_003.gro": {
+      "sha256": "70925e950dced9bee4f60ba6befa58a2ee4782ba529f74fae60f2405cacca6e0",
+      "size_bytes": 10091
+    },
+    "conformer_004.gro": {
+      "sha256": "8881c69debfac73b0b88651444380d03e1a9be72f92c9b8bf60cace513281251",
+      "size_bytes": 10091
+    },
+    "conformer_005.gro": {
+      "sha256": "c0bb6fbe090b4da62b121d41ab5c6284210999151c74e2883baf819112df45a3",
+      "size_bytes": 10091
+    }
+  },
+  "pet_kind": "PET_L10",
+  "schema_version": "v1.1"
+}

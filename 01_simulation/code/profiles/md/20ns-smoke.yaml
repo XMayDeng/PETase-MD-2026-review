@@ -1,0 +1,4 @@
+name: 20ns-smoke
+runner: md
+md_nsteps: 10000000
+clean: true

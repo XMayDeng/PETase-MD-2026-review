@@ -1,0 +1,5 @@
+protein_id,target_resid,target_label,primary_metric,recomputed_production_to_experimental_rmsd_angstrom,str_eq_01_rmsd_angstrom,absolute_reconciliation_difference_angstrom,pass
+Pro00057,185,TfCut1 H185,sidechain_conformation,1.5085165209784928,1.5085165209784928,0.0,True
+Pro00075,184,FoCut5a L184,target_backbone_after_pocket_fit,1.5432327213820052,1.5432327213820052,0.0,True
+Pro00121,164,HiC T164,sidechain_conformation,2.0757685084326236,2.075768508432624,4.440892098500626e-16,True
+Pro00121,166,HiC T166,sidechain_conformation,2.0528251172784477,2.052825117278448,4.440892098500626e-16,True

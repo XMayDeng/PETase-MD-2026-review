@@ -1,0 +1,7 @@
+enzyme_tex,pdb_reference_tex,source_organism_tex,thermal_class_tex
+IsPETase,6EQD\cite{austin2018},\textit{Ideonella sakaiensis} ,Met.
+TfCut1  ,7QJR\cite{erickson2022},\textit{Thermobifida fusca}   ,Ther.
+LCC     ,4EB0\cite{sulaiman2014},meta.\ (leaf-branch compost)  ,Ther.
+FoCut5a ,5AJH\cite{dimarogona2015},\textit{Fusarium oxysporum}   ,Met.
+HiC     ,4OYY\cite{kold2014},\textit{Humicola insolens}    ,Ther.
+PHL7    ,7NEI\cite{sonnendecker2022},meta.\ (environmental sample) ,Ther.

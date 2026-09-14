@@ -1,0 +1,29 @@
+\begin{table}[H]
+  \caption{Structural concordance between the production models and experimental references.}
+  \label{tab:structural_concordance}
+  \scriptsize
+  \setlength{\tabcolsep}{3pt}
+  \begin{tabularx}{\linewidth}{@{}llcS[table-format=2.1]S[table-format=1.3]S[table-format=1.3]cS[table-format=1.3]>{\raggedright\arraybackslash}X@{}}
+    \toprule
+    Enzyme & Experimental reference$^{a}$ & \shortstack{Aligned $n$\\(identity, \%)} &
+    \multicolumn{1}{c}{\shortstack{Model\\coverage (\%)}} &
+    \multicolumn{1}{c}{\shortstack{Global C$\alpha$\\RMSD (\AA)}} &
+    \multicolumn{1}{c}{\shortstack{Pocket backbone\\RMSD$^{b}$ (\AA)}} &
+    \shortstack{Pocket side-chain\\median/p90$^{c}$ (\AA)} &
+    \multicolumn{1}{c}{\shortstack{Max triad\\$\Delta$$^{d}$ (\AA)}} &
+    Threshold-exceeding site$^{e}$ \\
+    \midrule
+    TfCut1 & 7QJR chain A (1.51 \AA) & 261 (100.0) & 99.6 & 0.355 & 0.149 & 0.166/0.341 & 0.261 & His185 side-chain conformation (1.51 \AA) \\
+    LCC & 4EB0 chain A (1.50 \AA) & 258 (100.0) & 88.1 & 0.199 & 0.171 & 0.156/0.356 & 0.884 & None \\
+    FoCut5a & 5AJH chain A (1.90 \AA) & 201 (100.0) & 88.9 & 0.337 & 0.395 & 0.235/0.681 & 0.187 & Leu184 local backbone (1.54 \AA) \\
+    IsPETase & 6EQD chain A (1.70 \AA) & 262 (100.0) & 90.3 & 0.293 & 0.158 & 0.150/0.434 & 0.202 & None \\
+    HiC & 4OYY chain A (3.00 \AA) & 191 (100.0) & 98.5 & 0.559 & 0.395 & 0.228/1.596 & 0.462 & Thr164/\allowbreak{}Thr166 side-chain conformation (2.08/\allowbreak{}2.05 \AA) \\
+    PHL7 & 7NEI chain A (1.30 \AA) & 258 (100.0) & 96.6 & 0.570 & 0.292 & 0.196/0.852 & 0.495 & None \\
+    \bottomrule
+  \end{tabularx}
+  \par\vspace{2pt}
+  \begin{minipage}{\linewidth}
+    \footnotesize
+    Production simulations used standardized single-chain AlphaFold2 models from PlasticDB. The corresponding experimental structures served as references for structural comparison. Primary structural references for these PDB entries are provided in Table 1 of the main text. Residue identifiers use simulation numbering. FoCut5a simulation numbering is $+1$ relative to 5AJH in the mapped active-site region. $^{a}$Values in parentheses are experimental resolutions. $^{b}$Backbone RMSD after local fitting of N, C$\alpha$, and C atoms for mapped residues within \SI{8}{\angstromunit} of the production-model catalytic triad. $^{c}$Median and 90th percentile of residue side-chain conformation RMSDs after fitting each residue backbone. $^{d}$Largest absolute production-versus-experimental difference among Ser O$\gamma$--His N$\varepsilon$2, His N$\delta$1--acid carboxylate O, and Ser O$\gamma$--acid carboxylate O distances. $^{e}$Named residues exceeding the prespecified \SI{1.0}{\angstromunit} local-backbone or \SI{1.5}{\angstromunit} residue-fitted side-chain-conformation threshold. ``None'' indicates that no named residue exceeded either threshold. All global C$\alpha$ RMSD, pocket-backbone RMSD, and maximum catalytic-triad distance-difference values were below the prespecified \SI{1.0}{\angstromunit} panel-wide thresholds.
+  \end{minipage}
+\end{table}

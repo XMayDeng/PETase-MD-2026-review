@@ -1,0 +1,54 @@
+id: Pro00057__PET_L4__binding002
+case_schema_version: v1.1
+workflow: PrebalanceDocking_MD
+
+protein:
+  id: '00057'
+  asset: inputs/proteins/00057
+  name: T_fusca_cutinase
+
+ligand:
+  family: PET
+  kind: PET_L4
+  raw_asset: inputs/pets/PET_L4/raw/charmm-gui-001
+  template_asset: inputs/pets/PET_L4/templates/pet_l4-template-001
+
+docking:
+  method: vina
+  fragment: PET_L4
+  target_chain_length: PET_L4
+  profile: code/profiles/docking/vina-local.yaml
+  site_source: registry
+  require_trusted_active_site: true
+  require_catalytic_pose_qc_v2: false
+  max_motif_rmsd: 99.0
+  max_ser_carbonyl: 99.0
+  max_severe_clashes: 50
+
+build:
+  chain_extension:
+    enabled: false
+
+box:
+  protocol_version: v1.1.0_unified_cubic
+  box_dim_nm: auto
+  box_type: cubic
+  padding_check_margin_nm: 1.5
+
+chain_relax:
+  enabled: auto
+
+md:
+  profile: code/profiles/md/production.yaml
+  replicas: 3
+  burn_in_ns: 20.0
+
+postprocess:
+  profile: code/profiles/postprocess/default.yaml
+
+env:
+  profile: code/profiles/env/local.yaml
+
+classification:
+  is_negative_control: false
+  positive_protein_family: Cutinase

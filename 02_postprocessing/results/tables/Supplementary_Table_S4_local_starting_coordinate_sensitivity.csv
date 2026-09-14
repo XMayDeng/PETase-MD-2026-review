@@ -1,0 +1,5 @@
+target,metric,initial_model_reference_rmsd_A,experimental_overlap_trajectories,total_trajectories,median_overlap_fraction,median_experimental_closer_fraction,mean_analysis_minus_start_experimental_rmsd_A,interaction_indicator,interaction_state_contrast,interaction_state_ci95_low,interaction_state_ci95_high
+TfCut1 H185,side-chain conformation,1.5085165209784928,21,21,1.000,1.000,-1.0361698432607271,not estimable,,,
+FoCut5a L184,local backbone after pocket fit,1.5432327213820052,1,21,0.009987515605493134,0.04119850187265917,0.8128290033856198,heavy-atom contact,-0.07085461042305198,-0.15034849820152826,-0.00114485764596537
+HiC T164,side-chain conformation,2.0757685084326236,16,21,0.07740324594257178,0.14731585518102372,-0.19992680709486102,heavy-atom contact,0.03112580265572107,-0.034570697816000265,0.09642234284194587
+HiC T166,side-chain conformation,2.0528251172784477,20,21,0.5530586766541823,0.8202247191011236,-0.8246913206743062,native side-chain hydrogen bond,-0.007808908200601445,-0.07193998139852753,0.052529323816739526

@@ -1,0 +1,28 @@
+; run_pipeline.py config (mdp-style key=value)
+; Notes:
+; - Paths can be absolute or relative to generalGromacs_PL.
+; - These are script hyperparameters, NOT GROMACS physics parameters.
+
+gmx_bin       = gmx_mpi      ; gmx_mpi, gmx, or absolute path hpc only have gmx. docker should be gmx_mpi
+gmxrc         = /usr/local/gromacs/bin/GMXRC ; GMXRC to source before running
+source_gmxrc  = yes          ; yes/no
+mpirun        = mpirun       ; mpirun binary (if mpi_ranks > 1)
+mpi_ranks     = auto         ; auto -> #GPUs (if gpu_id set), else 1
+gpu_id        = 0          ; GPU IDs for mdrun (optional)
+pin           = auto           ; on/off/auto
+pinoffset     = 0            ; pinning offset (optional)
+
+build_dir     = code/system_build
+mdp_dir       = code/mdp
+out_dir       = Simulation/output
+param_dir     = code/parameterization
+
+; Runtime controls
+ntomp         = auto         ; auto -> (physical_cores / mpi_ranks)
+ntmpi         = auto         ; thread-MPI ranks for gmx (non-MPI build); auto -> 1 when using GPU
+;nsteps       = 500          ; override nsteps in mdrun (comment out for full run)
+maxwarn       = 20           ; grompp -maxwarn
+clean         = no           ; yes/no (move existing outputs into Simulation/_trash)
+resume_md     = no           ; yes -> only resume MD using MD.cpt
+start_md      = no           ; yes -> rebuild MD from NPT outputs only
+noappend      = no           ; yes -> use -noappend when resume_md=yes

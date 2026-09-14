@@ -1,0 +1,8 @@
+name: local
+gmx_bin: gmx_mpi
+gmxrc: /usr/local/gromacs/bin/GMXRC
+mpirun: mpirun
+mpi_ranks: 1
+gpu_id: 0
+ntomp: auto
+haddock_env: /dev/null

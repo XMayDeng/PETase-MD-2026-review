@@ -1,0 +1,179 @@
+# Refine Figure 1: active-site architecture in sequence-matched experimental structures.
+close
+open @PACKAGE@/01_simulation/inputs/reference_structures/6EQD.pdb
+open @PACKAGE@/01_simulation/inputs/reference_structures/7QJR.pdb
+open @PACKAGE@/01_simulation/inputs/reference_structures/4EB0.pdb
+open @PACKAGE@/01_simulation/inputs/reference_structures/5AJH.pdb
+open @PACKAGE@/01_simulation/inputs/reference_structures/4OYY.pdb
+open @PACKAGE@/01_simulation/inputs/reference_structures/7NEI.pdb
+matchmaker #2/A to #1/A
+matchmaker #3/A to #1/A
+matchmaker #4/A to #1/A
+matchmaker #5/A to #1/A
+matchmaker #6/A to #1/A
+cartoon #1-6/A
+set bgColor white
+lighting soft
+graphics silhouettes true
+hide #1-6 atoms
+hide /B-Z cartoons
+color #1-6/A #D8DDE2 cartoons
+view #1-6/A
+turn y 31
+turn x -11
+hide #1-6 models
+# IsPETase (6EQD)
+show #1 models
+show #1/A:160,206,237 atoms
+style #1/A:160,206,237 stick
+size #1/A:160,206,237 stickRadius 0.24
+color #1/A:160,206,237 #E07B54 atoms
+hide #1/A:160,206,237@H* atoms
+show #1/A:185 atoms
+style #1/A:185 stick
+size #1/A:185 stickRadius 0.25
+color #1/A:185 #E8C547 atoms
+hide #1/A:185@H* atoms
+view #1/A pad 0.08
+save @WORK@/Figure_01_IsPETase_context.png width 1800 height 1800 supersample 3 transparentBackground false
+size #1/A:160,206,237 stickRadius 0.26
+color #1/A #B6BEC8 cartoons
+transparency #1/A 30 target c
+view #1/A:160,206,237,185 pad 0.08
+zoom 1.28
+size #1/A:185 stickRadius 0.27
+label #1/A:160 residues text "S160" height fixed size 14 font "DejaVu Sans" color #161A20 bgColor #FFFFFFCC offset 0.8,0.8,0.5
+label #1/A:206 residues text "D206" height fixed size 14 font "DejaVu Sans" color #161A20 bgColor #FFFFFFCC offset 0.8,-1.6,0.5
+label #1/A:237 residues text "H237" height fixed size 14 font "DejaVu Sans" color #161A20 bgColor #FFFFFFCC offset -3.0,-0.7,0.5
+label #1/A:185 residues text "W185" height fixed size 14 font "DejaVu Sans" color #161A20 bgColor #FFFFFFCC offset -4.0,0.8,0.5
+runscript @PACKAGE@/03_figures/fig01/project_labels.py
+save @WORK@/Figure_01_IsPETase_active_site.png width 2100 height 1800 supersample 3 transparentBackground false
+label delete
+hide #1 models
+# TfCut1 (7QJR)
+show #2 models
+show #2/A:131,177,209 atoms
+style #2/A:131,177,209 stick
+size #2/A:131,177,209 stickRadius 0.24
+color #2/A:131,177,209 #E07B54 atoms
+hide #2/A:131,177,209@H* atoms
+show #2/A:156 atoms
+style #2/A:156 stick
+size #2/A:156 stickRadius 0.25
+color #2/A:156 #E8C547 atoms
+hide #2/A:156@H* atoms
+view #2/A pad 0.08
+save @WORK@/Figure_01_TfCut1_context.png width 1800 height 1800 supersample 3 transparentBackground false
+size #2/A:131,177,209 stickRadius 0.26
+color #2/A #B6BEC8 cartoons
+transparency #2/A 30 target c
+view #2/A:131,177,209,156 pad 0.08
+zoom 1.28
+size #2/A:156 stickRadius 0.27
+label #2/A:131 residues text "S131" height fixed size 14 font "DejaVu Sans" color #161A20 bgColor #FFFFFFCC offset 0.8,0.8,0.5
+label #2/A:177 residues text "D177" height fixed size 14 font "DejaVu Sans" color #161A20 bgColor #FFFFFFCC offset 0.8,-1.6,0.5
+label #2/A:209 residues text "H209" height fixed size 14 font "DejaVu Sans" color #161A20 bgColor #FFFFFFCC offset -3.0,-0.7,0.5
+label #2/A:156 residues text "W156" height fixed size 14 font "DejaVu Sans" color #161A20 bgColor #FFFFFFCC offset 0.8,0.8,0.5
+runscript @PACKAGE@/03_figures/fig01/project_labels.py
+save @WORK@/Figure_01_TfCut1_active_site.png width 2100 height 1800 supersample 3 transparentBackground false
+label delete
+hide #2 models
+# LCC (4EB0)
+show #3 models
+show #3/A:165,210,242 atoms
+style #3/A:165,210,242 stick
+size #3/A:165,210,242 stickRadius 0.24
+color #3/A:165,210,242 #E07B54 atoms
+hide #3/A:165,210,242@H* atoms
+show #3/A:190 atoms
+style #3/A:190 stick
+size #3/A:190 stickRadius 0.25
+color #3/A:190 #E8C547 atoms
+hide #3/A:190@H* atoms
+view #3/A pad 0.08
+save @WORK@/Figure_01_LCC_context.png width 1800 height 1800 supersample 3 transparentBackground false
+size #3/A:165,210,242 stickRadius 0.26
+color #3/A #B6BEC8 cartoons
+transparency #3/A 30 target c
+view #3/A:165,210,242,190 pad 0.08
+zoom 1.28
+size #3/A:190 stickRadius 0.27
+label #3/A:165 residues text "S165" height fixed size 14 font "DejaVu Sans" color #161A20 bgColor #FFFFFFCC offset 0.8,0.8,0.5
+label #3/A:210 residues text "D210" height fixed size 14 font "DejaVu Sans" color #161A20 bgColor #FFFFFFCC offset 0.8,-1.6,0.5
+label #3/A:242 residues text "H242" height fixed size 14 font "DejaVu Sans" color #161A20 bgColor #FFFFFFCC offset -3.0,-0.7,0.5
+label #3/A:190 residues text "W190" height fixed size 14 font "DejaVu Sans" color #161A20 bgColor #FFFFFFCC offset 0.8,0.8,0.5
+runscript @PACKAGE@/03_figures/fig01/project_labels.py
+save @WORK@/Figure_01_LCC_active_site.png width 2100 height 1800 supersample 3 transparentBackground false
+label delete
+hide #3 models
+# FoCut5a (5AJH)
+show #4 models
+show #4/A:121,176,189 atoms
+style #4/A:121,176,189 stick
+size #4/A:121,176,189 stickRadius 0.24
+color #4/A:121,176,189 #E07B54 atoms
+hide #4/A:121,176,189@H* atoms
+view #4/A pad 0.08
+save @WORK@/Figure_01_FoCut5a_context.png width 1800 height 1800 supersample 3 transparentBackground false
+size #4/A:121,176,189 stickRadius 0.26
+color #4/A #B6BEC8 cartoons
+transparency #4/A 30 target c
+view #4/A:121,176,189 pad 0.08
+zoom 1.28
+label #4/A:121 residues text "S122" height fixed size 14 font "DejaVu Sans" color #161A20 bgColor #FFFFFFCC offset 0.8,0.8,0.5
+label #4/A:176 residues text "D177" height fixed size 14 font "DejaVu Sans" color #161A20 bgColor #FFFFFFCC offset 0.8,-1.6,0.5
+label #4/A:189 residues text "H190" height fixed size 14 font "DejaVu Sans" color #161A20 bgColor #FFFFFFCC offset -3.0,-0.7,0.5
+runscript @PACKAGE@/03_figures/fig01/project_labels.py
+save @WORK@/Figure_01_FoCut5a_active_site.png width 2100 height 1800 supersample 3 transparentBackground false
+label delete
+hide #4 models
+# HiC (4OYY)
+show #5 models
+show #5/A:105,160,173 atoms
+style #5/A:105,160,173 stick
+size #5/A:105,160,173 stickRadius 0.24
+color #5/A:105,160,173 #E07B54 atoms
+hide #5/A:105,160,173@H* atoms
+view #5/A pad 0.08
+save @WORK@/Figure_01_HiC_context.png width 1800 height 1800 supersample 3 transparentBackground false
+size #5/A:105,160,173 stickRadius 0.26
+color #5/A #B6BEC8 cartoons
+transparency #5/A 30 target c
+view #5/A:105,160,173 pad 0.08
+zoom 1.28
+label #5/A:105 residues text "S105" height fixed size 14 font "DejaVu Sans" color #161A20 bgColor #FFFFFFCC offset 0.8,0.8,0.5
+label #5/A:160 residues text "D160" height fixed size 14 font "DejaVu Sans" color #161A20 bgColor #FFFFFFCC offset 0.8,-1.6,0.5
+label #5/A:173 residues text "H173" height fixed size 14 font "DejaVu Sans" color #161A20 bgColor #FFFFFFCC offset -3.0,-0.7,0.5
+runscript @PACKAGE@/03_figures/fig01/project_labels.py
+save @WORK@/Figure_01_HiC_active_site.png width 2100 height 1800 supersample 3 transparentBackground false
+label delete
+hide #5 models
+# PHL7 (7NEI)
+show #6 models
+show #6/A:131,177,209 atoms
+style #6/A:131,177,209 stick
+size #6/A:131,177,209 stickRadius 0.24
+color #6/A:131,177,209 #E07B54 atoms
+hide #6/A:131,177,209@H* atoms
+show #6/A:156 atoms
+style #6/A:156 stick
+size #6/A:156 stickRadius 0.25
+color #6/A:156 #E8C547 atoms
+hide #6/A:156@H* atoms
+view #6/A pad 0.08
+save @WORK@/Figure_01_PHL7_context.png width 1800 height 1800 supersample 3 transparentBackground false
+size #6/A:131,177,209 stickRadius 0.26
+color #6/A #B6BEC8 cartoons
+transparency #6/A 30 target c
+view #6/A:131,177,209,156 pad 0.08
+zoom 1.28
+size #6/A:156 stickRadius 0.27
+label #6/A:131 residues text "S131" height fixed size 14 font "DejaVu Sans" color #161A20 bgColor #FFFFFFCC offset 0.8,0.8,0.5
+label #6/A:177 residues text "D177" height fixed size 14 font "DejaVu Sans" color #161A20 bgColor #FFFFFFCC offset 0.8,-1.6,0.5
+label #6/A:209 residues text "H209" height fixed size 14 font "DejaVu Sans" color #161A20 bgColor #FFFFFFCC offset -3.0,-0.7,0.5
+label #6/A:156 residues text "W156" height fixed size 14 font "DejaVu Sans" color #161A20 bgColor #FFFFFFCC offset 0.8,0.8,0.5
+runscript @PACKAGE@/03_figures/fig01/project_labels.py
+save @WORK@/Figure_01_PHL7_active_site.png width 2100 height 1800 supersample 3 transparentBackground false
+label delete
+hide #6 models
+exit

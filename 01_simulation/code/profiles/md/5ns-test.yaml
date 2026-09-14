@@ -1,0 +1,4 @@
+name: 5ns-test
+runner: md5ns
+md_nsteps: 2500000
+clean: true

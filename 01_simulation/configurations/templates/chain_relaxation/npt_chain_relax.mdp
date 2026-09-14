@@ -1,0 +1,63 @@
+; Chain-relax NPT equilibration (R1 Phase C, spec §4.1)
+; 200 ps with POSRES on protein backbone (K=1000) + L4 anchor (K=500).
+; Berendsen barostat (equilibration only, never for production).
+
+title                   = Chain-relax NPT (POSRES protein + L4 anchor)
+
+define                  = -DPOSRES            ; enable position restraints
+
+; Run parameters
+integrator              = md
+nsteps                  = 100000              ; 100000 * 0.002 ps = 200 ps
+dt                      = 0.002
+
+; Output control
+nstenergy               = 500
+nstlog                  = 500
+nstxout-compressed      = 500
+
+; Bond parameters
+continuation            = yes                 ; continue from chain-relax NVT
+constraint_algorithm    = lincs
+constraints             = h-bonds
+lincs_iter              = 1
+lincs_order             = 4
+
+; Neighbor searching and vdW
+cutoff-scheme           = Verlet
+ns_type                 = grid
+nstlist                 = 20
+rlist                   = 1.2
+vdwtype                 = cutoff
+vdw-modifier            = force-switch
+rvdw-switch             = 1.0
+rvdw                    = 1.2
+
+; Electrostatics
+coulombtype             = PME
+rcoulomb                = 1.2
+pme_order               = 4
+fourierspacing          = 0.16
+
+; Temperature coupling
+tcoupl                  = V-rescale
+tc-grps                 = Protein_LIG Water_and_ions
+tau_t                   = 0.1   0.1
+ref_t                   = 300   300
+
+; Pressure coupling
+pcoupl                  = Berendsen           ; Berendsen for equilibration only
+pcoupltype              = isotropic
+tau_p                   = 2.0
+ref_p                   = 1.0
+compressibility         = 4.5e-5
+refcoord_scaling        = com                 ; scale POSRES reference by COM
+
+; Periodic boundary conditions
+pbc                     = xyz
+
+; Dispersion correction
+DispCorr                = no
+
+; Velocity generation
+gen_vel                 = no                  ; keep velocities from chain-relax NVT

@@ -1,0 +1,12 @@
+name: vina-local
+method: autodock-vina
+description: Local AutoDock Vina profile for PET fragment geometry probes. Set AUTOPROPET_VINA_ENV explicitly or use the public run.py --vina-env option.
+vina_env: null
+vina_bin: null
+obabel_bin: null
+prepare_ligand_bin: null
+prepare_receptor_bin: null
+default_box_size_angstrom: [25.0, 25.0, 25.0]
+default_exhaustiveness: 8
+default_num_modes: 20
+default_cpu: 4

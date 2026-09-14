@@ -1,0 +1,24 @@
+; LINES STARTING WITH ';' ARE COMMENTS
+; Energy minimization (EM)
+
+title                   = Minimization        ; run title (only for log)
+
+; Run control
+integrator              = steep               ; steepest descent minimization
+emtol                   = 1000.0              ; stop when max force < 1000 kJ/mol/nm
+emstep                  = 0.01                ; initial step size (nm)
+nsteps                  = 50000               ; maximum number of minimization steps
+
+; Neighbor searching and non-bonded interactions
+nstlist                 = 1                   ; update neighbor list every step (EM)
+cutoff-scheme           = Verlet              ; Verlet neighbor list scheme
+ns_type                 = grid                ; grid search (legacy; ignored with Verlet)
+rlist                   = 1.2                 ; neighbor list cutoff (nm)
+coulombtype             = PME                 ; long-range electrostatics (PME)
+rcoulomb                = 1.2                 ; real-space electrostatic cutoff (nm)
+vdwtype                 = cutoff              ; LJ cutoff
+vdw-modifier            = force-switch         ; smooth LJ to zero between rvdw-switch and rvdw
+rvdw-switch             = 1.0                 ; LJ switching start (nm)
+rvdw                    = 1.2                 ; LJ cutoff (nm)
+pbc                     = xyz                 ; periodic boundary conditions
+DispCorr                = no                  ; no dispersion correction (C36 additive)
