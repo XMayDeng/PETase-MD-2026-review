@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 """Pool N PET-only trajectories, cluster, and emit the K=5 conformer asset.
 
-Spec: docs/plans/2026-05-03_md_workflow_v1_binding_attribution_spec.md
-      §4.1 "Phase A — 单独 PET preeq (一次性预处理, asset 共享)".
+PET-only preequilibration provides conformers shared by the docking screen.
 
 Inputs are typically the 3 independent 50 ns trajectories produced by
 ``run_pet_solo_preeq.py`` for one chain length (L10 or L20). Trajectories

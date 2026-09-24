@@ -1,20 +1,18 @@
-"""Chain-length-aware cubic box protocol (spec §4.5).
+"""Chain-length-aware cubic box protocol.
 
 Shared constants + lookup helpers, imported by:
 
 * ``code/scripts/validate_complex_box.py`` — pre-MD reject when the solute
   envelope is too close to the periodic-image boundary.
-* ``code/scripts/build_md_from_docking_best.py`` (Task 5) — sets the
+* ``code/scripts/build_md_from_docking_best.py`` — sets the
   ``editconf -box <X X X> -bt cubic`` arguments per case.
-* ``code/scripts/check_v1_production_gate.py`` (Task 7) — the PBC layer of
+* ``code/scripts/check_v1_production_gate.py`` — the PBC layer of
   the 4-layer production gate uses a chain-length-scaled jump threshold.
 
-Spec authority: ``docs/plans/2026-05-03_md_workflow_v1_binding_attribution_spec.md``
-§4.5 (box) and the production-gate PBC sub-layer.
 """
 from __future__ import annotations
 
-# Cubic-box edge length per chain length, in nanometres (spec §4.5 table).
+# Cubic-box edge length per chain length, in nanometres.
 # Values are based on PET-only 20 ns pre-equilibration end-to-end / Rg
 # measurements and a +1.5 nm minimum margin (see ``DEFAULT_MARGIN_NM``).
 COMPLEX_BOX_DIM_NM: dict[str, float] = {
@@ -24,7 +22,7 @@ COMPLEX_BOX_DIM_NM: dict[str, float] = {
     "PET_L20": 15.0,
 }
 
-# Production-gate PBC jump threshold per chain length (spec §4.5).
+# Production-gate PBC jump threshold per chain length.
 # Longer chains exhibit larger natural conformation jumps; a single
 # fixed threshold would yield false positives on L20.
 PBC_JUMP_THRESHOLD_NM: dict[str, float] = {
@@ -36,8 +34,7 @@ PBC_JUMP_THRESHOLD_NM: dict[str, float] = {
 
 # Minimum required gap between the solute heavy-atom envelope and the
 # nearest box face, in nanometres. Failing this gap triggers either a
-# pre-MD reject (Task 2) or the R1 Phase B fallback retry loop (Task 5,
-# PA-D).
+# pre-MD rejection or the R1 Phase B fallback retry loop.
 DEFAULT_MARGIN_NM: float = 1.5
 
 # Resnames excluded from the "solute envelope" calculation in

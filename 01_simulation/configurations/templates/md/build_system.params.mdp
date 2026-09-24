@@ -1,21 +1,21 @@
 ; build_system.py config (mdp-style key=value)
 ; Notes:
-; - Paths can be absolute or relative to generalGromacs_PL.
-; - These are script hyperparameters, NOT GROMACS physics parameters.
+; - Paths can be absolute or relative to 01_simulation/.
+; - Supply the protein explicitly with --protein or a protein= entry.
+; - These settings are read by build_system.py, not directly by grompp.
 
 gmx_bin       = gmx      ; gmx_mpi, gmx, or absolute path
 
-protein       = Protein_data/PDB/00108.pdb                      ; 蛋白原始输入（PDB）
-ff_dir        = inputs/forcefields/charmm36-jul2021.ff  ; 蛋白用力场目录
+ff_dir        = inputs/forcefields/charmm36-jul2021.ff  ; protein force-field directory
 
-pet_choice    = PET_L20  ; PET 子目录名（用于自动填充下方路径）
-;pet_gro       = PET_data/PET_L20/gromacs/step3_input.gro    ; PET 坐标（CHARMM-GUI 的 GROMACS 输出）
-;pet_itp       = PET_data/PET_L20/gromacs/toppar/P1.itp      ; PET 分子拓扑（itp）
-;ff_itp        = PET_data/PET_L20/gromacs/toppar/forcefield.itp        ; PET 额外参数（CHARMM-GUI）
+pet_choice    = PET_L20  ; PET subdirectory used to fill the paths below
+;pet_gro       = PET_data/PET_L20/gromacs/step3_input.gro    ; PET coordinates from CHARMM-GUI
+;pet_itp       = PET_data/PET_L20/gromacs/toppar/P1.itp      ; PET molecular topology
+;ff_itp        = PET_data/PET_L20/gromacs/toppar/forcefield.itp        ; additional CHARMM-GUI parameters
 
 
-mdp_dir       = code/mdp                         ; mdp 模板目录（ions.mdp 在此）
-outdir        = code/system_build                ; 体系构建输出目录
+mdp_dir       = configurations/templates/md      ; templates, including ions.mdp
+outdir        = code/system_build                ; system-building output directory
 
 ; System build settings
 salt          = 0.1          ; ion concentration in M
@@ -23,10 +23,10 @@ water         = tip3p        ; water model for pdb2gmx
 water_coord   = spc216.gro   ; water coordinate file for solvate
 box_type      = triclinic    ; editconf box type
 box_distance  = 1.0          ; baseline distance from solute to box edge (nm)
-auto_box      = suggest      ; off/suggest/apply: 基于 protein+PET 尺寸自动建议/应用 box_distance
-pbc_buffer    = 1.2          ; auto_box 目标最小镜像缓冲 (nm)
-;insert_seed   = 20260209     ; 固定 insert-molecules 随机种子（注释掉则随机）
-;genion_seed   = 20260209     ; 固定 genion 随机种子（注释掉则随机）
+auto_box      = suggest      ; off/suggest/apply: suggest/apply box_distance from protein+PET dimensions
+pbc_buffer    = 1.2          ; target minimum-image buffer for auto_box (nm)
+;insert_seed   = 20260209     ; fixed insert-molecules seed; omit for a random seed
+;genion_seed   = 20260209     ; fixed genion seed; omit for a random seed
 
 ; genion behavior
 genion_group  = SOL          ; solvent group name in genion
@@ -35,5 +35,5 @@ genion_group  = SOL          ; solvent group name in genion
 copy_ff       = no           ; yes/no
 
 ; Post-build sanity check
-post_check    = yes          ; yes/no: 构建后自动跑 check_system_build.py
-check_strict  = no           ; yes/no: yes 时 WARN 也会返回非0
+post_check    = yes          ; yes/no: run check_system_build.py after building
+check_strict  = no           ; yes/no: yes returns nonzero for WARN as well as FAIL

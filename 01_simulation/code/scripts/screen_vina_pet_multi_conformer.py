@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""R1 Phase B multi-conformer Kabsch screen orchestrator (spec §4.1).
+"""R1 Phase B multi-conformer Kabsch screen orchestrator.
 
 Wraps the single-conformer ``screen_vina_pet_longchain_candidates.py`` to
 sweep K=5 pre-equilibrated PET conformers from the R1 Phase A asset:

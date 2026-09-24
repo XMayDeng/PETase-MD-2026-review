@@ -1,23 +1,21 @@
-"""v1.1 case-materialisation helpers (spec section 4.6 + 5.4 PA-A).
+"""v1.1 case-materialisation helpers.
 
-Isolated module for the new R1 replica fan-out / direction layout / case.yaml
-v1.1 schema. The legacy ``materialize_case.py`` orchestrator is left
-untouched; integration is a separate follow-up task (X2 cleanup).
+Helpers for the R1 replica fan-out, direction layout, and case.yaml v1.1 schema.
 
 What this module covers
 -----------------------
 
-* **case.yaml v1.1 schema parsers** (Task 9) — read ``r1_phase_b``,
+* **case.yaml v1.1 schema parsers** — read ``r1_phase_b``,
   ``box``, ``chain_relax``, ``classification``, ``md.replicas``,
   ``ligand`` (with ``pet:`` legacy alias) sections; resolve ``auto`` values
   per chain length.
-* **Hash-derived NVT gen-seed** — spec section 4.6 algorithm,
+* **Hash-derived NVT gen-seed** — deterministic seed algorithm,
   masked to a signed 32-bit positive integer (GROMACS requirement;
   same convention as ``run_pet_solo_preeq.replica_seed``).
 * **NVT.mdp seed rewriter** — overwrite the ``gen-seed`` line in an
   existing mdp template.
 * **Sub-runtime directory layout** — create the per-direction × per-replica
-  nested tree mandated by spec section 5.4 (L10/L20 → 9 sub-runtimes,
+  nested tree (L10/L20 → 9 sub-runtimes,
   L4/L2 → 3 sub-runtimes).
 * **R1 Phase A asset presence check** — fail early when a long-chain
   case is materialised but ``inputs/pets/<kind>/preequilibrated/`` has
@@ -164,7 +162,7 @@ def positive_protein_family(case: dict) -> str:
 
 
 # ---------------------------------------------------------------------------
-# Hash-derived NVT gen-seed (spec section 4.6)
+# Hash-derived NVT gen-seed
 # ---------------------------------------------------------------------------
 
 def replica_seed(case_id_value: str, replica_idx: int) -> int:
@@ -234,7 +232,7 @@ def assert_conformer_asset_present(pet_kind_value: str, *,
 
 
 # ---------------------------------------------------------------------------
-# Sub-runtime directory layout (spec section 5.4 PA-A)
+# Sub-runtime directory layout
 # ---------------------------------------------------------------------------
 
 _DIR_SANITISER = re.compile(r"[^A-Za-z0-9_-]")
@@ -268,7 +266,7 @@ def materialize_v1_1_subruntime_tree(
     Returns a manifest dict listing every created stage path, suitable for
     downstream stage runners + the fingerprint writer.
 
-    L10 / L20 layout (per spec section 5.4)::
+    L10 / L20 layout::
 
         case_dir/
           02_docking/                      (shared)
@@ -353,7 +351,7 @@ def materialize_v1_1_nvt_mdps(
     nvt_template_path: Path,
 ) -> list[Path]:
     """Write per-replica NVT.mdp into every sub-runtime, each with a
-    hash-derived ``gen-seed`` (spec section 4.6).
+    hash-derived ``gen-seed``.
 
     Returns the list of output mdp paths in canonical (direction, replica)
     order.

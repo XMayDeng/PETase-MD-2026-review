@@ -633,7 +633,9 @@ def main() -> None:
     elif args.auto_box not in ("off", "suggest", "apply"):
         raise SystemExit("auto_box must be one of: off, suggest, apply")
 
-    protein = Path(args.protein) if args.protein else root / "Protein_data/00057.pdb"
+    if args.protein is None:
+        raise SystemExit("Specify the protein with --protein or a protein= configuration entry.")
+    protein = Path(args.protein)
     if pet_choice:
         if args.pet_gro is None:
             args.pet_gro = root / f"PET_data/{pet_choice}/gromacs/step3_input.gro"

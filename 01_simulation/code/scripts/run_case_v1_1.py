@@ -394,7 +394,7 @@ def stage_select(ctx: CaseContext) -> StageResult:
 
 
 def stage_build(ctx: CaseContext) -> StageResult:
-    """CHARMM topology + v1.1 chain-length-aware cubic box (spec §4.5)."""
+    """CHARMM topology + v1.1 chain-length-aware cubic box."""
     script = SCRIPTS_DIR / "build_md_from_docking_best.py"
     log = ctx.case_dir / "logs" / "build.log"
     best_model = ctx.case_dir / "02_docking" / "best_rigidbody.pdb"
@@ -425,7 +425,7 @@ def _preferred_build_gro(build_outputs: Path) -> Path:
 
 def stage_validate_box(ctx: CaseContext) -> StageResult:
     """Reject build outputs whose solute envelope is within 1.5 nm of any
-    box face (spec §4.5 + PA-D fallback in build, here we only verify)."""
+    box face (the build stage handles fallback; this stage only verifies)."""
     script = SCRIPTS_DIR / "validate_complex_box.py"
     log = ctx.case_dir / "logs" / "validate_box.log"
     targets = (
@@ -943,7 +943,7 @@ def stage_gate(ctx: CaseContext) -> StageResult:
 
 def stage_aggregate_gate(ctx: CaseContext) -> StageResult:
     """Combine every per (direction × replica) verdict into one case-level
-    verdict_aggregated.json (spec §4.6 / §5.4)."""
+    verdict_aggregated.json."""
     script = SCRIPTS_DIR / "check_v1_production_gate.py"
     log = ctx.case_dir / "logs" / "aggregate_gate.log"
     verdict_files = [str(ctx.case_dir / "qc" / _verdict_filename(d, r))
@@ -1012,7 +1012,7 @@ def stage_fingerprint(ctx: CaseContext) -> StageResult:
 # ---------------------------------------------------------------------------
 
 def stage_screen_r1_phase_b(ctx: CaseContext) -> StageResult:
-    """Multi-conformer Kabsch screen for L10/L20 (spec §4.1 Phase B).
+    """Multi-conformer Kabsch screen for L10/L20.
 
     Invokes ``screen_vina_pet_multi_conformer.py`` which loops over the K=5
     pre-equilibrated PET conformers from
@@ -1147,13 +1147,12 @@ def stage_build_per_direction(ctx: CaseContext) -> StageResult:
 
 
 def stage_chain_relax(ctx: CaseContext) -> StageResult:
-    """Phase C chain_relax stage (L10/L20 only, spec §4.1).
+    """Phase C chain_relax stage (L10/L20 only).
 
     Per direction: generate ``posre_pet_anchor.itp`` for the selected
     window, then EM + NVT 200 ps + NPT 200 ps with POSRES on the protein
     backbone (K=1000) and the L4 anchor (K=500). Output feeds production
-    MD (NVT.mdp materialised by Phase 1a Task 1, here just chain_relax
-    NVT.mdp from ``mdp_chain_relax/``).
+    MD. This stage uses the chain-relaxation MDP templates.
     """
     if not ctx.is_long_chain or not ctx.chain_relax_enabled:
         return StageResult("chain_relax", "skipped",

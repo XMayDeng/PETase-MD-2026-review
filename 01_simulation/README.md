@@ -55,11 +55,40 @@ starting coordinates, not the unprepared PlasticDB structures.
 - `inputs/systems/*/topology/`: readable protein/PET topologies and restraint
   definitions; their force-field include files are present in `inputs/forcefield/`.
 - `inputs/forcefields/`: the source force-field templates for protocol inspection.
-- [Preparation metadata](PREPARATION_METADATA.md): model identity, chemical
-  preparation, system composition, seeds and recorded PME tuning.
 
 Protein asset keys map to enzymes as follows: 00083=IsPETase, 00057=TfCut1,
 00062=LCC, 00075=FoCut5a, 00121=HiC and 00137=PHL7.
+
+## Parameter filenames
+
+For example, `configurations/mdp/TfCut1/L10/bi/rep01/` contains
+`NVT.mdp`, `NPT.mdp`, and `MD.mdp`. The 126 replicas therefore have 378
+stage-parameter files. L4 uses `single`; L10/L20 use `head`, `tail`, and `bi`
+(the source labels are `head-side`, `tail-side`, and `bidirectional`).
+`rep01`–`rep03` identify replicas. Checksums are in the indexes, not filenames.
+
+## Preparation and system records
+
+| File in `metadata/` | Contents |
+|---|---|
+| [protein_sources.csv](metadata/protein_sources.csv) | Six PlasticDB source-model identities and paths |
+| [protein_preparation.csv](metadata/protein_preparation.csv) | Actual termini, histidine states, charges, disulfide connectivity, and sequence extensions, checked against production TPRs |
+| [simulation_systems.csv](metadata/simulation_systems.csv) | 42 enzyme/length/presentation conditions, molecule and atom counts, initial boxes, and ion seeds |
+| [simulation_seeds.csv](metadata/simulation_seeds.csv) | 126 replicas with separate NVT velocity-generation and production stochastic seeds |
+| [production_pme_tuning.csv](metadata/production_pme_tuning.csv) | Nominal settings and final logged PME tuning choices |
+
+Source models are not equilibrated solvated systems. An all-zero source-model
+B column is not interpreted as pLDDT zero or recovered prediction confidence.
+Histidine `delta`, `epsilon`, and `both` denote N-delta1, N-epsilon2, and double
+protonation. Residue indices are simulation indices. Source-log hashes identify
+the original records; the logs themselves are not included.
+
+```bash
+python -B 01_simulation/verify_preparation.py
+```
+
+This checks metadata coverage, model identity, and recorded NVT seeds against
+the delivered MDPs. For TPR parsing or execution, use the commands above.
 
 ## Protocol source versus supported execution
 
@@ -68,8 +97,9 @@ retain the preparation/docking/MD protocol source for inspection. The supported
 review entry above starts at an existing production TPR. This slim repository
 does not deliver the complete historical docking/relaxation outputs, PET-only
 trajectories, equilibration TPRs, solvated GRO archives or original checkpoints.
-Do not interpret the presence of protocol code as a tested end-to-end
-reconstruction of those omitted upstream stages.
+Those upstream stages are not a tested end-to-end reconstruction in this
+repository. `build_system.py` requires an explicitly selected protein input
+via `--protein` or its configuration file; there is no default protein.
 
 For the reported statistical and figure reproduction, use 02 and 03. Those
 entries do not need GROMACS or the full original trajectories.

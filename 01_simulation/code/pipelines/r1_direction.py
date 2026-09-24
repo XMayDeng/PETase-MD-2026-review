@@ -1,4 +1,4 @@
-"""R1 Phase B direction-mapping + envelope helpers (spec §4.1).
+"""Chain-extension direction mapping and geometric envelope helpers.
 
 The long-chain Kabsch screen iterates over K=5 conformers × W windows ×
 {forward, reverse}. The selector then picks the top-1 candidate per
@@ -20,15 +20,12 @@ Both helpers are shared across:
   R1 Phase B orchestrator.
 * ``code/scripts/select_v1_binding_candidate.py`` — per-direction selector
   (``--per-direction`` mode).
-* ``code/pipelines/materialize_case.py`` (Task 5) — multi-direction
-  build / chain_relax / production fan-out.
 """
 from __future__ import annotations
 
 from typing import Iterable, Sequence
 
-# Chain-extension direction labels (3 fundamental sub-runtime branches
-# per long-chain case, spec §4.1 "Chain extension 必跑 3 方向").
+# Three chain-extension presentations for each long-chain condition.
 DIRECTIONS: tuple[str, str, str] = (
     "head-side",
     "tail-side",
@@ -53,7 +50,7 @@ def infer_chain_extension_direction(
 
     The window is given as a (start, end) residue pair, 1-indexed inclusive.
 
-    Mapping rules (spec §4.1 "Chain extension 必跑 3 方向"):
+    Mapping rules:
 
         * window[0] == 1                 → tail-side  (anchor at head; tail grows)
         * window[1] == N_residues        → head-side  (anchor at tail; head grows)
@@ -76,7 +73,7 @@ def infer_chain_extension_direction(
     if end - start + 1 != ANCHOR_WINDOW_SIZE:
         raise ValueError(
             f"Window {window!r} size != {ANCHOR_WINDOW_SIZE} "
-            f"(spec §4.1 anchors L4 motif)"
+            f"(the anchor must span the L4 motif)"
         )
     if start == 1:
         return "tail-side"
@@ -91,7 +88,7 @@ def compute_post_kabsch_envelope_nm3(
     """Bounding-box volume (nm³) of transformed PET coordinates.
 
     Lower is more compact. Used as the ``envelope`` term of the R1 Phase B
-    ranking score (spec §4.1 "post_kabsch_box_envelope ranking term").
+    ranking score.
     """
     xs: list[float] = []
     ys: list[float] = []
@@ -118,7 +115,7 @@ def ranking_score(
 ) -> float:
     """Composite ranking score; lower is better.
 
-    Default weights (spec §5.1 ``kabsch_ranking_weights`` default block):
+    Default weights (``kabsch_ranking_weights``):
 
         motif_rmsd  : 0.4
         clash       : 0.3

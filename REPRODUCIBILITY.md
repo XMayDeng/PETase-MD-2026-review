@@ -1,101 +1,85 @@
-# Reproduction scope
-
-This repository is a self-contained review subset of the manuscript's
-simulation and analysis materials. It combines original production inputs,
-the numerical data used by the supported analyses, and figure sources.
-Data for the commands described here are local to this
-repository; no Hugging Face account or upstream working directory is needed.
+# Reproduction scope and verification
 
 ## Supported starting points
 
-| Task | Starting material | Entry |
+| Task | Included starting material | Entry point |
 |---|---|---|
-| Check files and dependencies | File manifest, figure/analysis registries | `python -B verify.py --checksums-only` |
-| Inspect or replay production MD | 126 original production TPRs | `01_simulation/run.py` |
-| Recalculate reported statistics | Delivered trajectory-level measurements and specified frame observations | `02_postprocessing/run.py` |
-| Rebuild tables and supplementary CSVs | Measurements, curated cells, and table templates | `02_postprocessing/run.py` |
-| Redraw the 15 numbered figures | Delivered data, selected PDB coordinates, and rendering code | `03_figures/run.py` |
-| Redraw the separate TOC | Self-contained Python drawing sources and baseline check | `03_figures/toc/make_figure.py` |
+| Replay production MD | 126 original protein–PET production TPRs | [01_simulation/run.py](01_simulation/README.md) |
+| Recalculate statistics | Trajectory-level measurements and specified frame observables | [02_postprocessing/run.py](02_postprocessing/README.md) |
+| Generate six tables and Data S1/S2 | Measurements, curated cells, and table templates | [02_postprocessing/run.py](02_postprocessing/README.md) |
+| Redraw 15 numbered figures | Numerical data, selected coordinates, and drawing code | [03_figures/run.py](03_figures/README.md) |
+| Redraw the TOC graphic | Python drawing sources and a baseline image check | [TOC command](03_figures/README.md#toc-graphic) |
 
-See the corresponding folder README for full commands and dependencies.
-[Validation results](metadata/TEST_RESULTS.md) distinguish file checks,
-numerical recalculation, rendering and bounded MD execution.
-Manuscript and SI typesetting are outside this repository's scope.
+The numerical pipeline recalculates retention summaries, pooled contact
+profiles, contact-class composition and uncertainty, the 95 preselected contact
+candidates, PET radius of gyration, W-loop RMSF, PHL7 rotamer/co-engagement
+statistics and mixture-model sensitivity, hydrogen-bond and angle-sensitivity
+statistics, local-interaction statistics, and Table S4 aggregates.
 
-## Numerical coverage
+Table 1 and Table S1 use curated cells. Initial candidate screening, all-atom
+sensitivity, structural correspondences, coordinate fitting, and structural QC
+remain supplied inputs where identified in the
+[data guide](02_postprocessing/DATA_GUIDE.md#table-and-supplementary-data-coverage).
+Whole trajectories, not individual frames, are the statistical units.
 
-The analysis entry recalculates retention summaries, pooled top-eight and
-top-20 contact profiles, length-stratified contact composition and bootstrap
-uncertainty, statistics for the 95 preselected contact candidates, PET radius
-of gyration comparisons, W-loop RMSF summaries, PHL7 rotamer/co-engagement
-summaries and mixture-model sensitivity, hydrogen-bond and angle-sensitivity
-statistics, local-interaction statistics, and the Table S4 aggregate.
+## What requires the original trajectories?
 
-Calculations start from delivered measurements, not from reconstructed
-coordinates. Initial candidate screening, all-atom sensitivity, manually
-curated residue correspondences, experimental-reference fitting and structural
-QC remain supplied evidence inputs where identified in
-[the table/analysis coverage map](metadata/TABLES_AND_STRUCTURAL_SENSITIVITY.md).
-Table 1 and Table S1 preserve curated cells. Each stage's inputs, expected
-outputs, population and comparison rules are recorded in `metadata/analyses.json`
-and `metadata/tables.json`.
+The original full XTC files are needed to extract new atom-level measurements,
+change time windows or selections, repeat initial screening, or recluster the
+original ensembles. Frame-observable CSVs contain derived measurements, not
+Cartesian coordinates. Figure snapshots illustrate selected configurations and
+do not replace an ensemble.
 
-Whole trajectories are the independent units. Primary contact/local-geometry
-measurements use the registered 20–100 ns window, generally at 10 ps spacing;
-coordinate-sensitivity measurements use their recorded 100 ps spacing.
-Cutoffs, atom selections, retained denominators, zero-event handling, rounding
-and tolerances are preserved from the source calculations. The full-precision
-data, source hashes and original numerical-function provenance remain available
-in the data files and `metadata/statistical_core_provenance.csv`.
+This repository includes all 126 production TPRs, 378 effective NVT/NPT/MD MDPs,
+recorded preparation MDPs, source/reference structures, frozen PET conformers,
+readable topologies, force-field includes, and system/preparation metadata.
+It omits full original trajectories, the full-panel cluster archive, earlier-stage
+TPRs, full solvated-coordinate archives, original final checkpoints, and the
+complete historical docking outputs. Protocol source is included for inspection;
+the supported simulation command starts at an existing production TPR, not at
+preparation, docking, or equilibration.
 
-## Included and omitted simulation material
+TPR replay starts a new execution of the recorded production stage. It does not
+continue an original final checkpoint or recover the original trajectory exactly.
+The delivered chemical states and simulation parameters are preserved. Execution
+and numerical agreement checks do not establish sampling convergence or validate
+the scientific suitability of a model.
 
-Included: all 126 protein–PET production TPRs; all 378 effective NVT/NPT/MD MDPs;
-recorded preparation MDPs; source/reference structures; frozen PET conformers;
-readable protein/PET topologies and force-field includes; system/seed/preparation
-metadata; and the PDB snapshots actually needed to redraw the structural figures.
+## Verification commands
 
-Not included: full original XTC trajectories; the separate full-panel cluster
-archive; EM, NVT, NPT and PET-only stage TPRs; full solvated-coordinate archives;
-original final checkpoints; or the complete historical docking output archive.
-These exclusions reduce download size without substituting cluster medoids
-for the numerical observations used in the paper.
+Run from the repository root using the [tested environment](environment/README.md):
 
-A production TPR can start a new execution of its recorded stage and can be
-used to inspect/extract its input structure. It cannot recover the original
-100 ns trajectory. Recomputing original atom-level distances, changing time
-windows or cutoffs, repeating the original screening, or reclustering original
-trajectories requires the matching original trajectories and selections.
-The displayed structure snapshots are illustrative inputs, not a substitute
-for an ensemble or evidence of convergence.
+```bash
+# File integrity and declared input dependencies
+python -B verify.py --checksums-only
 
-The original simulation histories, source models and chemical preparation
-states are preserved rather than altered during packaging. Fifteen case YAMLs
-are historical deployed copies; the three TfCut1 cases retain their explicit
-fallback provenance. The presence or readability of an input does not validate
-its scientific appropriateness.
+# Preparation metadata, statistical calculations, tables, and Data S1/S2
+python -B verify.py
 
-## File integrity and provenance
+# Also parse all production TPRs and regenerate the numbered figures
+python -B verify.py --gmx /path/to/gmx --render --chimerax /path/to/ChimeraX --output-dir ../verified_figures
+```
 
-`metadata/file_manifest.csv` records the exact included paths, sizes and
-SHA-256 checksums. It is the upload/export allowlist together with the manifest
-itself. `metadata/review_source_provenance.csv` records each review file's
-source identity or documented adaptation. No source experiment or HF-package
-file is edited by this extraction.
+Use a new external output directory. Numerical checks use the declared
+tolerances, identities, and missing-value rules. Table text and supplementary
+CSV exports are compared exactly with the references. Figure checks require
+exact PNG agreement in the recorded Python/font/ChimeraX environment; this is
+not a promise of pixel identity with arbitrary software or graphics drivers.
+Use the separate TOC command in 03 to validate that graphic as well. A bounded
+MD execution check is documented in 01; parsing a TPR alone is not MD execution.
 
-The verifier excludes Git internals, Python caches, a local virtual environment,
-`work/` and `validation_runs/`. Other unlisted files cause a file-set failure.
+## Machine-readable records
 
-## Review access and remaining author decisions
+- `metadata/file_manifest.csv`: delivered file paths, sizes, and checksums.
+- `metadata/trajectory_index.csv`: trajectory identities and retained populations.
+- `metadata/analyses.json`, `tables.json`, and `figures.json`: inputs, references,
+  and entry points used by the checking and generation scripts.
+- `metadata/sources.csv`: original source identities and documented adaptations,
+  including extracted statistical functions. Source names identify historical
+  inputs, not paths that must exist on the reader's machine.
+- Simulation-specific indexes remain alongside their inputs in 01.
 
-A private GitHub link is usable only by authorized readers. Arrange reviewer
-access before relying on it in a submission; visibility is not changed by the
-reproduction commands. Fixed-version citation/archiving and any DOI should
-identify the actual delivered revision, not an unversioned promise.
-
-Manuscript submission and author approval are handled separately. Reviewer
-access, fixed-version archiving and third-party redistribution permissions
-remain the authors' responsibility.
-Reproduction tests do not certify sampling convergence, scientific validity
-or journal acceptance. This package provides the explicitly listed review
-capabilities, not an assertion that every possible reanalysis is supported.
+The verifier ignores Git internals, Python caches, `.venv/`, `work/`, and
+`validation_runs/`; other unlisted files fail the inventory check. Routine outputs
+should remain outside the checkout. Manuscript typesetting is outside this
+data/code repository's scope.

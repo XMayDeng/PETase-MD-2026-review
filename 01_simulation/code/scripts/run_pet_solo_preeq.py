@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 """Run a single 50 ns PET-only pre-equilibration trajectory (R1 Phase A).
 
-Spec: docs/plans/2026-05-03_md_workflow_v1_binding_attribution_spec.md §4.1
-      "长链 dedicated preeq 协议 (R1)".
+This is the dedicated preequilibration protocol for long PET chains.
 
 This script runs one independent trajectory for one chain length. The full
 R1 Phase A asset is built by invoking this N=3 times per chain length, then
@@ -13,8 +12,8 @@ Inputs are drawn from the frozen CHARMM-GUI raw asset
 runtime directory in 01_preeq/ stage layout.
 
 The NVT gen-seed and genion ion seed are derived from a deterministic
-SHA-256 hash of (kind, run_idx); identical inputs always reproduce the
-same trajectory.
+SHA-256 hash of (kind, run_idx); identical identifiers reproduce the same
+seeds; trajectory identity also depends on the execution environment.
 """
 from __future__ import annotations
 
@@ -52,8 +51,8 @@ def _load_build_system_module():
 
 SUPPORTED_KINDS = {"PET_L10", "PET_L20"}
 
-# Chain-length-aware preeq box (triclinic, per spec §4.1 Phase A table).
-# Unit: nm. Distinct from the production-MD cubic box (spec §4.5).
+# Chain-length-aware preeq box (triclinic).
+# Unit: nm. Distinct from the production-MD cubic box.
 PREEQ_BOX_DIM_NM = {
     "PET_L10": (20.0, 10.0, 10.0),
     "PET_L20": (26.0, 10.0, 10.0),
@@ -85,7 +84,7 @@ def replica_seed(pet_kind: str, run_idx: int) -> int:
     ~hundred (case, replica) pairs in v1.
 
     Namespace ``pet_solo_preeq:`` keeps these distinct from production-MD
-    replica seeds (see spec §4.6) and from genion ion seeds (below).
+    replica seeds and from genion ion seeds (below).
     """
     payload = f"pet_solo_preeq:{pet_kind}:r{run_idx}"
     return int(hashlib.sha256(payload.encode()).hexdigest()[:8], 16) & 0x7FFFFFFF
@@ -105,7 +104,7 @@ def box_dim_for(pet_kind: str) -> tuple[float, float, float]:
     if pet_kind not in PREEQ_BOX_DIM_NM:
         raise ValueError(
             f"Unsupported pet_kind={pet_kind!r}. R1 Phase A applies only to "
-            f"L10/L20 (short chains skip Phase A per spec §4.1)."
+            f"L10/L20 (short chains skip Phase A)."
         )
     return PREEQ_BOX_DIM_NM[pet_kind]
 
@@ -326,7 +325,7 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     p = argparse.ArgumentParser(description=__doc__,
                                 formatter_class=argparse.RawDescriptionHelpFormatter)
     p.add_argument("--pet-kind", required=True, choices=sorted(SUPPORTED_KINDS),
-                   help="Chain length (PET_L10 or PET_L20; L4/L2 skip Phase A per spec §4.1).")
+                   help="Chain length (PET_L10 or PET_L20; L4/L2 skip Phase A).")
     p.add_argument("--run-idx", required=True, type=int,
                    help="Trajectory replica index 1..N (default N=3 in wrapper).")
     p.add_argument("--runtime-dir", required=True, type=Path,

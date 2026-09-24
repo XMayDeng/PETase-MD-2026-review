@@ -22,6 +22,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--output', required=True, type=Path,
                         help='New external file named TOC_graphic.png; no overwrite')
+    parser.add_argument('--verbose', action='store_true', help='Show checksum and drawing diagnostics')
     args = parser.parse_args()
     if sys.flags.optimize:
         parser.error('Use Python without -O/-OO; pixel-check assertions must stay enabled')
@@ -93,10 +94,13 @@ def main():
         with output.open('xb') as handle:
             handle.write(staged.read_bytes())
         assert digest(output) == image_hash
-    print(json.dumps(dict(status='PASS', output=str(output), sha256=image_hash,
-        reference_sha256=contract['reference_sha256'], exact_reference_match=True,
-        drawing_checks=drawing_checks, full_md_trajectories_required=False,
-        source_files_unchanged=True), indent=2))
+    if args.verbose:
+        print(json.dumps(dict(status='PASS', output=str(output), sha256=image_hash,
+            reference_sha256=contract['reference_sha256'], exact_reference_match=True,
+            drawing_checks=drawing_checks, full_md_trajectories_required=False,
+            source_files_unchanged=True), indent=2))
+    else:
+        print(f'PASS: TOC graphic (975 x 525 pixels) -> {output}')
 
 
 if __name__ == '__main__':

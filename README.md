@@ -31,62 +31,51 @@ identified interaction patterns and residues provide testable hypotheses for
 mutagenesis, reactive calculations, and experimental studies of PET recognition
 and hydrolytic activity.
 
-## Project structure
+## Use this repository
 
-This repository provides the data and code for reviewing the reported analyses,
-regenerating the figures and tables, and replaying
-the 126 production MD inputs. All input data for these documented review
-commands are stored here; no Hugging Face download or original project
-directory is required. Software dependencies are installed separately.
+The data and code here support production-MD replay, numerical analysis, and
+figure/table reproduction. Inputs for the commands below are included locally;
+software dependencies are installed separately. Manuscript and Supporting
+Information documents are provided through the journal submission system.
 
-The manuscript and Supporting Information are handled separately through the
-journal submission system. This repository contains the supporting data and code,
-not the manuscript source files or PDFs.
-
-| Folder | Contents |
+| Start here | Purpose |
 |---|---|
-| [01_simulation](01_simulation/README.md) | Production MD TPRs, readable parameters and topologies, source structures, and protocol code |
-| [02_postprocessing](02_postprocessing/README.md) | Delivered measurements, statistical calculations, and table-generation code |
-| [03_figures](03_figures/README.md) | Figure-generation code, structural views, and the TOC graphic |
+| [environment/](environment/README.md) | Install the tested software environment |
+| [01_simulation/](01_simulation/README.md) | Inspect inputs or replay production MD |
+| [02_postprocessing/](02_postprocessing/README.md) | Recalculate statistics and generate tables and supplementary data |
+| [03_figures/](03_figures/README.md) | Regenerate the six main figures, nine SI figures, and TOC graphic |
 
-## Getting started
+## Quick start
 
-Install the [documented environment](environment/README.md), then run:
+After installing the environment, run from the repository root:
 
 ```bash
 python -B verify.py --checksums-only
 python -B verify.py
 ```
 
-The first command checks every delivered file and registered dependency.
-The second also recalculates the supported statistics and tables.
-Each numbered folder has instructions for its own commands. Reproduction
-outputs should be written to new directories outside this checkout.
+The first command checks file integrity and required inputs. The second also
+checks preparation metadata and recalculates statistics and tables. Use the
+module instructions above to save analysis or figure outputs in a new directory
+outside this checkout. Add `--verbose` to `verify.py` for detailed diagnostics.
 
-## Documentation
+## What can be reproduced?
 
-- [Reproduction scope and data coverage](REPRODUCIBILITY.md)
-- [File index and checksums](metadata/file_manifest.csv)
-- [Trajectory and retained-population index](metadata/trajectory_index.csv)
-- [Validation results](metadata/TEST_RESULTS.md)
+Production replay uses 126 original TPR inputs. Analysis starts from the
+supplied measurements, and figures use those data and selected structures.
+The original full trajectories are not included: replay produces a new
+simulation, not the original frames.
 
-The original full trajectories and the separate full-panel cluster archive
-are not included. Numerical reproduction starts from the supplied measurements;
-the included PDB snapshots support the displayed structural figures.
-Production TPR replay is a new simulation, not recovery of the original frames.
-See the scope guide before interpreting a reproduction check.
+- [Reproduction scope and verification](REPRODUCIBILITY.md)
+- [Data fields, units, and statistical definitions](02_postprocessing/DATA_GUIDE.md)
 
-## Code and data
+The `metadata/` directory holds machine-readable indexes and integrity records;
+you do not need to read these files to use the commands above.
 
-[GitHub — PETase-MD-2026-review](https://github.com/XMayDeng/PETase-MD-2026-review)
+## License and citation
 
-This repository is the single entry point for the review materials. If it is
-private, reviewers require an access arrangement before they can use the link.
-The included [code license](metadata/CODE_LICENSE.txt) is retained from the
-source package; third-party structures, parameters and software retain their
-own terms.
+Project code and documentation use the [MIT License](LICENSE). Third-party
+structures, force fields, and software retain their own terms.
 
-## Citation
-
-If you use this project, please cite
+If you use these materials, cite this repository and identify the Git revision:
 [PETase-MD-2026-review](https://github.com/XMayDeng/PETase-MD-2026-review).

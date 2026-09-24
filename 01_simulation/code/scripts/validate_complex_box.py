@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 """Validate a CHARMM complex .gro box against the chain-length-aware margin.
 
-Spec: ``docs/plans/2026-05-03_md_workflow_v1_binding_attribution_spec.md`` §4.5.
-
 Reads a GROMACS .gro file, computes the bounding box of the solute (heavy
 atoms only, water and ions excluded), and checks that every margin
 ``box_dim − bounding`` is at least ``--margin`` nm (default 1.5).
@@ -14,7 +12,7 @@ Exit codes
 * 2 — bad input (missing file, malformed .gro, unsupported chain length)
 
 Stdout is a single-line JSON verdict so it can be consumed by the R1
-Phase B fallback retry loop (Task 5, PA-D)::
+Phase B fallback retry loop::
 
     {"verdict": "PASS|FAIL",
      "box_dim_nm": [13.0, 13.0, 13.0],
@@ -89,7 +87,7 @@ def parse_gro_atoms(gro_text: str,
 
     Excludes any residue whose resname is in ``excluded_resnames``, and any
     atom whose name starts with ``H`` (hydrogens are filtered to match the
-    "heavy atom envelope" definition in spec §4.5).
+    heavy-atom envelope definition).
     """
     lines = gro_text.splitlines()
     if len(lines) < 3:

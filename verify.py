@@ -96,6 +96,16 @@ def check_generated_tables(output):
             raise ValueError('Regenerated supplementary artifact differs: ' + generated)
 
 
+def run_check(label, command, *, verbose=False, cwd=None):
+    print(f'Checking {label}...', flush=True)
+    result = subprocess.run(command, cwd=cwd, text=True,
+                            stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
+    if verbose or result.returncode:
+        print(result.stdout, end='', flush=True)
+    result.check_returncode()
+    print(f'PASS: {label}', flush=True)
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--checksums-only', action='store_true', help='Check all files and declared input dependencies without running analyses')
@@ -103,6 +113,7 @@ def main():
     parser.add_argument('--render', action='store_true', help='Also redraw all 15 numbered figures')
     parser.add_argument('--chimerax', type=Path)
     parser.add_argument('--output-dir', type=Path, help='New external figure output directory with --render')
+    parser.add_argument('--verbose', action='store_true', help='Show detailed output from each check')
     args = parser.parse_args()
     if sys.flags.optimize:
         parser.error('Do not use Python -O/-OO')
@@ -123,22 +134,27 @@ def main():
             if digest(ROOT / record['output']) != record['reference_sha256']:
                 raise ValueError('Reference PNG mismatch: ' + key)
         commands = [
-            ['01_simulation/verify_preparation.py'],
-            ['02_postprocessing/code/validation/verify_projections.py'],
+            ('preparation metadata', '01_simulation/verify_preparation.py'),
+            ('supplementary-data exports', '02_postprocessing/code/validation/verify_projections.py'),
         ]
-        for command in commands:
-            subprocess.run([sys.executable, '-B', str(ROOT / command[0]), *command[1:]], check=True)
+        for label, command in commands:
+            run_check(label, [sys.executable, '-B', str(ROOT / command)], verbose=args.verbose)
         with tempfile.TemporaryDirectory(prefix='petase_review_check_') as temporary:
             work = Path(temporary)
-            subprocess.run([sys.executable, '-B', str(ROOT / '02_postprocessing/run.py'),
-                            '--output-dir', str(work / 'analysis')], check=True, cwd=work)
+            run_check('statistics and tables',
+                      [sys.executable, '-B', str(ROOT / '02_postprocessing/run.py'),
+                       '--output-dir', str(work / 'analysis')], verbose=args.verbose, cwd=work)
             check_generated_tables(work / 'analysis')
             if args.gmx:
-                subprocess.run([sys.executable, '-B', str(ROOT / '01_simulation/run.py'),
-                                'check', '--gmx', args.gmx, '--output-dir', str(work / 'tpr_check')], check=True, cwd=work)
+                run_check('126 production TPRs',
+                          [sys.executable, '-B', str(ROOT / '01_simulation/run.py'),
+                           'check', '--gmx', args.gmx, '--output-dir', str(work / 'tpr_check')],
+                          verbose=args.verbose, cwd=work)
         if args.render:
-            subprocess.run([sys.executable, '-B', str(ROOT / 'reproduce.py'), '--figures', 'all',
-                            '--chimerax', str(args.chimerax.resolve()), '--output-dir', str(args.output_dir.resolve())], check=True)
+            run_check('15 numbered figures',
+                      [sys.executable, '-B', str(ROOT / 'reproduce.py'), '--figures', 'all',
+                       '--chimerax', str(args.chimerax.resolve()), '--output-dir', str(args.output_dir.resolve())],
+                      verbose=args.verbose)
         # Supported execution must not change any delivered source or data.
         for row in rows:
             if digest(ROOT / row['path']) != row['sha256']:

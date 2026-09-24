@@ -62,6 +62,7 @@ def run_figure(figure_id, builder):
     parser.add_argument('--output', type=Path)
     parser.add_argument('--replace', action='store_true', help='Replace this package-generated output only')
     parser.add_argument('--chimerax',type=Path,help='Required explicit executable for molecular-structure figures')
+    parser.add_argument('--verbose', action='store_true', help='Show checksum and layout diagnostics')
     args = parser.parse_args()
     item = check_inputs(figure_id)
     output = args.output if args.output is not None else ROOT/item['output']
@@ -95,5 +96,8 @@ def run_figure(figure_id, builder):
         mode='wb' if args.replace else 'xb'
         with output.open(mode) as handle:
             handle.write(staged.read_bytes())
-    print(json.dumps(dict(figure=figure_id,status='PASS',png_sha256=sha256(output),
-                         numeric_artists_preserved=True,text_outside_canvas=0),indent=2))
+    if args.verbose:
+        print(json.dumps(dict(figure=figure_id,status='PASS',png_sha256=sha256(output),
+                             numeric_artists_preserved=True,text_outside_canvas=0),indent=2))
+    else:
+        print(f'PASS: {figure_id} -> {output}')
